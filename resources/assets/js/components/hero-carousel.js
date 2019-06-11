@@ -137,25 +137,25 @@ class HeroCarousel extends HTMLElement {
       const controlDot = this.querySelector('.control-dot.dot-' + i);
       const triElement = this.querySelector('.control-tri.tri-' + i);
       const cardElement = this.querySelector('.carousel-card.card-' + i);
+      cardElement.classList.remove('current');
+      cardElement.classList.remove('left');
+      cardElement.classList.remove('right');
+      cardElement.classList.remove('back');
       if (i == this.cardIndex) {
         controlDot.classList.add('current');
         triElement.classList.add('current');
-        cardElement.classList.remove('left', 'right', 'back');
         cardElement.classList.add('current');
       }
       else {
         controlDot.classList.remove('current');
         triElement.classList.remove('current');
         if (i == this.cardIndex + 1 || (this.cardIndex == this.cardCount - 1 && i == 0)) {
-          cardElement.classList.remove('left', 'current', 'back');
           cardElement.classList.add('right');
         }
         else if (i == this.cardIndex - 1 || (this.cardIndex == 0 && i == this.cardCount - 1)) {
-          cardElement.classList.remove('right', 'current', 'back');
           cardElement.classList.add('left');
         }
         else {
-          cardElement.classList.remove('left', 'current', 'right');
           cardElement.classList.add('back');
         }
       }
@@ -184,8 +184,11 @@ class HeroCarousel extends HTMLElement {
       let element = this.querySelector('.tri-' + i);
       element.style.left = (centerX + (outerDiameter * Math.sin(angle) - triSize) / 2) + 'px';
       element.style.top = (centerY + (outerDiameter * Math.cos(angle) - triSize) / 2) + 'px';
-      element.style.width = triSize + 'px';
+      element.style.borderLeft = (triSize / 2) + 'px solid transparent';
+      element.style.borderRight = (triSize / 2) + 'px solid transparent';
+      element.style.borderBottom = triSize + 'px solid #71C4FF';
       element.style.height = triSize + 'px';
+
       element = this.querySelector('.dot-' + i);
       element.style.left = (centerX + (innerDiameter * Math.sin(angle) - dotDiameter) / 2) + 'px';
       element.style.top = (centerY + (innerDiameter * Math.cos(angle) - dotDiameter) / 2) + 'px';
@@ -204,6 +207,9 @@ class HeroCarousel extends HTMLElement {
     this.cardCount = this.querySelectorAll('.carousel-card').length;
 
     this.changeCardClasses();
+    setTimeout(() => {
+      this.querySelector('.carousel-container').style.opacity = 1;
+    }, 500);
 
     const sliderWidth = document.body.querySelector('.home-hero-block .cards-slider').offsetWidth;
     if (sliderWidth < this.NORMAL_WIDTH) {

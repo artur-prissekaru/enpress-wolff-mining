@@ -46,7 +46,6 @@
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
   }
 
@@ -103,14 +102,12 @@
       }
 
       .card-image {
-        height: 318px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        img {
-          max-height: 100%;
-        }
+        max-width: 327px;
+        margin: 0 auto;
+        padding-bottom: 53%;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
       }
     
       .cc-title {
@@ -133,11 +130,7 @@
         padding: 15px 0;
         font-family: HeronSans-Bold;
         font-size: 15px;
-        //text-transform: uppercase;
-        //color: $cyan;
-        //width: fit-content;
         margin: 15px auto 0 auto;
-        //border-bottom: 2px solid $cyan;
         &:hover {
           background-color: transparent;
         }
@@ -212,8 +205,8 @@
     }
 
     .control-tri {
-      clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-      background-color: #71C4FF;
+      width: 0;
+      height: 0;
       position: absolute;
       display: none;
 
