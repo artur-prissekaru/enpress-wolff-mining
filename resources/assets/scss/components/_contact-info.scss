@@ -1,0 +1,12 @@
+.contact-info {
+  margin-bottom: 70px;
+  .infos {
+    columns: 2;
+    .info {
+      margin-bottom: 35px;
+      .value {
+        font-weight: $font-weight-bold;
+      }
+    }
+  }
+}

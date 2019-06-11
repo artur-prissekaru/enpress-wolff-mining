@@ -1,0 +1,180 @@
+.card-menu {
+  text-align: center;
+  .card-image {
+    max-width: 169px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 18px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding-bottom: 34%;
+  }
+  .card-title {
+    text-transform: uppercase;
+    color: $gray-300;
+    font-size: 67px;
+    font-family: HeronSansCond-Bold;
+    font-weight: $font-weight-bold;
+    margin-bottom: 0;
+  }
+  .subtitle {
+    font-size: 19px;
+    color: $white;
+    font-weight: $font-weight-bold;
+    text-transform: uppercase;
+    font-family: HeronSansCond-Bold;
+    margin-bottom: 0;
+  }
+  @include media-breakpoint-down('md') {
+    .card-image {
+      padding-bottom: 40%;
+    }
+    .card-title {
+      font-size: 48px;
+    }
+    .subtitle {
+      font-size: 14px;
+    }
+  }
+}
+
+.card-project {
+  margin-bottom: 20px;
+  .action-link {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: $warning;
+    width: 43px;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-image {
+    padding-bottom: 68%;
+    position: relative;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    
+  }
+  .card-body {
+    position: relative;
+    background: $white;
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .logo {
+        img {
+          max-width: 73px;
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+    .sub-title {
+      font-weight: $font-weight-medium;
+      font-family: HeronSans-Bold;
+    }
+    .title {
+      font-size: 20px;
+      font-family: HeronSans-Bold;
+      font-weight: $font-weight-bold;
+      text-transform: uppercase;
+    }
+    &.has-action {
+      padding-bottom: 51px;
+      .action-link {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+    }
+  }
+}
+
+.card-value {
+  margin-bottom: 12px;
+  .card-icon {
+    width: 138px;
+    height: 138px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 23px;
+    background-color: $white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 138px;
+  }
+  .card-body {
+    padding: 30px;
+    padding-bottom: 40px;
+    @include media-breakpoint-down('md') {
+      padding: 20px;
+    }
+    .card-title {
+      text-transform: uppercase;
+      font-weight: $font-weight-bold;
+      font-family: HeronSans-Bold;
+      margin-bottom: 4px;
+      color: $primary;
+      text-align: center;
+    }
+    .card-content {
+      text-align: center;
+      color: rgba($primary, 0.7);
+    }
+  }
+}
+
+.card-form {
+  margin-bottom: 40px;
+  .card-body {
+    padding: 28px 45px;
+    padding-bottom: 60px !important;
+    position: relative;
+    .action-link {
+      background-color: $warning;
+      width: 43px;
+      height: 43px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    button {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      display: flex;
+      border: none;
+      align-items: center;
+      text-transform: uppercase;
+      font-weight: $font-weight-bold;
+      font-family: HeronSans-Bold;
+      padding-right: 0;
+      padding-bottom: 0;
+    }
+    @include media-breakpoint-down('md') {
+      padding: 20px;
+    }
+    .form-group {
+      margin-bottom: 26px;
+      label {
+        text-transform: uppercase;
+        color: rgba($secondary, 0.5);
+        font-size: 12px;
+        font-weight: $font-weight-medium;
+        margin-bottom: 0;
+      }
+      .form-control {
+        border-bottom: 1px solid $info;
+        border-radius: 0;
+        padding-left: 0;
+      }
+    }
+  }
+}
