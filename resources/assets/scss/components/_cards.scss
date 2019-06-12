@@ -14,7 +14,7 @@
     text-transform: uppercase;
     color: $gray-300;
     font-size: 67px;
-    font-family: HeronSansCond-Bold;
+    font-family: $font-family-heronsanscond;
     font-weight: $font-weight-bold;
     margin-bottom: 0;
   }
@@ -23,7 +23,7 @@
     color: $white;
     font-weight: $font-weight-bold;
     text-transform: uppercase;
-    font-family: HeronSansCond-Bold;
+    font-family: $font-family-heronsanscond;
     margin-bottom: 0;
   }
   @include media-breakpoint-down('md') {

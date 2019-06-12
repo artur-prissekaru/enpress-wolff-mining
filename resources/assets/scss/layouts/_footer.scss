@@ -52,7 +52,7 @@
           font-size: 35px;
           margin-bottom: 8px;
           font-weight: $font-weight-bold;
-          font-family: HeronSansCond-Bold;
+          font-family: $font-family-heronsanscond;
           color: $warning;
           @include media-breakpoint-down('md') {
             font-size: 30px;
@@ -89,7 +89,7 @@
       .staff {
         color: $warning;
         font-weight: $font-weight-bold;
-        font-family: HeronSansCond-Bold;
+        font-family: $font-family-heronsanscond;
         text-transform: uppercase;
       }
     }
@@ -99,7 +99,7 @@
         .nav-link {
           padding-bottom: 0;
           font-weight: $font-weight-bold;
-          font-family: HeronSansCond-Bold;
+          font-family: $font-family-heronsanscond;
           color: $info;
           text-transform: uppercase;
         }
