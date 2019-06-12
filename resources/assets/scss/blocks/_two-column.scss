@@ -233,7 +233,7 @@
     .arrow-link {
       cursor: pointer;
       font-weight: $font-weight-bold;
-      font-family: HeronSans-Bold;
+      font-family: $font-family-heronsans;
       text-transform: uppercase;
       &:hover {
         text-decoration: none;
@@ -540,7 +540,7 @@
     .arrow-link {
       text-transform: uppercase;
       font-weight: $font-weight-bold;
-      font-family: HeronSans-Bold;
+      font-family: $font-family-heronsans;
       &:hover {
         text-decoration: none;
       }

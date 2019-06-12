@@ -2,10 +2,10 @@ $container-gutter-width: 20px;
 $header-z-index: 1000;
 
 $fonts: (
-  'HeronSansBold':          ( family: 'HeronSans-Bold',          file: 'HeronSans-Bold',       weight: 700, style: normal ),
-  'HeronSansCondBold':      ( family: 'HeronSansCond-Bold',      file: 'HeronSansCond-Bold',   weight: 700, style: normal ),
-  'Patron':                 ( family: 'Patron-Regular',          file: 'Patron-Regular',       weight: 400, style: normal ),
-  'PatronMedium':           ( family: 'Patron-Medium',           file: 'Patron-Medium',        weight: 500, style: normal )
+  'HeronSans-Bold':          ( family: 'HeronSans',          file: 'HeronSans-Bold',       weight: 700, style: normal ),
+  'HeronSansCond-Bold':      ( family: 'HeronSansCond',      file: 'HeronSansCond-Bold',   weight: 700, style: normal ),
+  'Patron-Regular':          ( family: 'Patron',             file: 'Patron-Regular',       weight: 400, style: normal ),
+  'Patron-Medium':           ( family: 'Patron',             file: 'Patron-Medium',        weight: 500, style: normal )
 );
 
 $font-weights: (

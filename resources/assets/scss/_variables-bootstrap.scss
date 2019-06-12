@@ -274,7 +274,9 @@ $embed-responsive-aspect-ratios: join(
 // stylelint-disable value-keyword-case
 $font-family-sans-serif:      "Patron" !default;
 $font-family-monospace:       $font-family-sans-serif !default;
-$font-family-Heron:           "HeronSansCond-Bold" !default;
+$font-family-heronsanscond:   "HeronSansCond" !default;
+$font-family-heronsans:       "HeronSans" !default;
+
 $font-family-base:            $font-family-sans-serif !default;
 
 // stylelint-enable value-keyword-case
@@ -302,7 +304,7 @@ $h5-font-size:                $font-size-base * 2 !default;
 $h6-font-size:                $font-size-base * 1.5 !default;
 
 $headings-margin-bottom:      $spacer / 2 !default;
-$headings-font-family:        $font-family-Heron !default;
+$headings-font-family:        $font-family-heronsanscond !default;
 $headings-font-weight:        700 !default;
 $headings-line-height:        1.2 !default;
 $headings-color:              $primary !default;
@@ -415,7 +417,7 @@ $input-btn-border-width:      $border-width !default;
 
 $btn-padding-y:               $input-btn-padding-y !default;
 $btn-padding-x:               $input-btn-padding-x !default;
-$btn-font-family:             $font-family-Heron !default;
+$btn-font-family:             $font-family-heronsans !default;
 $btn-font-size:               $input-btn-font-size !default;
 $btn-line-height:             $input-btn-line-height !default;
 

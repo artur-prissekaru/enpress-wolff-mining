@@ -31,7 +31,7 @@
     .arrow-link {
       text-transform: uppercase;
       color: $gray;
-      font-family: HeronSans-Bold;
+      font-family: $font-family-heronsans;
       font-weight: $font-weight-bold;
       &:hover {
         text-decoration: none;
@@ -112,7 +112,7 @@
     
       .cc-title {
         margin-top: 5px;
-        font-family: HeronSansCond-Bold;
+        font-family: $font-family-heronsanscond;
         font-size: 112.2px;
         text-transform: uppercase;
         color: #D8F2FF;
@@ -120,7 +120,7 @@
     
       .cc-content {
         margin-top: 15px;
-        font-family: HeronSans-Bold;
+        font-family: $font-family-heronsans;
         font-size: 31.68px;
         text-transform: uppercase;
         color: white;
@@ -128,7 +128,7 @@
     
       .cc-description {
         padding: 15px 0;
-        font-family: HeronSans-Bold;
+        font-family: $font-family-heronsans;
         font-size: 15px;
         margin: 15px auto 0 auto;
         &:hover {
