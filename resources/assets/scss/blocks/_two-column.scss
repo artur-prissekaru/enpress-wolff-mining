@@ -535,7 +535,9 @@
     }
   }
   .left-content {
-    max-width: 460px;
+    @include media-breakpoint-up('lg') {
+      max-width: 460px;
+    }
     margin-bottom: 53px;
   }
   .h1,h2,h3,h4,h5,h6 {
