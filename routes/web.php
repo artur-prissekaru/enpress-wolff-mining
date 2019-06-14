@@ -38,26 +38,26 @@ Route::get('/projects/{slug}', function($slug) {
             'title' => 'Saraji Mine',
             'sub_title' => 'BMA',
             'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.',
-            'featured_image' => asset('dist/media/projects/saraji/project-saraji-01.jpg'),
+            'featured_image' => asset('/dist/media/projects/saraji/project-saraji-01.jpg'),
             'galleries' => [
                 (object)[
                     'before_type' => 'warning',
-                    'featured_image' => asset('dist/media/projects/saraji/project-saraji-01.jpg'),
-                    'featured_logo' => asset('dist/media/logos/project-logos/logo-01.jpg'),
+                    'featured_image' => asset('/dist/media/projects/saraji/project-saraji-01.jpg'),
+                    'featured_logo' => asset('/dist/media/logos/project-logos/logo-01.jpg'),
                     'title' => '<h4 class="text-primary">Saraji mine</h4>',
                     'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
                 ],
                 (object)[
                     'before_type' => 'warning',
-                    'featured_image' => asset('dist/media/projects/saraji/project-saraji-02.jpg'),
-                    'featured_logo' => asset('dist/media/logos/project-logos/logo-01.jpg'),
+                    'featured_image' => asset('/dist/media/projects/saraji/project-saraji-02.jpg'),
+                    'featured_logo' => asset('/dist/media/logos/project-logos/logo-01.jpg'),
                     'title' => '<h4 class="text-primary">Saraji mine</h4>',
                     'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
                 ],
                 (object)[
                     'before_type' => 'warning',
-                    'featured_image' => asset('dist/media/projects/saraji/project-saraji-03.jpg'),
-                    'featured_logo' => asset('dist/media/logos/project-logos/logo-01.jpg'),
+                    'featured_image' => asset('/dist/media/projects/saraji/project-saraji-03.jpg'),
+                    'featured_logo' => asset('/dist/media/logos/project-logos/logo-01.jpg'),
                     'title' => '<h4 class="text-primary">Saraji mine</h4>',
                     'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
                 ],
@@ -68,26 +68,26 @@ Route::get('/projects/{slug}', function($slug) {
             'title' => 'Yarrabee Mine',
             'sub_title' => 'Yancol Australia',
             'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>',
-            'featured_image' => asset('dist/media/projects/yarrabee/project-yarrabee-01.jpg'),
+            'featured_image' => asset('/dist/media/projects/yarrabee/project-yarrabee-01.jpg'),
             'galleries' => [
                 (object)[
                     'before_type' => 'warning',
-                    'featured_image' => asset('dist/media/projects/yarrabee/project-yarrabee-01.jpg'),
-                    'featured_logo' => asset('dist/media/logos/project-logos/logo-02.jpg'),
+                    'featured_image' => asset('/dist/media/projects/yarrabee/project-yarrabee-01.jpg'),
+                    'featured_logo' => asset('/dist/media/logos/project-logos/logo-02.jpg'),
                     'title' => '<h4 class="text-primary">Yarrabee Mine</h4>',
                     'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
                 ],
                 (object)[
                     'before_type' => 'warning',
-                    'featured_image' => asset('dist/media/projects/yarrabee/project-yarrabee-02.jpg'),
-                    'featured_logo' => asset('dist/media/logos/project-logos/logo-02.jpg'),
+                    'featured_image' => asset('/dist/media/projects/yarrabee/project-yarrabee-02.jpg'),
+                    'featured_logo' => asset('/dist/media/logos/project-logos/logo-02.jpg'),
                     'title' => '<h4 class="text-primary">Yarrabee Mine</h4>',
                     'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
                 ],
                 (object)[
                     'before_type' => 'warning',
-                    'featured_image' => asset('dist/media/projects/yarrabee/project-yarrabee-03.jpg'),
-                    'featured_logo' => asset('dist/media/logos/project-logos/logo-02.jpg'),
+                    'featured_image' => asset('/dist/media/projects/yarrabee/project-yarrabee-03.jpg'),
+                    'featured_logo' => asset('/dist/media/logos/project-logos/logo-02.jpg'),
                     'title' => '<h4 class="text-primary">Yarrabee Mine</h4>',
                     'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
                 ],
@@ -98,19 +98,19 @@ Route::get('/projects/{slug}', function($slug) {
             'title' => 'Acland Mine',
             'sub_title' => 'New hope',
             'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>',
-            'featured_image' => asset('dist/media/projects/acland/project-acland-01.jpg'),
+            'featured_image' => asset('/dist/media/projects/acland/project-acland-01.jpg'),
             'galleries' => [
                 (object)[
                     'before_type' => 'warning',
-                    'featured_image' => asset('dist/media/projects/acland/project-acland-01.jpg'),
-                    'featured_logo' => asset('dist/media/logos/project-logos/logo-03.jpg'),
+                    'featured_image' => asset('/dist/media/projects/acland/project-acland-01.jpg'),
+                    'featured_logo' => asset('/dist/media/logos/project-logos/logo-03.jpg'),
                     'title' => '<h4 class="text-primary">Acland Mine</h4>',
                     'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
                 ],
                 (object)[
                     'before_type' => 'warning',
-                    'featured_image' => asset('dist/media/projects/acland/project-acland-02.jpg'),
-                    'featured_logo' => asset('dist/media/logos/project-logos/logo-03.jpg'),
+                    'featured_image' => asset('/dist/media/projects/acland/project-acland-02.jpg'),
+                    'featured_logo' => asset('/dist/media/logos/project-logos/logo-03.jpg'),
                     'title' => '<h4 class="text-primary">Acland Mine</h4>',
                     'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
                 ]
@@ -121,33 +121,33 @@ Route::get('/projects/{slug}', function($slug) {
             'title' => 'BlackWater Mine',
             'sub_title' => 'BMA',
             'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>',
-            'featured_image' => asset('dist/media/projects/blackwater/project-bma-01.jpg'),
+            'featured_image' => asset('/dist/media/projects/blackwater/project-bma-01.jpg'),
             'galleries' => [
                 (object)[
                     'before_type' => 'warning',
-                    'featured_image' => asset('dist/media/projects/blackwater/project-bma-01.jpg'),
-                    'featured_logo' => asset('dist/media/logos/project-logos/logo-01.jpg'),
+                    'featured_image' => asset('/dist/media/projects/blackwater/project-bma-01.jpg'),
+                    'featured_logo' => asset('/dist/media/logos/project-logos/logo-01.jpg'),
                     'title' => '<h4 class="text-primary">BlackWater Mine</h4>',
                     'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
                 ],
                 (object)[
                     'before_type' => 'warning',
-                    'featured_image' => asset('dist/media/projects/blackwater/project-bma-02.jpg'),
-                    'featured_logo' => asset('dist/media/logos/project-logos/logo-01.jpg'),
+                    'featured_image' => asset('/dist/media/projects/blackwater/project-bma-02.jpg'),
+                    'featured_logo' => asset('/dist/media/logos/project-logos/logo-01.jpg'),
                     'title' => '<h4 class="text-primary">BlackWater Mine</h4>',
                     'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
                 ],
                 (object)[
                     'before_type' => 'warning',
-                    'featured_image' => asset('dist/media/projects/blackwater/project-bma-03.jpg'),
-                    'featured_logo' => asset('dist/media/logos/project-logos/logo-01.jpg'),
+                    'featured_image' => asset('/dist/media/projects/blackwater/project-bma-03.jpg'),
+                    'featured_logo' => asset('/dist/media/logos/project-logos/logo-01.jpg'),
                     'title' => '<h4 class="text-primary">BlackWater Mine</h4>',
                     'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
                 ],
                 (object)[
                     'before_type' => 'warning',
-                    'featured_image' => asset('dist/media/projects/blackwater/project-bma-04.jpg'),
-                    'featured_logo' => asset('dist/media/logos/project-logos/logo-01.jpg'),
+                    'featured_image' => asset('/dist/media/projects/blackwater/project-bma-04.jpg'),
+                    'featured_logo' => asset('/dist/media/logos/project-logos/logo-01.jpg'),
                     'title' => '<h4 class="text-primary">BlackWater Mine</h4>',
                     'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
                 ],
@@ -158,26 +158,26 @@ Route::get('/projects/{slug}', function($slug) {
             'title' => 'Bulga Mine',
             'sub_title' => 'Glencore',
             'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>',
-            'featured_image' => asset('dist/media/projects/bulga/project-bulga-01.jpg'),
+            'featured_image' => asset('/dist/media/projects/bulga/project-bulga-01.jpg'),
             'galleries' => [
                 (object)[
                     'before_type' => 'warning',
-                    'featured_image' => asset('dist/media/projects/bulga/project-bulga-01.jpg'),
-                    'featured_logo' => asset('dist/media/logos/project-logos/logo-05.png'),
+                    'featured_image' => asset('/dist/media/projects/bulga/project-bulga-01.jpg'),
+                    'featured_logo' => asset('/dist/media/logos/project-logos/logo-05.png'),
                     'title' => '<h4 class="text-primary">Bulga Mine</h4>',
                     'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
                 ],
                 (object)[
                     'before_type' => 'warning',
-                    'featured_image' => asset('dist/media/projects/bulga/project-bulga-02.jpg'),
-                    'featured_logo' => asset('dist/media/logos/project-logos/logo-05.png'),
+                    'featured_image' => asset('/dist/media/projects/bulga/project-bulga-02.jpg'),
+                    'featured_logo' => asset('/dist/media/logos/project-logos/logo-05.png'),
                     'title' => '<h4 class="text-primary">Bulga Mine</h4>',
                     'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
                 ],
                 (object)[
                     'before_type' => 'warning',
-                    'featured_image' => asset('dist/media/projects/bulga/project-bulga-03.jpg'),
-                    'featured_logo' => asset('dist/media/logos/project-logos/logo-05.png'),
+                    'featured_image' => asset('/dist/media/projects/bulga/project-bulga-03.jpg'),
+                    'featured_logo' => asset('/dist/media/logos/project-logos/logo-05.png'),
                     'title' => '<h4 class="text-primary">Bulga Mine</h4>',
                     'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
                 ]
@@ -188,12 +188,12 @@ Route::get('/projects/{slug}', function($slug) {
             'title' => 'Coppabella Mine',
             'sub_title' => 'Peabody energey',
             'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>',
-            'featured_image' => asset('dist/media/projects/coppabella/project-coppabella-01.jpg'),
+            'featured_image' => asset('/dist/media/projects/coppabella/project-coppabella-01.jpg'),
             'galleries' => [
                 (object)[
                     'before_type' => 'warning',
-                    'featured_image' => asset('dist/media/projects/coppabella/project-coppabella-01.jpg'),
-                    'featured_logo' => asset('dist/media/logos/project-logos/logo-06.png'),
+                    'featured_image' => asset('/dist/media/projects/coppabella/project-coppabella-01.jpg'),
+                    'featured_logo' => asset('/dist/media/logos/project-logos/logo-06.png'),
                     'title' => '<h4 class="text-primary">Coppabella Mine</h4>',
                     'content' => '<p>Originally on site 2012-13 with a workforce of 56 delivering Pre strip services and the construction of haul roads utilising a Hitachi 3600-6 excavator, D11 Dozers, dump trucks and graders. Over 8 million BCM was moved in less than 12 months.</p>
                                 <p>From April 2015 Wolff has been delivering Dozer push services with 4 crews of 3 Operators supported by management and administration based in Toowoomba.</p>
@@ -201,8 +201,8 @@ Route::get('/projects/{slug}', function($slug) {
                 ],
                 (object)[
                     'before_type' => 'warning',
-                    'featured_image' => asset('dist/media/projects/coppabella/project-coppabella-02.jpg'),
-                    'featured_logo' => asset('dist/media/logos/project-logos/logo-06.png'),
+                    'featured_image' => asset('/dist/media/projects/coppabella/project-coppabella-02.jpg'),
+                    'featured_logo' => asset('/dist/media/logos/project-logos/logo-06.png'),
                     'title' => '<h4 class="text-primary">Coppabella Mine</h4>',
                     'content' => '<p>Originally on site 2012-13 with a workforce of 56 delivering Pre strip services and the construction of haul roads utilising a Hitachi 3600-6 excavator, D11 Dozers, dump trucks and graders. Over 8 million BCM was moved in less than 12 months.</p>
                                 <p>From April 2015 Wolff has been delivering Dozer push services with 4 crews of 3 Operators supported by management and administration based in Toowoomba.</p>
@@ -210,8 +210,8 @@ Route::get('/projects/{slug}', function($slug) {
                 ],
                 (object)[
                     'before_type' => 'warning',
-                    'featured_image' => asset('dist/media/projects/coppabella/project-coppabella-03.jpg'),
-                    'featured_logo' => asset('dist/media/logos/project-logos/logo-06.png'),
+                    'featured_image' => asset('/dist/media/projects/coppabella/project-coppabella-03.jpg'),
+                    'featured_logo' => asset('/dist/media/logos/project-logos/logo-06.png'),
                     'title' => '<h4 class="text-primary">Coppabella Mine</h4>',
                     'content' => '<p>Originally on site 2012-13 with a workforce of 56 delivering Pre strip services and the construction of haul roads utilising a Hitachi 3600-6 excavator, D11 Dozers, dump trucks and graders. Over 8 million BCM was moved in less than 12 months.</p>
                                 <p>From April 2015 Wolff has been delivering Dozer push services with 4 crews of 3 Operators supported by management and administration based in Toowoomba.</p>
@@ -224,47 +224,47 @@ Route::get('/projects/{slug}', function($slug) {
             'title' => 'Curragh Mine',
             'sub_title' => 'coronado',
             'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>',
-            'featured_image' => asset('dist/media/projects/project-curragh-01.jpg'),
+            'featured_image' => asset('/dist/media/projects/project-curragh-01.jpg'),
             'galleries' => [
                 (object)[
                     'before_type' => 'warning',
-                    'featured_image' => asset('dist/media/projects/project-curragh-01.jpg'),
-                    'featured_logo' => asset('dist/media/logos/project-logos/logo-07.jpg'),
+                    'featured_image' => asset('/dist/media/projects/project-curragh-01.jpg'),
+                    'featured_logo' => asset('/dist/media/logos/project-logos/logo-07.jpg'),
                     'title' => '<h4 class="text-primary">Curragh Mine</h4>',
                     'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
                 ],
                 (object)[
                     'before_type' => 'warning',
-                    'featured_image' => asset('dist/media/projects/project-curragh-02.jpg'),
-                    'featured_logo' => asset('dist/media/logos/project-logos/logo-07.jpg'),
+                    'featured_image' => asset('/dist/media/projects/project-curragh-02.jpg'),
+                    'featured_logo' => asset('/dist/media/logos/project-logos/logo-07.jpg'),
                     'title' => '<h4 class="text-primary">Curragh Mine</h4>',
                     'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
                 ],
                 (object)[
                     'before_type' => 'warning',
-                    'featured_image' => asset('dist/media/projects/project-curragh-03.jpg'),
-                    'featured_logo' => asset('dist/media/logos/project-logos/logo-07.jpg'),
+                    'featured_image' => asset('/dist/media/projects/project-curragh-03.jpg'),
+                    'featured_logo' => asset('/dist/media/logos/project-logos/logo-07.jpg'),
                     'title' => '<h4 class="text-primary">Curragh Mine</h4>',
                     'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
                 ],
                 (object)[
                     'before_type' => 'warning',
-                    'featured_image' => asset('dist/media/projects/project-curragh-04.jpg'),
-                    'featured_logo' => asset('dist/media/logos/project-logos/logo-07.jpg'),
+                    'featured_image' => asset('/dist/media/projects/project-curragh-04.jpg'),
+                    'featured_logo' => asset('/dist/media/logos/project-logos/logo-07.jpg'),
                     'title' => '<h4 class="text-primary">Curragh Mine</h4>',
                     'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
                 ],
                 (object)[
                     'before_type' => 'warning',
-                    'featured_image' => asset('dist/media/projects/project-curragh-05.jpg'),
-                    'featured_logo' => asset('dist/media/logos/project-logos/logo-07.jpg'),
+                    'featured_image' => asset('/dist/media/projects/project-curragh-05.jpg'),
+                    'featured_logo' => asset('/dist/media/logos/project-logos/logo-07.jpg'),
                     'title' => '<h4 class="text-primary">Curragh Mine</h4>',
                     'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
                 ],
                 (object)[
                     'before_type' => 'warning',
-                    'featured_image' => asset('dist/media/projects/project-curragh-06.jpg'),
-                    'featured_logo' => asset('dist/media/logos/project-logos/logo-07.jpg'),
+                    'featured_image' => asset('/dist/media/projects/project-curragh-06.jpg'),
+                    'featured_logo' => asset('/dist/media/logos/project-logos/logo-07.jpg'),
                     'title' => '<h4 class="text-primary">Curragh Mine</h4>',
                     'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
                 ],
@@ -275,54 +275,54 @@ Route::get('/projects/{slug}', function($slug) {
             'title' => 'Ensham Mine',
             'sub_title' => 'Ensham Resources',
             'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>',
-            'featured_image' => asset('dist/media/projects/ensham/project-ensham01.jpg'),
+            'featured_image' => asset('/dist/media/projects/ensham/project-ensham01.jpg'),
             'galleries' => [
                 (object)[
                     'before_type' => 'warning',
-                    'featured_image' => asset('dist/media/projects/ensham/project-ensham01.jpg'),
-                    'featured_logo' => asset('dist/media/logos/project-logos/logo-06.png'),
+                    'featured_image' => asset('/dist/media/projects/ensham/project-ensham01.jpg'),
+                    'featured_logo' => asset('/dist/media/logos/project-logos/logo-06.png'),
                     'title' => '<h4 class="text-primary">Ensham Mine</h4>',
                     'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
                 ],
                 (object)[
                     'before_type' => 'warning',
-                    'featured_image' => asset('dist/media/projects/ensham/project-ensham02.jpg'),
-                    'featured_logo' => asset('dist/media/logos/project-logos/logo-06.png'),
+                    'featured_image' => asset('/dist/media/projects/ensham/project-ensham02.jpg'),
+                    'featured_logo' => asset('/dist/media/logos/project-logos/logo-06.png'),
                     'title' => '<h4 class="text-primary">Ensham Mine</h4>',
                     'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
                 ],
                 (object)[
                     'before_type' => 'warning',
-                    'featured_image' => asset('dist/media/projects/ensham/project-ensham03.jpg'),
-                    'featured_logo' => asset('dist/media/logos/project-logos/logo-06.png'),
+                    'featured_image' => asset('/dist/media/projects/ensham/project-ensham03.jpg'),
+                    'featured_logo' => asset('/dist/media/logos/project-logos/logo-06.png'),
                     'title' => '<h4 class="text-primary">Ensham Mine</h4>',
                     'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
                 ],
                 (object)[
                     'before_type' => 'warning',
-                    'featured_image' => asset('dist/media/projects/ensham/project-ensham04.jpg'),
-                    'featured_logo' => asset('dist/media/logos/project-logos/logo-06.png'),
+                    'featured_image' => asset('/dist/media/projects/ensham/project-ensham04.jpg'),
+                    'featured_logo' => asset('/dist/media/logos/project-logos/logo-06.png'),
                     'title' => '<h4 class="text-primary">Ensham Mine</h4>',
                     'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
                 ],
                 (object)[
                     'before_type' => 'warning',
-                    'featured_image' => asset('dist/media/projects/ensham/project-ensham05.jpg'),
-                    'featured_logo' => asset('dist/media/logos/project-logos/logo-06.png'),
+                    'featured_image' => asset('/dist/media/projects/ensham/project-ensham05.jpg'),
+                    'featured_logo' => asset('/dist/media/logos/project-logos/logo-06.png'),
                     'title' => '<h4 class="text-primary">Ensham Mine</h4>',
                     'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
                 ],
                 (object)[
                     'before_type' => 'warning',
-                    'featured_image' => asset('dist/media/projects/ensham/project-ensham06.jpg'),
-                    'featured_logo' => asset('dist/media/logos/project-logos/logo-06.png'),
+                    'featured_image' => asset('/dist/media/projects/ensham/project-ensham06.jpg'),
+                    'featured_logo' => asset('/dist/media/logos/project-logos/logo-06.png'),
                     'title' => '<h4 class="text-primary">Ensham Mine</h4>',
                     'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
                 ],
                 (object)[
                     'before_type' => 'warning',
-                    'featured_image' => asset('dist/media/projects/ensham/project-ensham07.jpg'),
-                    'featured_logo' => asset('dist/media/logos/project-logos/logo-06.png'),
+                    'featured_image' => asset('/dist/media/projects/ensham/project-ensham07.jpg'),
+                    'featured_logo' => asset('/dist/media/logos/project-logos/logo-06.png'),
                     'title' => '<h4 class="text-primary">Ensham Mine</h4>',
                     'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
                 ],
@@ -333,12 +333,12 @@ Route::get('/projects/{slug}', function($slug) {
             'title' => 'Moorvale Mine',
             'sub_title' => 'Peabody Energy',
             'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>',
-            'featured_image' => asset('dist/media/projects/moorvale/project-moorvale-01.jpg'),
+            'featured_image' => asset('/dist/media/projects/moorvale/project-moorvale-01.jpg'),
             'galleries' => [
                 (object)[
                     'before_type' => 'warning',
-                    'featured_image' => asset('dist/media/projects/moorvale/project-moorvale-01.jpg'),
-                    'featured_logo' => asset('dist/media/logos/project-logos/logo-06.png'),
+                    'featured_image' => asset('/dist/media/projects/moorvale/project-moorvale-01.jpg'),
+                    'featured_logo' => asset('/dist/media/logos/project-logos/logo-06.png'),
                     'title' => '<h4 class="text-primary">Moorvale Mine</h4>',
                     'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
                 ]
