@@ -25,6 +25,7 @@
           'action_link' => url('/contact'),
           'action_type' => 'info',
           'action_title' => 'Get in touch',
+          'action_target' => '_self'
         ]
       ]
     ],

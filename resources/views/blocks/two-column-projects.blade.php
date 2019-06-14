@@ -29,7 +29,7 @@
             @endforeach
           @endif
         </div>
-        @if(!$options->sub_content_show)
+        @if(!$options->sub_content_show && (isset($data->sub_content) || isset($data->sub_title) || isset($data->sub_action_link)))
           <div class="sub-content d-block d-lg-none">
             @include('components.column-content', [
               'data' => (object)[
@@ -37,7 +37,8 @@
                 'content' => $data->sub_content,
                 'action_link' => $data->sub_action_link,
                 'action_title' => $data->sub_action_title,
-                'action_type' => $data->sub_action_type
+                'action_type' => $data->sub_action_type,
+                'action_target' => $data->sub_action_target
               ]
             ])
           </div>
@@ -51,10 +52,11 @@
             'content' => $data->content,
             'action_link' => $data->action_link,
             'action_title' => $data->action_title,
-            'action_type' => $data->action_type
+            'action_type' => $data->action_type,
+            'action_target' => $data->action_target
           ]
         ])
-        @if($options->sub_content_show)
+        @if($options->sub_content_show && (isset($data->sub_content) || isset($data->sub_title) || isset($data->sub_action_link)))
           <div class="sub-content sub-content-show">
             @include('components.column-content', [
               'data' => (object)[
@@ -62,7 +64,8 @@
                 'content' => $data->sub_content,
                 'action_link' => $data->sub_action_link,
                 'action_title' => $data->sub_action_title,
-                'action_type' => $data->sub_action_type
+                'action_type' => $data->sub_action_type,
+                'action_target' => $data->sub_action_target
               ]
             ])
           </div>

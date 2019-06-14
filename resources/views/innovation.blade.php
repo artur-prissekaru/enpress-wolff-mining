@@ -90,37 +90,37 @@
         ],
         (object)[
           'featured_image' => asset('dist/media/services/service-01.png'),
-          'image_link' => '',
+          'image_link' => url('/'),
           'title' => 'Rehabilitation works',
           'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim, adipiscing elit.'
         ],
         (object)[
           'featured_image' => asset('dist/media/services/service-01.png'),
-          'image_link' => '',
+          'image_link' => url('/'),
           'title' => 'Automated equipment',
           'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim, adipiscing elit.'
         ],
         (object)[
           'featured_image' => asset('dist/media/services/service-01.png'),
-          'image_link' => '',
+          'image_link' => url('/'),
           'title' => 'Satellite bulk dozer push',
           'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.'
         ],
         (object)[
           'featured_image' => asset('dist/media/services/service-01.png'),
-          'image_link' => '',
+          'image_link' => url('/'),
           'title' => 'Pre strip fleets',
           'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim, adipiscing elit.'
         ],
         (object)[
           'featured_image' => asset('dist/media/services/service-01.png'),
-          'image_link' => '',
+          'image_link' => url('/'),
           'title' => 'Civil earthworks',
           'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim, adipiscing elit.'
         ],
         (object)[
           'featured_image' => asset('dist/media/services/service-01.png'),
-          'image_link' => '',
+          'image_link' => url('/'),
           'title' => 'Site clearing',
           'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim, adipiscing elit.'
         ],

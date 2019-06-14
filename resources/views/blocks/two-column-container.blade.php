@@ -10,13 +10,21 @@
 @endphp
 <div class="block two-column-container-block @if($options->reverse){{ 'column-reverse-block' }}@endif">
   <div class="container">
-    <div class="row">
+    <div class="row contain-row">
       <div class="col-lg-6">
-        @if (isset($data->featured_image))
-          <div class="featured-image">
-            <img src="{{ $data->featured_image }}" />
+        <div class="nationals">
+          <div class="row">
+            @if(isset($data->nationals))
+              @foreach($data->nationals as $item)
+                <div class="col-3">
+                  <a href="{{ $item->action_link }}" target="_blank">
+                    <div class="national-group" style="background-image: url('{{ $item->featured_image }}')"></div>
+                  </a>
+                </div>
+              @endforeach
+            @endif
           </div>
-        @endif
+        </div>
       </div>
       <div class="col-lg-6">
         @include('components.column-content', [
@@ -26,7 +34,8 @@
             'content' => $data->content,
             'action_link' => $data->action_link,
             'action_title' => $data->action_title,
-            'action_type' => $data->action_type
+            'action_type' => $data->action_type,
+            'action_target' => $data->action_target
           ]
         ])
       </div>

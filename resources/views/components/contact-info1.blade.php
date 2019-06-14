@@ -33,7 +33,7 @@
       </div>
     </div>
   </div>
-  <a href="/" class="btn btn-primary">
+  <a href="https://www.google.com/maps/search/Level+3,+68+Marine+Parade+Southport+BC,+QLD+4215/@-27.9646916,153.4123361,17z/data=!3m1!4b1" class="btn btn-primary" target="_blank">
     View Map
   </a>
 </div>

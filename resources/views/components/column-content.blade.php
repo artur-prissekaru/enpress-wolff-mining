@@ -8,6 +8,6 @@
     @endif
   </div>
   @if (isset($data->action_link))
-    <a href="{{ $data->action_link }}" class="action-link btn-{{ $data->action_type }}">{{ $data->action_title }}</a>
+    <a href="{{ $data->action_link }}" class="action-link btn-{{ $data->action_type }}" target="{{ $data->action_target }}">{{ $data->action_title }}</a>
   @endif
 </div>

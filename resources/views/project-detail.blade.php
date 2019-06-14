@@ -57,49 +57,49 @@
         ],
         (object)[
           'featured_image' => asset('dist/media/projects/project-01.png'),
-          'image_link' => '',
+          'image_link' => url('/project-detail'),
           'sub_title' => 'Yancol Australia',
           'title' => 'Yarrabee Mine'
         ],
         (object)[
           'featured_image' => asset('dist/media/projects/project-01.png'),
-          'image_link' => '',
+          'image_link' => url('/project-detail'),
           'sub_title' => 'New Hope',
           'title' => 'Acland Mine'
         ],
         (object)[
           'featured_image' => asset('dist/media/projects/project-01.png'),
-          'image_link' => '',
+          'image_link' => url('/project-detail'),
           'sub_title' => 'BMA',
           'title' => 'Blackwater Mine'
         ],
         (object)[
           'featured_image' => asset('dist/media/projects/project-01.png'),
-          'image_link' => '',
+          'image_link' => url('/project-detail'),
           'sub_title' => 'Glencore',
           'title' => 'Bulga Mine'
         ],
         (object)[
           'featured_image' => asset('dist/media/projects/project-01.png'),
-          'image_link' => '',
+          'image_link' => url('/project-detail'),
           'sub_title' => 'Peabody Energy',
           'title' => 'Coppabella Mine'
         ],
         (object)[
           'featured_image' => asset('dist/media/projects/project-01.png'),
-          'image_link' => '',
+          'image_link' => url('/project-detail'),
           'sub_title' => 'Coronado',
           'title' => 'Curragh Mine'
         ],
         (object)[
           'featured_image' => asset('dist/media/projects/project-01.png'),
-          'image_link' => '',
+          'image_link' => url('/project-detail'),
           'sub_title' => 'Ensham Resources',
           'title' => 'Ensham Mine'
         ],
         (object)[
           'featured_image' => asset('dist/media/projects/project-01.png'),
-          'image_link' => '',
+          'image_link' => url('/project-detail'),
           'sub_title' => 'Peabody Energy',
           'title' => 'Moorvale Mine'
         ]
@@ -111,11 +111,7 @@
       'action_link' => url('/projects'),
       'action_title' => 'See all Projects',
       'action_type' => 'warning',
-      'sub_title' => '<h6 class="text-primary">The Wolff Group story</h6>',
-      'sub_content' => '<p>We’re proud of how far we’ve come since 2003 - find out how we’ve gotten to where we are today.</p>',
-      'sub_action_link' => url('/'),
-      'sub_action_title' => 'See our stroy',
-      'sub_action_type' => 'warning'
+      'action_target' => '_self'
     ],
     'options' => (object)[
       'before_image' => true,

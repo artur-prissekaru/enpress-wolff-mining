@@ -8,7 +8,13 @@
     $options = (object)$defaultOptions;
   }
 @endphp
-<div class="block two-column-carousel-block @if(isset($data->background_type))bg-{{ $data->background_type }}@endif @if ($options->reverse){{ 'column-reverse-block' }}@endif">
+<div class="block two-column-carousel-block
+  @if(isset($data->background_type))bg-{{ $data->background_type }}@endif
+  @if ($options->reverse){{ 'column-reverse-block' }}@endif"
+  @if (isset($data->section_id))
+    id={{ $data->section_id }}
+  @endif
+>
   <app-carousel class="column-carousel">
     <div class="column-block-item carousel-image">
       <div class="carousel-collection">
@@ -30,7 +36,7 @@
                   {!! $item->content !!}
                 </div>
                 @if (isset($item->action_link))
-                  <a href="{{ $item->action_link }}" class="action-link btn-{{ $item->action_type }}">{{ $item->action_title }}</a>
+                  <a href="{{ $item->action_link }}" class="action-link btn-{{ $item->action_type }}" target="{{ $item->action_target }}">{{ $item->action_title }}</a>
                 @endif
               </div>
             </script>

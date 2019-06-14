@@ -27,7 +27,7 @@
     </hero-carousel>
   </div>
   <div class="down-arrow">
-    <a href="#projects" class="arrow-link">
+    <a href="#exploring" class="arrow-link">
       Or keep exploring
       <br />
       <i class="icon icon-arrow-down-info icon-md"></i>

@@ -26,6 +26,7 @@
           'action_link' => url('https://nationalgroup.recruitmenthub.com.au/Vacancies/'),
           'action_type' => 'info',
           'action_title' => 'VIEW CAREER OPPORTUNITIES',
+          'action_target' => '_blank'
         ]
       ]
     ],
@@ -155,9 +156,10 @@
                         </ul>
                         <p>Employees demonstrating alignment with Wolff’s culture and adherence to Wolff’s values are, when appropriate, recognised and rewarded.</p>
                         ',
-          'action_link' => url('/'),
+          'action_link' => url('https://nationalgroup.recruitmenthub.com.au/Vacancies/'),
           'action_type' => 'info',
-          'action_title' => 'VIEW CAREER OPPORTUNITIES'
+          'action_title' => 'VIEW CAREER OPPORTUNITIES',
+          'action_target' => '_blank'
         ]
       ]
     ],

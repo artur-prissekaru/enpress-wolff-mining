@@ -26,7 +26,8 @@
         'content' => $data->content,
         'action_link' => $data->action_link,
         'action_title' => $data->action_title,
-        'action_type' => $data->action_type
+        'action_type' => $data->action_type,
+        'action_target' => $data->action_target
       ]
     ])
   </div>
