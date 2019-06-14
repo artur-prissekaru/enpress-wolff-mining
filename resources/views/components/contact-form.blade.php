@@ -36,6 +36,7 @@
         <textarea
           id="message"
           name="message"
+          placeholder=""
           rows="7"
           class="form-control"
         >          

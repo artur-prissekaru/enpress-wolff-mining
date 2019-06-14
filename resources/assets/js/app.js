@@ -8,7 +8,10 @@ import 'slick-carousel';
 import Navigation from './components/navigation';
 import HeroCarousel from './components/hero-carousel';
 import Carousel from './components/carousel';
+import CardValue from './components/card-value';
 
+const cardValue = new CardValue('.card-value');
+cardValue.init();
 window.customElements.define('app-navigation', Navigation);
 window.customElements.define('hero-carousel', HeroCarousel);
 window.customElements.define('app-carousel', Carousel);
