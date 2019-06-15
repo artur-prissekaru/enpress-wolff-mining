@@ -2,7 +2,7 @@
 @section ('content')
   @include('blocks.other-hero', [
     'data' => (object)[
-      'menu_image' => asset('dist/media/menus/menu3.png'),
+      'menu_image' => asset('/dist/media/menus/menu3.png'),
       'menu_title' => 'Our People',
       'menu_subtitle' => 'Talented and diverse workforce'
     ]
@@ -10,12 +10,12 @@
   @include('blocks.two-column-carousel', [
     'data' => (object)[
       'background_type' => 'secondary',
-      'sub_image' => asset('dist/media/galleries/gallery-sub-02.png'),
+      'sub_image' => asset('/dist/media/galleries/gallery-sub-02.png'),
       'down_link' => 'values',
       'down_link_title' => 'See our values',
       'galleries' => [
         (object)[
-          'featured_image' => asset('dist/media/galleries/gallery-05.png'),
+          'featured_image' => asset('/dist/media/galleries/gallery-05.png'),
           'video_url' => url('https://www.youtube.com/embed/3DhHwXNOwCw'),
           'before_type' => 'gray',
           'title' => '<h5 class="text-white">Wolff employees treat each other and our stakeholders with <span class="text-warning">honesty and respect.</span></h5>',
@@ -103,7 +103,7 @@
       'background_type' => 'white',
       'galleries' => [
         (object)[
-          'featured_image' => asset('dist/media/galleries/gallery-01.png'),
+          'featured_image' => asset('/dist/media/galleries/gallery-01.png'),
           'before_type' => 'warning',
           'title' => '<h4 class="text-primary">Quality Management</h4>',
           'content' => "<p>Wolff operates under a Quality Management System compliant to ISO 9001:2015 standard.</p>
@@ -114,7 +114,7 @@
                         "
         ],
         (object)[
-          'featured_image' => asset('dist/media/galleries/gallery-02.png'),
+          'featured_image' => asset('/dist/media/galleries/gallery-02.png'),
           'before_type' => 'warning',
           'title' => '<h4 class="text-primary">Quality Management</h4>',
           'content' => "<p>Wolff operates under a Quality Management System compliant to ISO 9001:2015 standard.</p>
@@ -125,7 +125,7 @@
                         "
         ],
         (object)[
-          'featured_image' => asset('dist/media/galleries/gallery-03.png'),
+          'featured_image' => asset('/dist/media/galleries/gallery-03.png'),
           'before_type' => 'warning',
           'title' => '<h4 class="text-primary">Quality Management</h4>',
           'content' => "<p>Wolff operates under a Quality Management System compliant to ISO 9001:2015 standard.</p>
@@ -141,10 +141,10 @@
   @include('blocks.two-column-carousel', [
     'data' => (object)[
       'background_type' => 'secondary',
-      'sub_image' => asset('dist/media/galleries/gallery-sub-03.png'),
+      'sub_image' => asset('/dist/media/galleries/gallery-sub-03.png'),
       'galleries' => [
         (object)[
-          'featured_image' => asset('dist/media/galleries/gallery-05.png'),
+          'featured_image' => asset('/dist/media/galleries/gallery-05.png'),
           'video_url' => url('https://www.youtube.com/embed/3DhHwXNOwCw'),
           'before_type' => 'gray',
           'title' => '<h4 class="text-white">CAREERS</h4>',

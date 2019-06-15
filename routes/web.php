@@ -350,7 +350,7 @@ Route::get('/projects/{slug}', function($slug) {
             return view('project-detail', [
                 'galleries' => $project->galleries
             ]);
-        } 
+        }
     }
 });
 

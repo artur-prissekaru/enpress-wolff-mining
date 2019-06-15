@@ -2,7 +2,7 @@
 @section ('content')
   @include('blocks.other-hero', [
     'data' => (object)[
-      'menu_image' => asset('dist/media/menus/menu1.png'),
+      'menu_image' => asset('/dist/media/menus/menu1.png'),
       'menu_title' => 'Innovation',
       'menu_subtitle' => 'The future of mining automation'
     ]

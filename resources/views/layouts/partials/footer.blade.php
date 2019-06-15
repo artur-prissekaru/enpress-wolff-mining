@@ -4,8 +4,8 @@
       <div class="footer-main">
         <div class="footer-logo">
           <a href="/">
-            <img class="d-none d-md-block" src={{ asset('dist/media/brands/logo.png') }} />
-            <img class="d-block d-md-none" src={{ asset('dist/media/brands/footer-logo.png') }} />
+            <img class="d-none d-md-block" src={{ asset('/dist/media/brands/logo.png') }} />
+            <img class="d-block d-md-none" src={{ asset('/dist/media/brands/footer-logo.png') }} />
           </a>
         </div>
         <div class="contact-info">
@@ -19,7 +19,7 @@
           </div>
         </div>
         <div class="footer-image">
-          <img src={{ asset('dist/media/brands/footer-image.png') }} />
+          <img src={{ asset('/dist/media/brands/footer-image.png') }} />
         </div>
       </div>
       <div class="footer-navigation">

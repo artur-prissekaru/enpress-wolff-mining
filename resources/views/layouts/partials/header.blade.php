@@ -2,14 +2,14 @@
   <app-navigation class="navigation">
     <div class="navigation-main">
       <a class="navbar-brand" href="/">
-        <img src={{ asset('dist/media/brands/logo.png') }} alt="logo" />
+        <img src={{ asset('/dist/media/brands/logo.png') }} alt="logo" />
       </a>
       <div class="navbar-toggler">
         <button class="navigation-toggle">
-          <img src={{ asset('dist/media/brands/toggle.png') }} alt="toggle" />
+          <img src={{ asset('/dist/media/brands/toggle.png') }} alt="toggle" />
         </button>
         <button class="navigation-toggle-close">
-          <img src={{ asset('dist/media/brands/toggle-open.png') }} />
+          <img src={{ asset('/dist/media/brands/toggle-open.png') }} />
         </button>
       </div>
     </div>

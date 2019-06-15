@@ -2,7 +2,7 @@
 @section ('content')
   @include('blocks.other-hero', [
     'data' => (object)[
-      'menu_image' => asset('dist/media/menus/menu2.png'),
+      'menu_image' => asset('/dist/media/menus/menu2.png'),
       'menu_title' => 'Projects',
       'menu_subtitle' => 'ALWAYS EXCEEDING EXPECTATIONS'
     ]
