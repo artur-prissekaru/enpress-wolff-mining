@@ -224,46 +224,46 @@ Route::get('/projects/{slug}', function($slug) {
             'title' => 'Curragh Mine',
             'sub_title' => 'coronado',
             'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>',
-            'featured_image' => asset('/dist/media/projects/project-curragh-01.jpg'),
+            'featured_image' => asset('/dist/media/projects/curragh/project-curragh-01.jpg'),
             'galleries' => [
                 (object)[
                     'before_type' => 'warning',
-                    'featured_image' => asset('/dist/media/projects/project-curragh-01.jpg'),
+                    'featured_image' => asset('/dist/media/projects/curragh/project-curragh-01.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-07.jpg'),
                     'title' => '<h4 class="text-primary">Curragh Mine</h4>',
                     'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
                 ],
                 (object)[
                     'before_type' => 'warning',
-                    'featured_image' => asset('/dist/media/projects/project-curragh-02.jpg'),
+                    'featured_image' => asset('/dist/media/projects/curragh/project-curragh-02.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-07.jpg'),
                     'title' => '<h4 class="text-primary">Curragh Mine</h4>',
                     'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
                 ],
                 (object)[
                     'before_type' => 'warning',
-                    'featured_image' => asset('/dist/media/projects/project-curragh-03.jpg'),
+                    'featured_image' => asset('/dist/media/projects/curragh/project-curragh-03.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-07.jpg'),
                     'title' => '<h4 class="text-primary">Curragh Mine</h4>',
                     'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
                 ],
                 (object)[
                     'before_type' => 'warning',
-                    'featured_image' => asset('/dist/media/projects/project-curragh-04.jpg'),
+                    'featured_image' => asset('/dist/media/projects/curragh/project-curragh-04.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-07.jpg'),
                     'title' => '<h4 class="text-primary">Curragh Mine</h4>',
                     'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
                 ],
                 (object)[
                     'before_type' => 'warning',
-                    'featured_image' => asset('/dist/media/projects/project-curragh-05.jpg'),
+                    'featured_image' => asset('/dist/media/projects/curragh/project-curragh-05.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-07.jpg'),
                     'title' => '<h4 class="text-primary">Curragh Mine</h4>',
                     'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
                 ],
                 (object)[
                     'before_type' => 'warning',
-                    'featured_image' => asset('/dist/media/projects/project-curragh-06.jpg'),
+                    'featured_image' => asset('/dist/media/projects/curragh/project-curragh-06.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-07.jpg'),
                     'title' => '<h4 class="text-primary">Curragh Mine</h4>',
                     'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
