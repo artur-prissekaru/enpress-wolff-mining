@@ -167,15 +167,16 @@
       background-color: $warning;
       width: 43px;
       height: 43px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      position: relative;
       &:hover {
         color: transparent;
       }
       &:before {
+        position: absolute;
+        top: 5px;
+        left: 5px;
         content: '\2192';
-        font-size: 32px;
+        font-size: 28px;
         line-height: 1;
         color: $white;
         -webkit-font-smoothing: antialiased;
