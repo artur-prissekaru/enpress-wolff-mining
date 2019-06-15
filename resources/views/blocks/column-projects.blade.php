@@ -24,7 +24,8 @@
                 'title' => $item->title,
                 'sub_title' => $item->sub_title,
                 'content' => $item->content,
-                'action_link' => $item->action_link
+                'action_link' => $item->action_link,
+                'target' => $item->target
               ]
             ])
           </div>

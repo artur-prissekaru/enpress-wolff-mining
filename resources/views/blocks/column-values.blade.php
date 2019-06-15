@@ -14,6 +14,7 @@
               'data' => (object)[
                 'icon_name' => $item->icon_name,
                 'title' => $item->title,
+                'animation' => $item->animation, 
                 'content' => $item->content
               ]
             ])

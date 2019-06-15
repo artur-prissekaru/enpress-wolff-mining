@@ -23,6 +23,8 @@
   padding-top: 75px;
   padding-bottom: 60px;
   background-color: $primary;
+  position: relative;
+  z-index: 1000;
   .footer {
     position: relative;
   }

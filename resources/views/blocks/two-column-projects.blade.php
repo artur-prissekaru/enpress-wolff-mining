@@ -22,9 +22,11 @@
                     'featured_image' => $item->featured_image,
                     'image_link' => $item->image_link,
                     'sub_title' => $item->sub_title,
-                    'title' => $item->title
+                    'title' => $item->title,
+                    'target' => $item->target
                   ]
-                ])
+                ],
+                compact('project-detail'))
               </div>
             @endforeach
           @endif

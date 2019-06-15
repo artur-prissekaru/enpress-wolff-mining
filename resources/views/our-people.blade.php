@@ -2,7 +2,7 @@
 @section ('content')
   @include('blocks.other-hero', [
     'data' => (object)[
-      'menu_image' => asset('dist/media/menus/menu3.png'),
+      'menu_image' => asset('/dist/media/menus/menu3.png'),
       'menu_title' => 'Our People',
       'menu_subtitle' => 'Talented and diverse workforce'
     ]
@@ -10,12 +10,13 @@
   @include('blocks.two-column-carousel', [
     'data' => (object)[
       'background_type' => 'secondary',
-      'sub_image' => asset('dist/media/galleries/gallery-sub-02.png'),
+      'sub_image' => asset('/dist/media/galleries/gallery-sub-02.png'),
       'down_link' => 'values',
       'down_link_title' => 'See our values',
       'galleries' => [
         (object)[
-          'featured_image' => asset('dist/media/galleries/gallery-05.png'),
+          'featured_image' => asset('/dist/media/galleries/gallery-05.png'),
+          'video_url' => url('https://www.youtube.com/embed/3DhHwXNOwCw'),
           'before_type' => 'gray',
           'title' => '<h5 class="text-white">Wolff employees treat each other and our stakeholders with <span class="text-warning">honesty and respect.</span></h5>',
           'content' => '<p>Wolff is proud of its professional team. Staff are recruited based on their work ethic, skills and experience, and their understanding and appreciation of Wolff’s values.</p>
@@ -41,47 +42,56 @@
                     <p>Wolff asks its employees to be mindful of these core Values in everything they do.</p>',
       'values' => [
         (object)[
-          'icon_name' => 'safety',
+          'icon_name' => 'icon-safety',
           'title' => 'Safety',
+          'animation' => true,
           'content' => "Follow procedures, don't take shortcuts.Safety saves lives."
         ],
         (object)[
-          'icon_name' => 'relationship',
+          'icon_name' => 'icon-relationships',
           'title' => 'Relationships',
+          'animation' => true,
           'content' => 'Value them & keep working at them.'
         ],
         (object)[
-          'icon_name' => 'resilience',
+          'icon_name' => 'icon-resilience',
           'title' => 'Resilience',
+          'animation' => true,
           'content' => 'Remain positive, be innovative, work closely together with our peers.'
         ],
         (object)[
-          'icon_name' => 'transparency',
+          'icon_name' => 'icon-transparency',
           'title' => 'Transparency',
+          'animation' => true,
           'content' => 'Take pride in your work. <br />Be professional.'
         ],
         (object)[
-          'icon_name' => 'family',
+          'icon_name' => 'icon-peoplefamily',
           'title' => 'People and family',
+          'animation' => true,
           'content' => 'Go home safely. Exercise work life balance. Go the extra mile with people.'
         ],
         (object)[
-          'icon_name' => 'accountability',
+          'icon_name' => 'icon-accountability',
           'title' => 'Accountability',
+          'animation' => true,
           'content' => "Take ownership - whether you're right or wrong."
         ],
         (object)[
-          'icon_name' => 'quality',
+          'icon_name' => 'icon-quality',
           'title' => 'Quality Service',
+          'animation' => true,
           'content' => 'Integrity, do the job well.  Personal customer service is what our reputation is based on.'
         ],
         (object)[
-          'icon_name' => 'integrity',
+          'icon_name' => 'icon-integrity',
           'title' => 'Integrity',
+          'animation' => true,
           'content' => "Do what we say we're going to do. Be Open & honest."
         ],
         (object)[
-          'icon_name' => 'fiscal',
+          'icon_name' => 'icon-fiscal',
+          'animation' => true,
           'title' => 'Fiscal Responsibility',
           'content' => 'Attention to detail. <br /> Planning & preparation.'
         ]
@@ -93,7 +103,7 @@
       'background_type' => 'white',
       'galleries' => [
         (object)[
-          'featured_image' => asset('dist/media/galleries/gallery-01.png'),
+          'featured_image' => asset('/dist/media/galleries/gallery-01.png'),
           'before_type' => 'warning',
           'title' => '<h4 class="text-primary">Quality Management</h4>',
           'content' => "<p>Wolff operates under a Quality Management System compliant to ISO 9001:2015 standard.</p>
@@ -104,7 +114,7 @@
                         "
         ],
         (object)[
-          'featured_image' => asset('dist/media/galleries/gallery-02.png'),
+          'featured_image' => asset('/dist/media/galleries/gallery-02.png'),
           'before_type' => 'warning',
           'title' => '<h4 class="text-primary">Quality Management</h4>',
           'content' => "<p>Wolff operates under a Quality Management System compliant to ISO 9001:2015 standard.</p>
@@ -115,7 +125,7 @@
                         "
         ],
         (object)[
-          'featured_image' => asset('dist/media/galleries/gallery-03.png'),
+          'featured_image' => asset('/dist/media/galleries/gallery-03.png'),
           'before_type' => 'warning',
           'title' => '<h4 class="text-primary">Quality Management</h4>',
           'content' => "<p>Wolff operates under a Quality Management System compliant to ISO 9001:2015 standard.</p>
@@ -131,10 +141,11 @@
   @include('blocks.two-column-carousel', [
     'data' => (object)[
       'background_type' => 'secondary',
-      'sub_image' => asset('dist/media/galleries/gallery-sub-02.png'),
+      'sub_image' => asset('/dist/media/galleries/gallery-sub-03.png'),
       'galleries' => [
         (object)[
-          'featured_image' => asset('dist/media/galleries/gallery-05.png'),
+          'featured_image' => asset('/dist/media/galleries/gallery-05.png'),
+          'video_url' => url('https://www.youtube.com/embed/3DhHwXNOwCw'),
           'before_type' => 'gray',
           'title' => '<h4 class="text-white">CAREERS</h4>',
           'content' => '

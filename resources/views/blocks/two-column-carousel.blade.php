@@ -18,30 +18,35 @@
   <app-carousel class="column-carousel">
     <div class="column-block-item carousel-image">
       <div class="carousel-collection">
-        @foreach($data->galleries as $item)
-          <div class="slick-item">
-            <div class="featured-image" style="background-image: url('{{ $item->featured_image }}')">
-            </div>
-            <script data-item="post-info" type="text/html">
-              <div class="column-content">
-                <div class="title @if(isset($item->before_type))before-{{ $item->before_type }}@endif">
-                  @if(isset($item->logo))
-                    <div class="logo">
-                      <img src="{{ $item->logo }}" />
-                    </div>
-                  @endif
-                  {!! $item->title !!}
-                </div>
-                <div class="content @if(isset($data->background_type) && $data->background_type !== 'white') text-white @endif">
-                  {!! $item->content !!}
-                </div>
-                @if (isset($item->action_link))
-                  <a href="{{ $item->action_link }}" class="action-link btn-{{ $item->action_type }}" target="{{ $item->action_target }}">{{ $item->action_title }}</a>
+        @if(isset($data->galleries))
+          @foreach($data->galleries as $item)
+            <div class="slick-item">
+              <div class="featured-image" style="background-image: url('{{ $item->featured_image }}')">
+                @if(isset($item->video_url))
+                  <iframe src="{{ $item->video_url }}" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
                 @endif
               </div>
-            </script>
-          </div>
-        @endforeach
+              <script data-item="post-info" type="text/html">
+                <div class="column-content">
+                  <div class="title @if(isset($item->before_type))before-{{ $item->before_type }}@endif">
+                    @if(isset($item->featured_logo))
+                      <div class="logo">
+                        <img src="{{ $item->featured_logo }}" />
+                      </div>
+                    @endif
+                    {!! $item->title !!}
+                  </div>
+                  <div class="content @if(isset($data->background_type) && $data->background_type !== 'white') text-white @endif">
+                    {!! $item->content !!}
+                  </div>
+                  @if (isset($item->action_link))
+                    <a href="{{ $item->action_link }}" class="action-link btn-{{ $item->action_type }}" target="{{ $item->action_target }}">{{ $item->action_title }}</a>
+                  @endif
+                </div>
+              </script>
+            </div>
+          @endforeach
+        @endif
       </div>
       @if(isset($data->sub_image) && count($data->galleries) === 1)
         <div class="sub-image" style="background-image: url('{{ $data->sub_image }}')"></div>

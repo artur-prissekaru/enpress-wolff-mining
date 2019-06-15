@@ -2,7 +2,7 @@
   <app-navigation class="navigation">
     <div class="navigation-main">
       <a class="navbar-brand" href="/">
-        <img src={{ asset('dist/media/brands/logo.png') }} alt="logo" />
+        <img src={{ asset('/dist/media/brands/logo.png') }} alt="logo" />
       </a>
       <div class="navbar-toggler">
         <button class="navigation-toggle">
@@ -19,7 +19,7 @@
             <div class="menu-item">
               <a href="/innovation" class="nav-link">
                 <div class="card-menu">
-                  <div class="card-image" style="background-image: url('dist/media/menus/menu1.png')">
+                  <div class="card-image" style="background-image: url('/dist/media/menus/menu1.png')">
                   </div>
                   <h3 class="card-title">
                     Innovation
@@ -35,7 +35,7 @@
             <div class="menu-item">
               <a href="/projects" class="nav-link">
                 <div class="card-menu">
-                  <div class="card-image" style="background-image: url('dist/media/menus/menu2.png')">
+                  <div class="card-image" style="background-image: url('/dist/media/menus/menu2.png')">
                   </div>
                   <h3 class="card-title">
                     Projects
@@ -51,7 +51,7 @@
             <div class="menu-item">
               <a href="/our-people" class="nav-link">
                 <div class="card-menu">
-                  <div class="card-image" style="background-image: url('dist/media/menus/menu3.png')">
+                  <div class="card-image" style="background-image: url('/dist/media/menus/menu3.png')">
                   </div>
                   <h3 class="card-title">
                     Our people
@@ -67,7 +67,7 @@
             <div class="menu-item">
               <a href="/contact" class="nav-link">
                 <div class="card-menu">
-                  <div class="card-image" style="background-image: url('dist/media/menus/menu4.png')">
+                  <div class="card-image" style="background-image: url('/dist/media/menus/menu4.png')">
                   </div>
                   <h3 class="card-title">
                     Contact

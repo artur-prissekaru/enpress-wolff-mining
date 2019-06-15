@@ -2,7 +2,7 @@
 @section ('content')
   @include('blocks.other-hero', [
     'data' => (object)[
-      'menu_image' => asset('dist/media/menus/menu2.png'),
+      'menu_image' => asset('/dist/media/menus/menu2.png'),
       'menu_title' => 'Projects',
       'menu_subtitle' => 'ALWAYS EXCEEDING EXPECTATIONS'
     ]
@@ -10,12 +10,12 @@
   @include('blocks.two-column-carousel', [
     'data' => (object)[
       'background_type' => 'secondary',
-      'sub_image' => asset('dist/media/galleries/gallery-sub-01.png'),
+      'sub_image' => asset('/dist/media/galleries/gallery-sub-01.png'),
       'down_link' => 'projects',
       'down_link_title' => 'See our Projects',
       'galleries' => [
         (object)[
-          'featured_image' => asset('dist/media/galleries/gallery-03.png'),
+          'featured_image' => asset('/dist/media/galleries/gallery-03.png'),
           'before_type' => 'gray',
           'title' => '<h5 class="text-white">Wolff’s capacity to ramp up and down according to market fluctuations and other factors is <span class="text-warning">invaluable when meeting clients’ specific requirements.</span></h5>',
           'content' => '<p>With long standing relationships with its bankers National Australia Bank and other lending institutions such as Westpac and Bank of Queensland, and flexible arrangements in place with equipment manufacturers and suppliers such as Caterpillar, Hastings Deering, Hitachi and Orionstone, Wolff is able to act quickly to offer a number of options to deliver the desired outcome.</p>
@@ -37,76 +37,85 @@
     'data' => (object)[
       'projects' => [
         (object)[
-          'featured_image' => asset('dist/media/projects/project-01.png'),
-          'featured_logo' => asset('dist/media/logos/logo-01.png'),
+          'featured_image' => asset('/dist/media/projects/saraji/project-saraji-01.jpg'),
+          'featured_logo' => asset('/dist/media/logos/project-logos/logo-01.jpg'),
           'title' => 'Saraji mine',
           'sub_title' => 'BMA',
           'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.',
-          'action_link' => url('/project-detail')
+          'action_link' => url('/projects/saraji-mine'),
+          'target' => '_self'
         ],
         (object)[
-          'featured_image' => asset('dist/media/projects/project-01.png'),
-          'featured_logo' => asset('dist/media/logos/logo-01.png'),
-          'title' => 'Saraji mine',
-          'sub_title' => 'BMA',
+          'featured_image' => asset('/dist/media/projects/yarrabee/project-yarrabee-01.jpg'),
+          'featured_logo' => asset('/dist/media/logos/project-logos/logo-02.jpg'),
+          'title' => 'Yarrabee Mine',
+          'sub_title' => 'Yancol Australia',
           'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.',
-          'action_link' => url('/project-detail')
+          'action_link' => url('/projects/yarrabee-mine'),
+          'target' => '_self'
         ],
         (object)[
-          'featured_image' => asset('dist/media/projects/project-01.png'),
-          'featured_logo' => asset('dist/media/logos/logo-01.png'),
-          'title' => 'Saraji mine',
-          'sub_title' => 'BMA',
+          'featured_image' => asset('/dist/media/projects/acland/project-acland-01.jpg'),
+          'featured_logo' => asset('/dist/media/logos/project-logos/logo-03.jpg'),
+          'title' => 'Acland Mine',
+          'sub_title' => 'New Hope',
           'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.',
-          'action_link' => url('/project-detail')
+          'action_link' => url('/projects/acland-mine'),
+          'target' => '_self'
         ],
         (object)[
-          'featured_image' => asset('dist/media/projects/project-01.png'),
-          'featured_logo' => asset('dist/media/logos/logo-01.png'),
-          'title' => 'Saraji mine',
+          'featured_image' => asset('/dist/media/projects/blackwater/project-bma-01.jpg'),
+          'featured_logo' => asset('/dist/media/logos/project-logos/logo-01.jpg'),
+          'title' => 'Blackwater Mine',
           'sub_title' => 'BMA',
           'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.',
-          'action_link' => url('/project-detail')
+          'action_link' => url('/projects/blackwater-mine'),
+          'target' => '_self'
         ],
         (object)[
-          'featured_image' => asset('dist/media/projects/project-01.png'),
-          'featured_logo' => asset('dist/media/logos/logo-01.png'),
-          'title' => 'Saraji mine',
-          'sub_title' => 'BMA',
+          'featured_image' => asset('/dist/media/projects/bulga/project-bulga-01.jpg'),
+          'featured_logo' => asset('/dist/media/logos/project-logos/logo-05.png'),
+          'title' => 'Bulga Mine',
+          'sub_title' => 'Glencore',
           'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.',
-          'action_link' => url('/project-detail')
+          'action_link' => url('/projects/bulga-mine'),
+          'target' => '_self'
         ],
         (object)[
-          'featured_image' => asset('dist/media/projects/project-01.png'),
-          'featured_logo' => asset('dist/media/logos/logo-01.png'),
-          'title' => 'Saraji mine',
-          'sub_title' => 'BMA',
+          'featured_image' => asset('/dist/media/projects/coppabella/project-coppabella-01.jpg'),
+          'featured_logo' => asset('/dist/media/logos/project-logos/logo-06.png'),
+          'title' => 'Coppabella Mine',
+          'sub_title' => 'Peabody Energy',
           'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.',
-          'action_link' => url('/project-detail')
+          'action_link' => url('/projects/coppabella-mine'),
+          'target' => '_self'
         ],
         (object)[
-          'featured_image' => asset('dist/media/projects/project-01.png'),
-          'featured_logo' => asset('dist/media/logos/logo-01.png'),
-          'title' => 'Saraji mine',
-          'sub_title' => 'BMA',
+          'featured_image' => asset('/dist/media/projects/curragh/project-curragh-01.jpg'),
+          'featured_logo' => asset('/dist/media/logos/project-logos/logo-07.jpg'),
+          'title' => 'Curragh Mine',
+          'sub_title' => 'Coronado',
           'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.',
-          'action_link' => url('/project-detail')
+          'action_link' => url('/projects/curragh-mine'),
+          'target' => '_self'
         ],
         (object)[
-          'featured_image' => asset('dist/media/projects/project-01.png'),
-          'featured_logo' => asset('dist/media/logos/logo-01.png'),
-          'title' => 'Saraji mine',
-          'sub_title' => 'BMA',
+          'featured_image' => asset('/dist/media/projects/ensham/project-ensham01.jpg'),
+          'featured_logo' => asset('/dist/media/logos/project-logos/logo-06.png'),
+          'title' => 'Ensham Mine',
+          'sub_title' => 'Ensham Resources',
           'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.',
-          'action_link' => url('/project-detail')
+          'action_link' => url('/projects/ensham-mine'),
+          'target' => '_self'
         ],
         (object)[
-          'featured_image' => asset('dist/media/projects/project-01.png'),
-          'featured_logo' => asset('dist/media/logos/logo-01.png'),
-          'title' => 'Saraji mine',
-          'sub_title' => 'BMA',
+          'featured_image' => asset('/dist/media/projects/moorvale/project-moorvale-01.jpg'),
+          'featured_logo' => asset('/dist/media/logos/project-logos/logo-06.png'),
+          'title' => 'Moorvale Mine',
+          'sub_title' => 'Peabody Energy',
           'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.',
-          'action_link' => url('/project-detail')
+          'action_link' => url('/projects/moorvale-mine'),
+          'target' => '_self'
         ]
       ]
     ],

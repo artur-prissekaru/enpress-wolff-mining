@@ -12,21 +12,21 @@
       'background_type' => 'secondary',
       'galleries' => [
         (object)[
-          'featured_image' => asset('dist/media/galleries/gallery-02.png'),
+          'featured_image' => asset('dist/media/services/bulk/bulk-01.jpg'),
           'before_type' => 'warning',
           'title' => '<h4 class="text-white">Semi-autonomous large-scale <span class="text-warning">Satellite bulk dozer push</span></h4>',
           'content' => '<p>Wolff Mining is recognised as the leading satellite bulk dozer push operator, with operations currently being expanded throughout Australia and internationally.</p>
                         '
         ],
         (object)[
-          'featured_image' => asset('dist/media/galleries/gallery-02.png'),
+          'featured_image' => asset('dist/media/services/bulk/bulk-02.jpg'),
           'before_type' => 'warning',
           'title' => '<h4 class="text-white">Semi-autonomous large-scale <span class="text-warning">Satellite bulk dozer push</span></h4>',
           'content' => '<p>Wolff Mining is recognised as the leading satellite bulk dozer push operator, with operations currently being expanded throughout Australia and internationally.</p>
                         '
         ],
         (object)[
-          'featured_image' => asset('dist/media/galleries/gallery-02.png'),
+          'featured_image' => asset('dist/media/services/bulk/bulk-03.jpg'),
           'before_type' => 'warning',
           'title' => '<h4 class="text-white">Semi-autonomous large-scale <span class="text-warning">Satellite bulk dozer push</span></h4>',
           'content' => '<p>Wolff Mining is recognised as the leading satellite bulk dozer push operator, with operations currently being expanded throughout Australia and internationally.</p>
@@ -83,46 +83,53 @@
     'data' => (object)[
       'services' => [
         (object)[
-          'featured_image' => asset('dist/media/services/service-01.png'),
-          'image_link' => url('/'),
+          'featured_image' => asset('dist/media/services/blast/blast-01.jpg'),
+          'image_link' => url('/innovation/blast-hone-drilling'),
           'title' => 'Blast hole drilling',
-          'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim, adipiscing elit.'
+          'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim, adipiscing elit.',
+          'target' => '_self'
         ],
         (object)[
-          'featured_image' => asset('dist/media/services/service-01.png'),
-          'image_link' => url('/'),
+          'featured_image' => asset('dist/media/services/clearing/clearing-01.jpg'),
+          'image_link' => url('/innovation/rehabilitation-works'),
           'title' => 'Rehabilitation works',
-          'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim, adipiscing elit.'
+          'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim, adipiscing elit.',
+          'target' => '_self'
         ],
         (object)[
-          'featured_image' => asset('dist/media/services/service-01.png'),
-          'image_link' => url('/'),
+          'featured_image' => asset('dist/media/services/automated/automated-01.jpg'),
+          'image_link' => url('/innovation/automated-equipment'),
           'title' => 'Automated equipment',
-          'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim, adipiscing elit.'
+          'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim, adipiscing elit.',
+          'target' => '_self'
         ],
         (object)[
-          'featured_image' => asset('dist/media/services/service-01.png'),
-          'image_link' => url('/'),
+          'featured_image' => asset('dist/media/services/bulk/bulk-01.jpg'),
+          'image_link' => url('/innovation/satellite-bulk-dozer-push'),
           'title' => 'Satellite bulk dozer push',
-          'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.'
+          'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.',
+          'target' => '_self'
         ],
         (object)[
-          'featured_image' => asset('dist/media/services/service-01.png'),
-          'image_link' => url('/'),
+          'featured_image' => asset('dist/media/services/fleets/fleets-01.jpg'),
+          'image_link' => url('/innovation/pre-strip-fleets'),
           'title' => 'Pre strip fleets',
-          'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim, adipiscing elit.'
+          'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim, adipiscing elit.',
+          'target' => '_self'
         ],
         (object)[
-          'featured_image' => asset('dist/media/services/service-01.png'),
-          'image_link' => url('/'),
+          'featured_image' => asset('dist/media/services/civil/civil-01.jpg'),
+          'image_link' => url('/innovation/civil-earthworks'),
           'title' => 'Civil earthworks',
-          'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim, adipiscing elit.'
+          'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim, adipiscing elit.',
+          'target' => '_self'
         ],
         (object)[
-          'featured_image' => asset('dist/media/services/service-01.png'),
-          'image_link' => url('/'),
+          'featured_image' => asset('dist/media/services/clearing/clearing-01.jpg'),
+          'image_link' => url('/innovation/site-clearing'),
           'title' => 'Site clearing',
-          'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim, adipiscing elit.'
+          'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim, adipiscing elit.',
+          'target' => '_self'
         ],
       ]
     ]

@@ -2,7 +2,7 @@
 @section ('content')
   @include('blocks.other-hero', [
     'data' => (object)[
-      'menu_image' => asset('dist/media/menus/menu2.png'),
+      'menu_image' => asset('/dist/media/menus/menu2.png'),
       'menu_title' => 'Projects',
       'menu_subtitle' => 'ALWAYS EXCEEDING EXPECTATIONS'
     ]
@@ -12,96 +12,75 @@
       'background_type' => 'white',
       'down_link' => 'projects',
       'down_link_title' => 'See more Projects',
-      'galleries' => [
-        (object)[
-          'featured_image' => asset('dist/media/galleries/gallery-04.png'),
-          'before_type' => 'warning',
-          'logo' => asset('dist/media/logos/logo-02.png'),
-          'title' => '<h4 class="text-primary">Coppabella Mine</h4>',
-          'content' => '<p>Originally on site 2012-13 with a workforce of 56 delivering Pre strip services and the construction of haul roads utilising a Hitachi 3600-6 excavator, D11 Dozers, dump trucks and graders.  Over 8 million BCM was moved in less than 12 months.</p>
-                        <p>From April 2015 Wolff has been delivering Dozer push services with 4 crews of 3 Operators supported by management and administration based in Toowoomba.</p>
-                        <p>Wolff recently acquired a 3 year Blast Hole Drilling contract starting February 2016 with Peabody. For the project we chose a semi-autonomous CAT MD6420B Drill Rig 13m mast with a hole diameter of 229mm to 311mm capable of drilling up to 75m in depth. </p>
-                        '
-        ],
-        (object)[
-          'featured_image' => asset('dist/media/galleries/gallery-04.png'),
-          'before_type' => 'warning',
-          'logo' => asset('dist/media/logos/logo-02.png'),
-          'title' => '<h4 class="text-primary">Coppabella Mine</h4>',
-          'content' => '<p>Originally on site 2012-13 with a workforce of 56 delivering Pre strip services and the construction of haul roads utilising a Hitachi 3600-6 excavator, D11 Dozers, dump trucks and graders.  Over 8 million BCM was moved in less than 12 months.</p>
-                        <p>From April 2015 Wolff has been delivering Dozer push services with 4 crews of 3 Operators supported by management and administration based in Toowoomba.</p>
-                        <p>Wolff recently acquired a 3 year Blast Hole Drilling contract starting February 2016 with Peabody. For the project we chose a semi-autonomous CAT MD6420B Drill Rig 13m mast with a hole diameter of 229mm to 311mm capable of drilling up to 75m in depth. </p>
-                        '
-        ],
-        (object)[
-          'featured_image' => asset('dist/media/galleries/gallery-04.png'),
-          'before_type' => 'warning',
-          'logo' => asset('dist/media/logos/logo-02.png'),
-          'title' => '<h4 class="text-primary">Coppabella Mine</h4>',
-          'content' => '<p>Originally on site 2012-13 with a workforce of 56 delivering Pre strip services and the construction of haul roads utilising a Hitachi 3600-6 excavator, D11 Dozers, dump trucks and graders.  Over 8 million BCM was moved in less than 12 months.</p>
-                        <p>From April 2015 Wolff has been delivering Dozer push services with 4 crews of 3 Operators supported by management and administration based in Toowoomba.</p>
-                        <p>Wolff recently acquired a 3 year Blast Hole Drilling contract starting February 2016 with Peabody. For the project we chose a semi-autonomous CAT MD6420B Drill Rig 13m mast with a hole diameter of 229mm to 311mm capable of drilling up to 75m in depth. </p>
-                        '
-        ]
-      ]
+      'galleries' => $galleries
     ]
   ])
+
   @include('blocks.two-column-projects', [
     'data' => (object)[
       'projects' => [
         (object)[
-          'featured_image' => asset('dist/media/projects/project-01.png'),
-          'image_link' => url('/project-detail'),
+          'featured_image' => asset('/dist/media/projects/saraji/project-saraji-01.jpg'),
+          'image_link' => url('http://www.wolffgroup.com.au/projects/projects/saraji-mine/'),
           'sub_title' => 'BMA',
-          'title' => 'Saraji mine'
+          'title' => 'Saraji mine',
+          'target' => '_blank'
         ],
         (object)[
-          'featured_image' => asset('dist/media/projects/project-01.png'),
-          'image_link' => url('/project-detail'),
+          'featured_image' => asset('/dist/media/projects/yarrabee/project-yarrabee-01.jpg'),
+          'image_link' => url('http://www.wolffgroup.com.au/projects/projects/yarrabee-mine/'),
           'sub_title' => 'Yancol Australia',
-          'title' => 'Yarrabee Mine'
+          'title' => 'Yarrabee Mine',
+          'target' => '_blank'
         ],
         (object)[
-          'featured_image' => asset('dist/media/projects/project-01.png'),
-          'image_link' => url('/project-detail'),
+          'featured_image' => asset('/dist/media/projects/acland/project-acland-01.jpg'),
+          'image_link' => url('http://www.wolffgroup.com.au/projects/projects/acland-mine/'),
           'sub_title' => 'New Hope',
-          'title' => 'Acland Mine'
+          'title' => 'Acland Mine',
+          'target' => '_blank'
         ],
         (object)[
-          'featured_image' => asset('dist/media/projects/project-01.png'),
-          'image_link' => url('/project-detail'),
+          'featured_image' => asset('/dist/media/projects/blackwater/project-bma-01.jpg'),
+          'image_link' => url('http://www.wolffgroup.com.au/projects/projects/blackwater-mine/'),
           'sub_title' => 'BMA',
-          'title' => 'Blackwater Mine'
+          'title' => 'Blackwater Mine',
+          'target' => '_blank'
         ],
         (object)[
-          'featured_image' => asset('dist/media/projects/project-01.png'),
-          'image_link' => url('/project-detail'),
+          'featured_image' => asset('/dist/media/projects/bulga/project-bulga-01.jpg'),
+          'image_link' => url('http://www.wolffgroup.com.au/projects/projects/bulga-mine/'),
           'sub_title' => 'Glencore',
-          'title' => 'Bulga Mine'
+          'title' => 'Bulga Mine',
+          'target' => '_blank'
         ],
         (object)[
-          'featured_image' => asset('dist/media/projects/project-01.png'),
-          'image_link' => url('/project-detail'),
+          'featured_image' => asset('/dist/media/projects/coppabella/project-coppabella-01.jpg'),
+          'image_link' => url('http://www.wolffgroup.com.au/projects/projects/coppabella-mine/'),
           'sub_title' => 'Peabody Energy',
-          'title' => 'Coppabella Mine'
+          'title' => 'Coppabella Mine',
+          'target' => '_blank'
         ],
         (object)[
-          'featured_image' => asset('dist/media/projects/project-01.png'),
-          'image_link' => url('/project-detail'),
+          'featured_image' => asset('/dist/media/projects/curragh/project-curragh-01.jpg'),
+          'image_link' => url('http://www.wolffgroup.com.au/projects/projects/curragh-mine/'),
           'sub_title' => 'Coronado',
-          'title' => 'Curragh Mine'
+          'title' => 'Curragh Mine',
+          'target' => '_blank'
         ],
         (object)[
-          'featured_image' => asset('dist/media/projects/project-01.png'),
-          'image_link' => url('/project-detail'),
+          'featured_image' => asset('/dist/media/projects/ensham/project-ensham01.jpg'),
+          'image_link' => url('http://www.wolffgroup.com.au/projects/projects/ensham-mine/'),
           'sub_title' => 'Ensham Resources',
-          'title' => 'Ensham Mine'
+          'title' => 'Ensham Mine',
+          'target' => '_blank'
         ],
         (object)[
-          'featured_image' => asset('dist/media/projects/project-01.png'),
-          'image_link' => url('/project-detail'),
+          'featured_image' => asset('/dist/media/projects/moorvale/project-moorvale-01.jpg'),
+          'image_link' => url('http://www.wolffgroup.com.au/projects/projects/moorvale-mine/'),
           'sub_title' => 'Peabody Energy',
-          'title' => 'Moorvale Mine'
+          'title' => 'Moorvale Mine',
+          'target' => '_blank'
         ]
       ],
       'title' => '<h4 class="text-primary">Projects</h4>',

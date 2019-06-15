@@ -9,7 +9,8 @@
                 'featured_image' => $item->featured_image,
                 'image_link' => $item->image_link,
                 'title' => $item->title,
-                'content' => $item->content
+                'content' => $item->content,
+                'target' => $item->target
               ]
             ])
           </div>
