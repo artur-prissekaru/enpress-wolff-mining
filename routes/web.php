@@ -364,11 +364,11 @@ Route::get('/innovation/{slug}', function($slug) {
             'right_content' => '<h6 class="text-primary">Current and Past Blast Hole Drilling Contracts</h6>
                                 <ul>
                                     <li>
-                                        <strong>Peabody Moorvale Mine:</strong>
+                                        <strong>Peabody Moorvale Mine:</strong><br />
                                         On site since February 2016 undertaking blast hole drilling services at a rate of 35,000m/month.
                                     </li>
                                     <li>
-                                        <strong>Peabody Coppabella Mine:</strong>
+                                        <strong>Peabody Coppabella Mine:</strong><br />
                                         On site since February 2016 undertaking blast hole drilling services at a rate of 35,000m/month
                                     </li>
                                 </ul>
@@ -441,7 +441,7 @@ Route::get('/innovation/{slug}', function($slug) {
                                 <h6 class="text-primary">Current and Past Dozer Push Contracts</h6>
                                 <ul>
                                     <li>
-                                        <strong>BMA Blackwater Mine:</strong>
+                                        <strong>BMA Blackwater Mine:</strong><br />
                                         Completed (2007 - 2014) bulk dozer push contract of approx. 50M LCM.
                                     </li>
                                     <li>
@@ -497,11 +497,11 @@ Route::get('/innovation/{slug}', function($slug) {
                                 <h6 class="text-primary">Current and Past Pre-Strip Topsoil Contracts</h6>
                                 <ul>
                                     <li>
-                                        <strong>BMA Saraji Mine:</strong>
+                                        <strong>BMA Saraji Mine:</strong><br />
                                         On site since July 2014 - 2016 with a project team of 12 removing topsoil and undertaking ancillary earthworks.
                                     </li>
                                     <li>
-                                        <strong>Peabody Coppabella Mine:</strong>
+                                        <strong>Peabody Coppabella Mine:</strong><br />
                                         Completed during 2012 full box-cut and east pit re-alingment of 6M BCM over 11 months.
                                     </li>
                                 </ul>
@@ -538,15 +538,15 @@ Route::get('/innovation/{slug}', function($slug) {
                                 <h6 class="text-priamry">Current and Past Mine Site Rehabilitation</h6>
                                 <ul>
                                     <li>
-                                        <strong>New Hope Coal Acland Mine:</strong>
+                                        <strong>New Hope Coal Acland Mine:</strong><br />
                                         Commenced 2008 with additional repeat work within Dozer Push.
                                     </li>
                                     <li>
-                                        <strong>Ensham Resources Mine:</strong>
+                                        <strong>Ensham Resources Mine:</strong><br />
                                         Wolff Mining commenced 2014 undertaking full mine rehabilitation earthworks over a 12-month period. Mine rehabilitation and re-shaping 2017.
                                     </li>
                                     <li>
-                                        <strong>Wesfarmers Curragh Mine:</strong>
+                                        <strong>Wesfarmers Curragh Mine:</strong><br />
                                         On-going mine rehabilitation through 2017.
                                     </li>
                                 </ul>
@@ -578,15 +578,15 @@ Route::get('/innovation/{slug}', function($slug) {
                                 <h6 class="text-primary">Current and Past Civil Construction Contracts</h6>
                                 <ul>
                                     <li>
-                                        <strong>BMA Blackwater Mine:</strong>
+                                        <strong>BMA Blackwater Mine:</strong><br />
                                         Long term contract from 2007 for back access road maintenance and geo works. Additional 2016 civil contract work for road construction and CHPP maintenance.
                                     </li>
                                     <li>
-                                        <strong>Minyango:</strong>
+                                        <strong>Minyango:</strong><br />
                                         Seismic lines and drill pad construction, including pad rehabilitation.
                                     </li>
                                     <li>
-                                        <strong>Wesfarmers Curragh:</strong>
+                                        <strong>Wesfarmers Curragh:</strong><br />
                                         S-Pit Sediment Control - Construction Project Management.
                                     </li>
                                 </ul>
@@ -617,15 +617,15 @@ Route::get('/innovation/{slug}', function($slug) {
                                 <h6 class="text-priamry">Current and Past Mine Site Rehabilitation</h6>
                                 <ul>
                                     <li>
-                                        <strong>New Hope Coal Acland Mine:</strong>
+                                        <strong>New Hope Coal Acland Mine:</strong><br />
                                         Commenced 2008 with additional repeat work within Dozer Push.
                                     </li>
                                     <li>
-                                        <strong>Ensham Resources Mine:</strong>
+                                        <strong>Ensham Resources Mine:</strong><br />
                                         Wolff Mining commenced 2014 undertaking full mine rehabilitation earthworks over a 12-month period. Mine rehabilitation and re-shaping 2017.
                                     </li>
                                     <li>
-                                        <strong>Wesfarmers Curragh Mine:</strong>
+                                        <strong>Wesfarmers Curragh Mine:</strong><br />
                                         On-going mine rehabilitation through 2017.
                                     </li>
                                 </ul>
