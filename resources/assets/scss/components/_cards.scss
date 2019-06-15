@@ -170,6 +170,17 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      &:hover {
+        color: transparent;
+      }
+      &:before {
+        content: '\2192';
+        font-size: 32px;
+        line-height: 1;
+        color: $white;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
     }
     button {
       position: absolute;

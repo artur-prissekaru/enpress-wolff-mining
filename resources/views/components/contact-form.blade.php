@@ -48,7 +48,6 @@
       >
         Send Message&nbsp;
         <div class="action-link">
-          <i class="icon icon-arrow-right icon-ts"></i>
         </div>
       </button>
     </form>
