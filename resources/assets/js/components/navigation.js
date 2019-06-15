@@ -8,9 +8,7 @@ class Navigation extends HTMLElement {
 
   init() {
     this.toggler = this.querySelector('.navigation .navigation-toggle');
-    this.closer = this.querySelector('.navigation .navigation-toggle-close');
     this.toggler.addEventListener('click', this.handleNavigationToggle);
-    this.closer.addEventListener('click',  this.handleNavigationClose);
   }
 
   handleNavigationToggle() {

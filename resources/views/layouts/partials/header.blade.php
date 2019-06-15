@@ -6,10 +6,9 @@
       </a>
       <div class="navbar-toggler">
         <button class="navigation-toggle">
-          <img src={{ asset('dist/media/brands/toggle.png') }} alt="toggle" />
-        </button>
-        <button class="navigation-toggle-close">
-          <img src={{ asset('dist/media/brands/toggle-open.png') }} />
+          <span></span>
+          <span></span>
+          <span></span>
         </button>
       </div>
     </div>
