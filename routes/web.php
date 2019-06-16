@@ -541,7 +541,7 @@ Route::get('/innovation/{slug}', function($slug) {
                 ],
                 (object)[
                     'before_type' => 'warning',
-                    'featured_image' => asset('/dist/media/services/fleets/fleets-01.jpg'),
+                    'featured_image' => asset('/dist/media/services/fleets/fleets-02.jpg'),
                     'title' => '<h4 class="text-primary">Pre-Strip Topsoil Removal</h4>',
                     'content' => '<p>Wolff Mining’s extensive experience in the Black Coal industry enables the company to provide innovative and cost-effective contract mining solutions.</p>
                                 <p>These have included the provision of pre-strip fleets and the management and operation of principle supplied fleets.</p>
