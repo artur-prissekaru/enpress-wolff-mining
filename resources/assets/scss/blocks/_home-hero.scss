@@ -4,7 +4,7 @@
   .hero-spacer {
     position: relative;
     @include media-breakpoint-down('md') {
-      height: 735px;
+      height: 734px;
     }
     video {
       @include media-breakpoint-up('lg') {

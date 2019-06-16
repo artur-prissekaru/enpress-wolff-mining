@@ -1,4 +1,14 @@
-<div class="card-project">
+<?php
+  $string = '';
+  if (isset($data->content)) :
+    $string = $data->content;
+    $content = substr($data->content, 0, 165);
+    if(substr_compare($data->content, $content, 0)) :
+      $string = $content.'...';
+    endif;
+  endif;
+?>
+<div class="card-project w-100">
   <div class="card-image" style="background: url('{{ $data->featured_image }}')">
     @if(isset($data->image_link) && $data->image_link !== '')
       <a class="action-link" href="{{ $data->image_link }}" target="{{ $data->target }}">
@@ -23,9 +33,11 @@
         </div>
       @endif
     </div>
-    @if(isset($data->content))
-      {!! $data->content !!}
-    @endif
+    <div class="content">
+      @if($string)
+        {!! $string !!}
+      @endif
+    </div>
     @if(isset($data->action_link) && $data->action_link !=='')
       <a href="{{ $data->action_link }}" class="action-link" target="{{ $data->target }}">
       </a>

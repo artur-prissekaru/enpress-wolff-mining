@@ -37,7 +37,7 @@ Route::get('/projects/{slug}', function($slug) {
             'slug' => 'saraji-mine',
             'title' => 'Saraji Mine',
             'sub_title' => 'BMA',
-            'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.',
+            'content' => 'On site since July 2014 with a project team of 11 removing top soil and undertaking ancillary earthworks. Contract term extended for 12 months from July 2015.',
             'featured_image' => asset('/dist/media/projects/saraji/project-saraji-01.jpg'),
             'galleries' => [
                 (object)[
@@ -45,21 +45,21 @@ Route::get('/projects/{slug}', function($slug) {
                     'featured_image' => asset('/dist/media/projects/saraji/project-saraji-01.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-01.jpg'),
                     'title' => '<h4 class="text-primary">Saraji mine</h4>',
-                    'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
+                    'content' => '<p>On site since July 2014 with a project team of 11 removing top soil and undertaking ancillary earthworks.</p><p>Contract term extended for 12 months from July 2015.</p>'
                 ],
                 (object)[
                     'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/saraji/project-saraji-02.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-01.jpg'),
                     'title' => '<h4 class="text-primary">Saraji mine</h4>',
-                    'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
+                    'content' => '<p>On site since July 2014 with a project team of 11 removing top soil and undertaking ancillary earthworks.</p><p>Contract term extended for 12 months from July 2015.</p>'
                 ],
                 (object)[
                     'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/saraji/project-saraji-03.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-01.jpg'),
                     'title' => '<h4 class="text-primary">Saraji mine</h4>',
-                    'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
+                    'content' => '<p>On site since July 2014 with a project team of 11 removing top soil and undertaking ancillary earthworks.</p><p>Contract term extended for 12 months from July 2015.</p>'
                 ],
             ]
         ],
@@ -67,7 +67,7 @@ Route::get('/projects/{slug}', function($slug) {
             'slug' => 'yarrabee-mine',
             'title' => 'Yarrabee Mine',
             'sub_title' => 'Yancol Australia',
-            'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>',
+            'content' => 'Wolff originally commenced on site at Yarrabee in 2010 to undertake Dozer push and rehabilitation works. ',
             'featured_image' => asset('/dist/media/projects/yarrabee/project-yarrabee-01.jpg'),
             'galleries' => [
                 (object)[
@@ -75,21 +75,21 @@ Route::get('/projects/{slug}', function($slug) {
                     'featured_image' => asset('/dist/media/projects/yarrabee/project-yarrabee-01.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-02.jpg'),
                     'title' => '<h4 class="text-primary">Yarrabee Mine</h4>',
-                    'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
+                    'content' => '<p>Wolff originally commenced on site at Yarrabee in 2010 to undertake Dozer push and rehabilitation works.</p><p>July 2014 Wolff was back on site operating 4 D11 Dozers completing bulk Dozer push, drill prep, and day works as requested.</p>'
                 ],
                 (object)[
                     'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/yarrabee/project-yarrabee-02.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-02.jpg'),
                     'title' => '<h4 class="text-primary">Yarrabee Mine</h4>',
-                    'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
+                    'content' => '<p>Wolff originally commenced on site at Yarrabee in 2010 to undertake Dozer push and rehabilitation works.</p><p>July 2014 Wolff was back on site operating 4 D11 Dozers completing bulk Dozer push, drill prep, and day works as requested.</p>'
                 ],
                 (object)[
                     'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/yarrabee/project-yarrabee-03.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-02.jpg'),
                     'title' => '<h4 class="text-primary">Yarrabee Mine</h4>',
-                    'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
+                    'content' => '<p>Wolff originally commenced on site at Yarrabee in 2010 to undertake Dozer push and rehabilitation works.</p><p>July 2014 Wolff was back on site operating 4 D11 Dozers completing bulk Dozer push, drill prep, and day works as requested.</p>'
                 ],
             ]
         ],
@@ -97,7 +97,7 @@ Route::get('/projects/{slug}', function($slug) {
             'slug' => 'acland-mine',
             'title' => 'Acland Mine',
             'sub_title' => 'New hope',
-            'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>',
+            'content' => 'Late 2009 Wolff commenced a three year term performing general Dozer works at New Hope’s Acland mine.',
             'featured_image' => asset('/dist/media/projects/acland/project-acland-01.jpg'),
             'galleries' => [
                 (object)[
@@ -105,14 +105,14 @@ Route::get('/projects/{slug}', function($slug) {
                     'featured_image' => asset('/dist/media/projects/acland/project-acland-01.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-03.jpg'),
                     'title' => '<h4 class="text-primary">Acland Mine</h4>',
-                    'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
+                    'content' => '<p>Late 2009 Wolff commenced a three year term performing general Dozer works at New Hope’s Acland mine.</p>'
                 ],
                 (object)[
                     'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/acland/project-acland-02.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-03.jpg'),
                     'title' => '<h4 class="text-primary">Acland Mine</h4>',
-                    'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
+                    'content' => '<p>Late 2009 Wolff commenced a three year term performing general Dozer works at New Hope’s Acland mine.</p>'
                 ]
             ]
         ],
@@ -120,7 +120,7 @@ Route::get('/projects/{slug}', function($slug) {
             'slug' => 'blackwater-mine',
             'title' => 'BlackWater Mine',
             'sub_title' => 'BMA',
-            'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>',
+            'content' => 'On site since 2008 undertaking dozer push and back access road construction and maintenance. Approximately 10 million BCM per year was moved with a workforce ramping up and down from 41 to 90.',
             'featured_image' => asset('/dist/media/projects/blackwater/project-bma-01.jpg'),
             'galleries' => [
                 (object)[
@@ -128,28 +128,40 @@ Route::get('/projects/{slug}', function($slug) {
                     'featured_image' => asset('/dist/media/projects/blackwater/project-bma-01.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-01.jpg'),
                     'title' => '<h4 class="text-primary">BlackWater Mine</h4>',
-                    'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
+                    'content' => "
+                                <p>On site since 2008 undertaking dozer push and back access road construction and maintenance. Approximately 10 million BCM per year was moved with a workforce ramping up and down from 41 to 90. The current Back Access road project team comprises 19 including off site administrative support.</p>
+                                <p>During this period, at BMA's request, Wolff has completed a series of smaller projects under different arrangements.</p>
+                                "
                 ],
                 (object)[
                     'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/blackwater/project-bma-02.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-01.jpg'),
                     'title' => '<h4 class="text-primary">BlackWater Mine</h4>',
-                    'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
+                    'content' => "
+                                <p>On site since 2008 undertaking dozer push and back access road construction and maintenance. Approximately 10 million BCM per year was moved with a workforce ramping up and down from 41 to 90. The current Back Access road project team comprises 19 including off site administrative support.</p>
+                                <p>During this period, at BMA's request, Wolff has completed a series of smaller projects under different arrangements.</p>
+                                "
                 ],
                 (object)[
                     'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/blackwater/project-bma-03.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-01.jpg'),
                     'title' => '<h4 class="text-primary">BlackWater Mine</h4>',
-                    'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
+                    'content' => "
+                                <p>On site since 2008 undertaking dozer push and back access road construction and maintenance. Approximately 10 million BCM per year was moved with a workforce ramping up and down from 41 to 90. The current Back Access road project team comprises 19 including off site administrative support.</p>
+                                <p>During this period, at BMA's request, Wolff has completed a series of smaller projects under different arrangements.</p>
+                                "
                 ],
                 (object)[
                     'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/blackwater/project-bma-04.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-01.jpg'),
                     'title' => '<h4 class="text-primary">BlackWater Mine</h4>',
-                    'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
+                    'content' => "
+                                <p>On site since 2008 undertaking dozer push and back access road construction and maintenance. Approximately 10 million BCM per year was moved with a workforce ramping up and down from 41 to 90. The current Back Access road project team comprises 19 including off site administrative support.</p>
+                                <p>During this period, at BMA's request, Wolff has completed a series of smaller projects under different arrangements.</p>
+                                "
                 ],
             ]
         ],
@@ -157,7 +169,7 @@ Route::get('/projects/{slug}', function($slug) {
             'slug' => 'bulga-mine',
             'title' => 'Bulga Mine',
             'sub_title' => 'Glencore',
-            'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>',
+            'content' => 'August 2015 Wolff completed a 12 month blast hole drilling services contract operating 4 Terex drills at Glencore’s Bulga mine.',
             'featured_image' => asset('/dist/media/projects/bulga/project-bulga-01.jpg'),
             'galleries' => [
                 (object)[
@@ -165,21 +177,21 @@ Route::get('/projects/{slug}', function($slug) {
                     'featured_image' => asset('/dist/media/projects/bulga/project-bulga-01.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-05.png'),
                     'title' => '<h4 class="text-primary">Bulga Mine</h4>',
-                    'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
+                    'content' => '<p>August 2015 Wolff completed a 12 month blast hole drilling services contract operating 4 Terex drills at Glencore’s Bulga mine.</p>'
                 ],
                 (object)[
                     'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/bulga/project-bulga-02.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-05.png'),
                     'title' => '<h4 class="text-primary">Bulga Mine</h4>',
-                    'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
+                    'content' => '<p>August 2015 Wolff completed a 12 month blast hole drilling services contract operating 4 Terex drills at Glencore’s Bulga mine.</p>'
                 ],
                 (object)[
                     'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/bulga/project-bulga-03.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-05.png'),
                     'title' => '<h4 class="text-primary">Bulga Mine</h4>',
-                    'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
+                    'content' => '<p>August 2015 Wolff completed a 12 month blast hole drilling services contract operating 4 Terex drills at Glencore’s Bulga mine.</p>'
                 ]
             ]
         ],
@@ -187,7 +199,7 @@ Route::get('/projects/{slug}', function($slug) {
             'slug' => 'coppabella-mine',
             'title' => 'Coppabella Mine',
             'sub_title' => 'Peabody energey',
-            'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>',
+            'content' => 'Originally on site 2012-13 with a workforce of 56 delivering Pre strip services and the construction of haul roads utilising a Hitachi 3600-6 excavator, D11 Dozers, dump trucks and graders. Over 8 million BCM was moved in less than 12 months.',
             'featured_image' => asset('/dist/media/projects/coppabella/project-coppabella-01.jpg'),
             'galleries' => [
                 (object)[
@@ -223,7 +235,7 @@ Route::get('/projects/{slug}', function($slug) {
             'slug' => 'curragh-mine',
             'title' => 'Curragh Mine',
             'sub_title' => 'coronado',
-            'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>',
+            'content' => '<p>2008 Wolff commenced Dozer push and coal uncovery works operating D11 Dozers. Throughout the life of the Project the workforce has ranged from 68 to 83 to 45 to meet requirements.</p>',
             'featured_image' => asset('/dist/media/projects/curragh/project-curragh-01.jpg'),
             'galleries' => [
                 (object)[
@@ -231,42 +243,54 @@ Route::get('/projects/{slug}', function($slug) {
                     'featured_image' => asset('/dist/media/projects/curragh/project-curragh-01.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-07.jpg'),
                     'title' => '<h4 class="text-primary">Curragh Mine</h4>',
-                    'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
+                    'content' => '<p>2008 Wolff commenced Dozer push and coal uncovery works operating D11 Dozers. Throughout the life of the Project the workforce has ranged from 68 to 83 to 45 to meet requirements.</p>
+                                <p>Wolff has also undertaken rehabilitation work during its tenure at Curragh and more recently commenced a new contract to perform bulk push Dozer operations to expose coal, prepare dragline benches, strip waste, establish high wall ramps, drill bench preparation, ancillary tasks and bush clearing.</p>
+                                '
                 ],
                 (object)[
                     'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/curragh/project-curragh-02.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-07.jpg'),
                     'title' => '<h4 class="text-primary">Curragh Mine</h4>',
-                    'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
+                    'content' => '<p>2008 Wolff commenced Dozer push and coal uncovery works operating D11 Dozers. Throughout the life of the Project the workforce has ranged from 68 to 83 to 45 to meet requirements.</p>
+                                <p>Wolff has also undertaken rehabilitation work during its tenure at Curragh and more recently commenced a new contract to perform bulk push Dozer operations to expose coal, prepare dragline benches, strip waste, establish high wall ramps, drill bench preparation, ancillary tasks and bush clearing.</p>
+                    '
                 ],
                 (object)[
                     'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/curragh/project-curragh-03.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-07.jpg'),
                     'title' => '<h4 class="text-primary">Curragh Mine</h4>',
-                    'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
+                    'content' => '<p>2008 Wolff commenced Dozer push and coal uncovery works operating D11 Dozers. Throughout the life of the Project the workforce has ranged from 68 to 83 to 45 to meet requirements.</p>
+                    <p>Wolff has also undertaken rehabilitation work during its tenure at Curragh and more recently commenced a new contract to perform bulk push Dozer operations to expose coal, prepare dragline benches, strip waste, establish high wall ramps, drill bench preparation, ancillary tasks and bush clearing.</p>
+                    '
                 ],
                 (object)[
                     'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/curragh/project-curragh-04.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-07.jpg'),
                     'title' => '<h4 class="text-primary">Curragh Mine</h4>',
-                    'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
+                    'content' => '<p>2008 Wolff commenced Dozer push and coal uncovery works operating D11 Dozers. Throughout the life of the Project the workforce has ranged from 68 to 83 to 45 to meet requirements.</p>
+                    <p>Wolff has also undertaken rehabilitation work during its tenure at Curragh and more recently commenced a new contract to perform bulk push Dozer operations to expose coal, prepare dragline benches, strip waste, establish high wall ramps, drill bench preparation, ancillary tasks and bush clearing.</p>
+                    '
                 ],
                 (object)[
                     'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/curragh/project-curragh-05.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-07.jpg'),
                     'title' => '<h4 class="text-primary">Curragh Mine</h4>',
-                    'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
+                    'content' => '<p>2008 Wolff commenced Dozer push and coal uncovery works operating D11 Dozers. Throughout the life of the Project the workforce has ranged from 68 to 83 to 45 to meet requirements.</p>
+                    <p>Wolff has also undertaken rehabilitation work during its tenure at Curragh and more recently commenced a new contract to perform bulk push Dozer operations to expose coal, prepare dragline benches, strip waste, establish high wall ramps, drill bench preparation, ancillary tasks and bush clearing.</p>
+                    '
                 ],
                 (object)[
                     'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/curragh/project-curragh-06.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-07.jpg'),
                     'title' => '<h4 class="text-primary">Curragh Mine</h4>',
-                    'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
+                    'content' => '<p>2008 Wolff commenced Dozer push and coal uncovery works operating D11 Dozers. Throughout the life of the Project the workforce has ranged from 68 to 83 to 45 to meet requirements.</p>
+                    <p>Wolff has also undertaken rehabilitation work during its tenure at Curragh and more recently commenced a new contract to perform bulk push Dozer operations to expose coal, prepare dragline benches, strip waste, establish high wall ramps, drill bench preparation, ancillary tasks and bush clearing.</p>
+                    '
                 ],
             ]
         ],
@@ -274,7 +298,7 @@ Route::get('/projects/{slug}', function($slug) {
             'slug' => 'ensham-mine',
             'title' => 'Ensham Mine',
             'sub_title' => 'Ensham Resources',
-            'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>',
+            'content' => '<p>Wolff deployed 12 personnel to site in August 2014 to undertake Rehabilitation earthworks over a 12 month period.</p>',
             'featured_image' => asset('/dist/media/projects/ensham/project-ensham01.jpg'),
             'galleries' => [
                 (object)[
@@ -282,49 +306,49 @@ Route::get('/projects/{slug}', function($slug) {
                     'featured_image' => asset('/dist/media/projects/ensham/project-ensham01.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-06.png'),
                     'title' => '<h4 class="text-primary">Ensham Mine</h4>',
-                    'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
+                    'content' => '<p>Wolff deployed 12 personnel to site in August 2014 to undertake Rehabilitation earthworks over a 12 month period.</p>'
                 ],
                 (object)[
                     'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/ensham/project-ensham02.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-06.png'),
                     'title' => '<h4 class="text-primary">Ensham Mine</h4>',
-                    'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
+                    'content' => '<p>Wolff deployed 12 personnel to site in August 2014 to undertake Rehabilitation earthworks over a 12 month period.</p>'
                 ],
                 (object)[
                     'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/ensham/project-ensham03.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-06.png'),
                     'title' => '<h4 class="text-primary">Ensham Mine</h4>',
-                    'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
+                    'content' => '<p>Wolff deployed 12 personnel to site in August 2014 to undertake Rehabilitation earthworks over a 12 month period.</p>'
                 ],
                 (object)[
                     'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/ensham/project-ensham04.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-06.png'),
                     'title' => '<h4 class="text-primary">Ensham Mine</h4>',
-                    'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
+                    'content' => '<p>Wolff deployed 12 personnel to site in August 2014 to undertake Rehabilitation earthworks over a 12 month period.</p>'
                 ],
                 (object)[
                     'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/ensham/project-ensham05.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-06.png'),
                     'title' => '<h4 class="text-primary">Ensham Mine</h4>',
-                    'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
+                    'content' => '<p>Wolff deployed 12 personnel to site in August 2014 to undertake Rehabilitation earthworks over a 12 month period.</p>'
                 ],
                 (object)[
                     'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/ensham/project-ensham06.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-06.png'),
                     'title' => '<h4 class="text-primary">Ensham Mine</h4>',
-                    'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
+                    'content' => '<p>Wolff deployed 12 personnel to site in August 2014 to undertake Rehabilitation earthworks over a 12 month period.</p>'
                 ],
                 (object)[
                     'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/ensham/project-ensham07.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-06.png'),
                     'title' => '<h4 class="text-primary">Ensham Mine</h4>',
-                    'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
+                    'content' => '<p>Wolff deployed 12 personnel to site in August 2014 to undertake Rehabilitation earthworks over a 12 month period.</p>'
                 ],
             ]
         ],
@@ -332,7 +356,7 @@ Route::get('/projects/{slug}', function($slug) {
             'slug' => 'moorvale-mine',
             'title' => 'Moorvale Mine',
             'sub_title' => 'Peabody Energy',
-            'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>',
+            'content' => '<p>July 2015 Wolff commenced on site drilling services for three months operating a Sandvik DR460.</p>',
             'featured_image' => asset('/dist/media/projects/moorvale/project-moorvale-01.jpg'),
             'galleries' => [
                 (object)[
@@ -340,7 +364,7 @@ Route::get('/projects/{slug}', function($slug) {
                     'featured_image' => asset('/dist/media/projects/moorvale/project-moorvale-01.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-06.png'),
                     'title' => '<h4 class="text-primary">Moorvale Mine</h4>',
-                    'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.</p>'
+                    'content' => '<p>July 2015 Wolff commenced on site drilling services for three months operating a Sandvik DR460.</p>'
                 ]
             ]
         ],
@@ -378,13 +402,13 @@ Route::get('/innovation/{slug}', function($slug) {
                     'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/services/blast/blast-01.jpg'),
                     'title' => '<h4 class="text-primary">Blast Hole Drilling</h4>',
-                    'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim, adipiscing elit.</p>'
+                    'content' => '<p>Wolff Mining can provide semi-autonomous CAT MD6420B Blast Hole Drilling Rigs and facilitate drilling services. </p>'
                 ],
                 (object)[
                     'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/services/blast/blast-02.jpg'),
                     'title' => '<h4 class="text-primary">Blast Hole Drilling</h4>',
-                    'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim, adipiscing elit.</p>'
+                    'content' => '<p>Wolff Mining can provide semi-autonomous CAT MD6420B Blast Hole Drilling Rigs and facilitate drilling services. </p>'
                 ],
             ]
         ],
@@ -467,22 +491,22 @@ Route::get('/innovation/{slug}', function($slug) {
                     'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/services/bulk/bulk-01.jpg'),
                     'title' => '<h4 class="text-primary">Semi-autonomous large-scale <span class="text-warning">satellite bulk dozer push</span></h4>',
-                    'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim, adipiscing elit.</p>
-                                '
+                    'content' => '<p>Wolff Mining is recognised as the leading satellite bulk dozer push operator, with operations currently being expanded throughout Australia and internationally.</p>
+                                    '
                 ],
                 (object)[
                     'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/services/bulk/bulk-02.jpg'),
                     'title' => '<h4 class="text-primary">Semi-autonomous large-scale <span class="text-warning">satellite bulk dozer push</span></h4>',
-                    'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim, adipiscing elit.</p>
-                                '
+                    'content' => '<p>Wolff Mining is recognised as the leading satellite bulk dozer push operator, with operations currently being expanded throughout Australia and internationally.</p>
+                                    '
                 ],
                 (object)[
                     'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/services/bulk/bulk-03.jpg'),
                     'title' => '<h4 class="text-primary">Semi-autonomous large-scale <span class="text-warning">satellite bulk dozer push</span></h4>',
-                    'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim, adipiscing elit.</p>
-                                '
+                    'content' => '<p>Wolff Mining is recognised as the leading satellite bulk dozer push operator, with operations currently being expanded throughout Australia and internationally.</p>
+                                    '
                 ],
             ]
         ],
@@ -511,13 +535,17 @@ Route::get('/innovation/{slug}', function($slug) {
                     'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/services/fleets/fleets-01.jpg'),
                     'title' => '<h4 class="text-primary">Pre-Strip Topsoil Removal</h4>',
-                    'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim, adipiscing elit.</p>'
+                    'content' => '<p>Wolff Mining’s extensive experience in the Black Coal industry enables the company to provide innovative and cost-effective contract mining solutions.</p>
+                                <p>These have included the provision of pre-strip fleets and the management and operation of principle supplied fleets.</p>
+                                <p>Our expansive pre-strip fleet and experienced workforce facilitates quick mobilisation times and extends to a strong understanding of pre-strip and Topsoil Removal processes and quality service.</p>'
                 ],
                 (object)[
                     'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/services/fleets/fleets-01.jpg'),
                     'title' => '<h4 class="text-primary">Pre-Strip Topsoil Removal</h4>',
-                    'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim, adipiscing elit.</p>'
+                    'content' => '<p>Wolff Mining’s extensive experience in the Black Coal industry enables the company to provide innovative and cost-effective contract mining solutions.</p>
+                                <p>These have included the provision of pre-strip fleets and the management and operation of principle supplied fleets.</p>
+                                <p>Our expansive pre-strip fleet and experienced workforce facilitates quick mobilisation times and extends to a strong understanding of pre-strip and Topsoil Removal processes and quality service.</p>'
                 ],
             ]
         ],
@@ -556,7 +584,9 @@ Route::get('/innovation/{slug}', function($slug) {
                     'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/services/clearing/clearing-01.jpg'),
                     'title' => '<h4 class="text-primary">Mine Site Clearing and Rehabilitation</h4>',
-                    'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim, adipiscing elit.</p>'
+                    'content' => '
+                                    <p>Wolff Mining use dozer push optimisation techniques to produce rehabilitation designs, which incorporate water catchment and contour banks built into the final surface as opposed to building on top of final land formations.</p>
+                                    '
                 ],
             ]
         ],
@@ -596,7 +626,8 @@ Route::get('/innovation/{slug}', function($slug) {
                     'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/services/civil/civil-01.jpg'),
                     'title' => '<h4 class="text-primary">Civil earthworks</h4>',
-                    'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim, adipiscing elit.</p>'
+                    'content' => '<p>Wolff Mining has extensive experience in mine site civil earthworks and provides a range of services including, but not limited to:</p>
+                                '
                 ],
             ]
         ],
@@ -635,7 +666,15 @@ Route::get('/innovation/{slug}', function($slug) {
                     'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/services/clearing/clearing-01.jpg'),
                     'title' => '<h4 class="text-primary">Mine Site Clearing and Rehabilitation</h4>',
-                    'content' => '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim, adipiscing elit.</p>'
+                    'content' => '
+                                <p>Wolff Mining’s site clearing and rehabilitation capabilities include, but are not limited to:</p>
+                                <ul>
+                                    <li>Clear and grub of greenfield sites</li>
+                                    <li>General mine maintenance</li>
+                                    <li>Site rehabilitation, including re-shaping and topsoil spreading</li>
+                                    <li>Seeding</li>
+                                </ul>
+                                '
                 ],
             ]
         ],

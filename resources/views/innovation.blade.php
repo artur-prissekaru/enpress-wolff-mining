@@ -86,51 +86,51 @@
           'featured_image' => asset('dist/media/services/blast/blast-01.jpg'),
           'image_link' => url('/innovation/blast-hone-drilling'),
           'title' => 'Blast hole drilling',
-          'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim, adipiscing elit.',
+          'content' => '<p>Wolff Mining can provide semi-autonomous CAT MD6420B Blast Hole Drilling Rigs and facilitate drilling services. </p>',
           'target' => '_self'
         ],
         (object)[
           'featured_image' => asset('dist/media/services/clearing/clearing-01.jpg'),
           'image_link' => url('/innovation/rehabilitation-works'),
           'title' => 'Rehabilitation works',
-          'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim, adipiscing elit.',
+          'content' => '<p>Wolff Mining’s site clearing and rehabilitation capabilities include, but are not limited to:</p>',
           'target' => '_self'
         ],
         (object)[
           'featured_image' => asset('dist/media/services/automated/automated-01.jpg'),
           'image_link' => url('/innovation/automated-equipment'),
           'title' => 'Automated equipment',
-          'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim, adipiscing elit.',
+          'content' => '<p>Wolff Mining has an established partnership with Caterpillar and Hastings Deering to implement and optimise SATS technology, in a world’s-first application into a mining production environment.</p>',
           'target' => '_self'
         ],
         (object)[
           'featured_image' => asset('dist/media/services/bulk/bulk-01.jpg'),
           'image_link' => url('/innovation/satellite-bulk-dozer-push'),
           'title' => 'Satellite bulk dozer push',
-          'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim.',
+          'content' => '<p>Wolff Mining is recognised as the leading satellite bulk dozer push operator,  with operations currently being expanded throughout Australia and internationally. </p>',
           'target' => '_self'
         ],
         (object)[
           'featured_image' => asset('dist/media/services/fleets/fleets-01.jpg'),
           'image_link' => url('/innovation/pre-strip-fleets'),
           'title' => 'Pre strip fleets',
-          'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim, adipiscing elit.',
+          'content' => '<p>Wolff Mining’s extensive experience in the Black Coal industry enables the company to provide innovative and cost-effective contract mining solutions.</p>',
           'target' => '_self'
         ],
         (object)[
           'featured_image' => asset('dist/media/services/civil/civil-01.jpg'),
           'image_link' => url('/innovation/civil-earthworks'),
           'title' => 'Civil earthworks',
-          'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim, adipiscing elit.',
+          'content' => '<p>Wolff Mining has extensive experience in mine site civil earthworks and provides a range of services including, but not limited to:</p>',
           'target' => '_self'
         ],
         (object)[
           'featured_image' => asset('dist/media/services/clearing/clearing-01.jpg'),
           'image_link' => url('/innovation/site-clearing'),
           'title' => 'Site clearing',
-          'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis pulvinar leo eu pellentesque sed purus enim, adipiscing elit.',
+          'content' => '<p>Wolff Mining’s site clearing and rehabilitation capabilities include, but are not limited to:</p>',
           'target' => '_self'
-        ],
+        ]
       ]
     ]
   ])
