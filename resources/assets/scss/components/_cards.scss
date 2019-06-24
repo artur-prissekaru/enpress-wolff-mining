@@ -41,6 +41,7 @@
 
 .card-project {
   margin-bottom: 20px;
+  transition: all .3s;
   .action-link {
     position: absolute;
     bottom: 0;
@@ -53,6 +54,7 @@
     align-items: center;
     display: none;
     &:hover {
+      background-color: darken($warning, 3);
       color: transparent;
     }
     &:before {
@@ -107,6 +109,8 @@
     }
   }
   &:hover {
+    box-shadow: $box-shadow;
+    transform: scale(1.03);
     .action-link {
       display: flex !important;
     }

@@ -1,10 +1,20 @@
 <?php
   $string = '';
-  if (isset($data->content)) :
+  $link = '';
+  if (isset($data->content) && isset($data->image_link)) :
+    $link = $data->image_link;
     $string = $data->content;
     $content = substr($data->content, 0, 165);
-    if(substr_compare($data->content, $content, 0)) :
-      $string = $content.'...';
+    $string = $content.' <a href="'.$link.'" class="text-info font-weight-bold"> Read More...</a>';
+  else :
+    if (isset($data->content)) :
+      $string = $data->content;
+      $content = substr($data->content, 0, 165);
+      if(substr_compare($data->content, $content, 0)) :
+        $string = $content.'...';
+      endif;
+    else :
+      $string = '';
     endif;
   endif;
 ?>

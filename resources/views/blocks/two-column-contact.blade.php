@@ -16,14 +16,14 @@
         @include('components.column-content', [
           'data' => (object)[
             'before_type' => 'warning',
-            'title' => '<h6 class="text-primary">National Group (Headquarters)</h6>'
+            'title' => '<h6 class="text-primary">Head Office</h6>'
           ]
         ])
         @include('components.contact-info1')
         @include('components.column-content', [
           'data' => (object)[
             'before_type' => 'warning',
-            'title' => '<h6 class="text-primary">Wolff Group</h6>'
+            'title' => '<h6 class="text-primary">Site locations</h6>'
           ]
         ])
         @include('components.contact-info2')

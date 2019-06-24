@@ -9,19 +9,18 @@
   ])
   @include('blocks.two-column-carousel', [
     'data' => (object)[
-      'background_type' => 'secondary',
-      'sub_image' => asset('/dist/media/galleries/gallery-sub-02.png'),
+      'background_type' => 'white',
       'down_link' => 'values',
       'down_link_title' => 'See our values',
       'galleries' => [
         (object)[
           'featured_image' => asset('/dist/media/galleries/gallery-05.png'),
           'video_url' => url('https://www.youtube.com/embed/3DhHwXNOwCw'),
-          'before_type' => 'gray',
-          'title' => '<h5 class="text-white">Wolff employees treat each other and our stakeholders with <span class="text-warning">honesty and respect.</span></h5>',
+          'before_type' => 'warning',
+          'title' => '<h5 class="text-primary">Wolff employees treat each other and our stakeholders with <span class="text-warning">honesty and respect.</span></h5>',
           'content' => '<p>Wolff is proud of its professional team. Staff are recruited based on their work ethic, skills and experience, and their understanding and appreciation of Wolff’s values.</p>
                         <p>An ethical approach to hard work and loyalty underpins Wolff’s culture and is apparent in its performance.</p>
-                        <h5 class="text-white">HSE Commitment</h5>
+                        <h5 class="text-primary">HSE Commitment</h5>
                         <p>Wolff is committed to maintaining its focus on Health, Safety and the Environment. With this approach Wolff has remained LTI free since 2012.</p>
                         ',
           'action_link' => url('https://nationalgroup.recruitmenthub.com.au/Vacancies/'),
@@ -123,22 +122,11 @@
                         <p>The full support of our employees, suppliers and subcontractors is expected in actively pursuing quality assurance for our clients.</p>
                         <p>Wolff Mining's Quality Management System is certified by SciQual </p>
                         "
-        ],
-        (object)[
-          'featured_image' => asset('/dist/media/galleries/gallery-03.png'),
-          'before_type' => 'warning',
-          'title' => '<h4 class="text-primary">Quality Management</h4>',
-          'content' => "<p>Wolff operates under a Quality Management System compliant to ISO 9001:2015 standard.</p>
-                        <p>Wolff is committed to quality control and continuous improvement in order to ensure the delivery of a quality service to its clients. Wolff aims to maximise its clients returns by providing services that conform to specifications, legal and contractual obligations and applicable industry standards.</p>
-                        <p>Wolff's operations incorporate analysis of customer satisfaction, control of quality during project delivery and monitoring client satisfaction levels during and post project completion. Wolff aims to ensure that both immediate stakeholders and end users are satisfied with all works performed.</p>
-                        <p>The full support of our employees, suppliers and subcontractors is expected in actively pursuing quality assurance for our clients.</p>
-                        <p>Wolff Mining's Quality Management System is certified by SciQual </p>
-                        "
         ]
       ]
     ]
   ])
-  @include('blocks.two-column-carousel', [
+  {{-- @include('blocks.two-column-carousel', [
     'data' => (object)[
       'background_type' => 'secondary',
       'sub_image' => asset('/dist/media/galleries/gallery-sub-03.png'),
@@ -177,5 +165,5 @@
     'options' => (object)[
       'reverse' => true
     ]
-  ])
+  ]) --}}
 @endsection

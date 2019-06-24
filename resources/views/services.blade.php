@@ -3,13 +3,14 @@
   @include('blocks.other-hero', [
     'data' => (object)[
       'menu_image' => asset('dist/media/menus/menu1.png'),
-      'menu_title' => 'Innovation',
-      'menu_subtitle' => 'The future of mining automation'
+      'menu_title' => 'Our Services',
+      'menu_subtitle' => 'Automative and Innovative Solutions'
     ]
   ])
-  @include('blocks.two-column-carousel', [
+  {{-- @include('blocks.two-column-carousel', [
     'data' => (object)[
-      'background_type' => 'secondary',
+      'down_link' => 'services',
+      'down_link_title' => 'See more services',
       'galleries' => [
         (object)[
           'featured_image' => asset('dist/media/services/bulk/bulk-01.jpg'),
@@ -35,10 +36,11 @@
       ]
     ],
     'options' => (object)[
-      'reverse' => true
+      'reverse' => true,
+      'background_gray' => true
     ]
-  ])
-  @include('blocks.two-column-content', [
+  ]) --}}
+  {{-- @include('blocks.two-column-content', [
     'data' => (object)[
       'left_content' => '
                           <p>Wolff Mining is recognised as the leading satellite bulk dozer push operator in the Bowen Basin, Central Queensland (CQ) area. As part of the National Group, we are currently expanding our operations throughout Australia and internationally.</p>
@@ -78,59 +80,53 @@
     'options' => (object)[
       'before_image' => true
     ]
-  ])
+  ]) --}}
   @include('blocks.column-services', [
     'data' => (object)[
       'services' => [
         (object)[
           'featured_image' => asset('dist/media/services/blast/blast-01.jpg'),
-          'image_link' => url('/innovation/blast-hone-drilling'),
+          'image_link' => url('/services/blast-hone-drilling'),
           'title' => 'Blast hole drilling',
           'content' => '<p>Wolff Mining can provide semi-autonomous CAT MD6420B Blast Hole Drilling Rigs and facilitate drilling services. </p>',
           'target' => '_self'
         ],
         (object)[
           'featured_image' => asset('dist/media/services/clearing/clearing-01.jpg'),
-          'image_link' => url('/innovation/rehabilitation-works'),
+          'image_link' => url('/services/rehabilitation-works'),
           'title' => 'Rehabilitation works',
           'content' => '<p>Wolff Mining’s site clearing and rehabilitation capabilities include, but are not limited to:</p>',
           'target' => '_self'
         ],
         (object)[
           'featured_image' => asset('dist/media/services/automated/automated-01.jpg'),
-          'image_link' => url('/innovation/automated-equipment'),
+          'image_link' => url('/services/automated-equipment'),
           'title' => 'Automated equipment',
-          'content' => '<p>Wolff Mining has an established partnership with Caterpillar and Hastings Deering to implement and optimise SATS technology, in a world’s-first application into a mining production environment.</p>',
+          'content' => '<p>Wolff Mining has an established partnership with Caterpillar and Hastings Deering to implement and optimise Semi-Autonomous Tractor System (SATS) technology, in a world’s-first application into a production mining environment.</p>',
           'target' => '_self'
         ],
         (object)[
           'featured_image' => asset('dist/media/services/bulk/bulk-01.jpg'),
-          'image_link' => url('/innovation/satellite-bulk-dozer-push'),
+          'image_link' => url('/services/satellite-bulk-dozer-push'),
           'title' => 'Satellite bulk dozer push',
           'content' => '<p>Wolff Mining is recognised as the leading satellite bulk dozer push operator,  with operations currently being expanded throughout Australia and internationally. </p>',
           'target' => '_self'
         ],
         (object)[
           'featured_image' => asset('dist/media/services/fleets/fleets-01.jpg'),
-          'image_link' => url('/innovation/pre-strip-fleets'),
+          'image_link' => url('/services/pre-strip-fleets'),
           'title' => 'Pre strip fleets',
           'content' => '<p>Wolff Mining’s extensive experience in the Black Coal industry enables the company to provide innovative and cost-effective contract mining solutions.</p>',
           'target' => '_self'
         ],
         (object)[
           'featured_image' => asset('dist/media/services/civil/civil-01.jpg'),
-          'image_link' => url('/innovation/civil-earthworks'),
+          'image_link' => url('/services/civil-earthworks'),
           'title' => 'Civil earthworks',
           'content' => '<p>Wolff Mining has extensive experience in mine site civil earthworks and provides a range of services including, but not limited to:</p>',
           'target' => '_self'
         ],
-        (object)[
-          'featured_image' => asset('dist/media/services/clearing/clearing-01.jpg'),
-          'image_link' => url('/innovation/site-clearing'),
-          'title' => 'Site clearing',
-          'content' => '<p>Wolff Mining’s site clearing and rehabilitation capabilities include, but are not limited to:</p>',
-          'target' => '_self'
-        ]
+        
       ]
     ]
   ])

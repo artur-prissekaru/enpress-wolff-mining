@@ -13,7 +13,8 @@
         Address
       </div>
       <div class="value">
-        Level 3, 68 Marine Parade Southport BC, QLD 4215
+        Level 3, 68 Marine Parade <br />
+        Southport BC, QLD 4215
       </div>
     </div>
     <div class="info">
@@ -21,15 +22,7 @@
         Email
       </div>
       <div class="value text-warning">
-        info@national-group.co
-      </div>
-    </div>
-    <div class="info">
-      <div class="label">
-        Website
-      </div>
-      <div class="value text-warning">
-        national-group.co
+        info@wolffmining.com.au 
       </div>
     </div>
   </div>

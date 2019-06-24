@@ -1,6 +1,7 @@
 @php
   $defaultOptions = [
-    'before_image' => false
+    'before_image' => false,
+    'before_gray' => false
   ];
   if (isset($options)) {
     $options = (object)array_merge($defaultOptions, (array)$options);
@@ -8,7 +9,7 @@
     $options = (object)$defaultOptions;
   }
 @endphp
-<div class="block two-column-content-block @if($options->before_image){{ 'background-before' }}@endif">
+<div class="block two-column-content-block @if($options->before_image){{ 'background-before' }}@endif @if($options->before_gray){{ 'background-gray-before' }}@endif">
   <div class="container">
     <div class="row">
       <div class="col-lg-6">

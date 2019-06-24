@@ -3,8 +3,8 @@
   @include('blocks.other-hero', [
     'data' => (object)[
       'menu_image' => asset('/dist/media/menus/menu1.png'),
-      'menu_title' => 'Innovation',
-      'menu_subtitle' => 'The future of mining automation'
+      'menu_title' => 'Our Services',
+      'menu_subtitle' => 'Automative and Innovative Solutions'
     ]
   ])
   @include('blocks.two-column-carousel', [

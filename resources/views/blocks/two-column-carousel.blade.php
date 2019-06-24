@@ -1,6 +1,7 @@
 @php
   $defaultOptions = [
-    'reverse' => false
+    'reverse' => false,
+    'background_gray' => false
   ];
   if (isset($options)) {
     $options = (object)array_merge($defaultOptions, (array)$options);
@@ -10,6 +11,7 @@
 @endphp
 <div class="block two-column-carousel-block
   @if(isset($data->background_type))bg-{{ $data->background_type }}@endif
+  @if($options->background_gray){{ 'background-gray' }}@endif
   @if ($options->reverse){{ 'column-reverse-block' }}@endif"
   @if (isset($data->section_id))
     id={{ $data->section_id }}

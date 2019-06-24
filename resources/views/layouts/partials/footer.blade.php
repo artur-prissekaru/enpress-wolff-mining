@@ -13,13 +13,15 @@
             <a href="tel:1300848461">1300 848 461</a>
           </div>
           <div class="contact-address">
-            National Group<br />
-            Level 3, 68 Marine Parade,<br />
-            Southport BC, QLD 4215
+            Wolff Mining<br />
+            13 Jarrah Street <br />
+            Blackwater QLD 4717
           </div>
         </div>
         <div class="footer-image">
-          <img src={{ asset('/dist/media/brands/footer-image.png') }} />
+          <a href="http://www.wolffgroup.com.au/" target="_blank">
+            <img src={{ asset('/dist/media/brands/footer-image.png') }} />
+          </a>
         </div>
       </div>
       <div class="footer-navigation">
@@ -31,7 +33,7 @@
         </div>
         <div class="nav footer-menu">
           <li>
-            <a class="nav-link" href="/innovation" >Innovation</a>
+            <a class="nav-link" href="/services" >Services</a>
           </li>
           <li>
             <a class="nav-link" href="/projects" >Projects</a>

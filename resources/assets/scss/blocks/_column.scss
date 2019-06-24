@@ -2,6 +2,9 @@
   padding-top: 135px;
   padding-bottom: 142px;
   position: relative;
+  .section-title {
+    margin-bottom: 70px;
+  }
   @include media-breakpoint-down('md') {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -82,6 +85,22 @@
     display: none;
     @media screen and (min-width: 1300px) {
       display: block;
+    }
+  }
+}
+
+.column-plus-block {
+  padding-top: 45px;
+  padding-bottom: 38px;
+  position: relative;
+  .column-content {
+    text-align: center;
+    .content {
+      line-height: 35px;
+      letter-spacing: -0.5px;
+      font-size: 25px;
+      font-weight: $font-weight-bold;
+      color: $white;
     }
   }
 }

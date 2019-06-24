@@ -1,7 +1,8 @@
 @php
   $defaultOptions = [
     'before_image' => false,
-    'sub_content_show' => false
+    'sub_content_show' => false,
+    'before_gray' => false 
   ];
   if (isset($options)) {
     $options = (object)array_merge($defaultOptions, (array)$options);
@@ -9,14 +10,14 @@
     $options = (object)$defaultOptions;
   }
 @endphp
-<div class="block two-column-projects-block bg-bitmap @if($options->before_image){{ 'background-before' }}@endif @if($options->sub_content_show)sub-always-show @endif" id="projects">
+<div class="block two-column-projects-block bg-bitmap @if($options->before_image){{ 'background-before' }}@endif @if($options->before_gray){{ 'background-gray-before' }}@endif @if($options->sub_content_show)sub-always-show @endif" id="projects">
   <div class="container">
     <div class="row flex-wrap-reverse">
       <div class="col-lg-8">
         <div class="row">
           @if (isset($data->projects))
             @foreach($data->projects as $item)
-              <div class="col-md-4">
+              <div class="col-xl-4 col-md-6">
                 @include('components.project', [
                   'data' => (object)[
                     'featured_image' => $item->featured_image,

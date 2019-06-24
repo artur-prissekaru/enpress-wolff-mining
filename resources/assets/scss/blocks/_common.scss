@@ -17,6 +17,13 @@
         display: none;
       }
     }
+    &.background-gray-before {
+      &:before {
+        background-image: url('../img/backgrounds/map-gray-background.png');
+        background-size: cover;
+        background-position: right;
+      }
+    }
   }
   &.bg-bitmap {
     &:after {

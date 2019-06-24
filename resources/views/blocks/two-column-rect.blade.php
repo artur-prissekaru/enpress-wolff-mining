@@ -1,7 +1,8 @@
 @php
   $defaultOptions = [
     'reverse' => false,
-    'before_image' => false
+    'before_image' => false,
+    'before_gray' => false
   ];
   if (isset($options)) {
     $options = (object)array_merge($defaultOptions, (array)$options);
@@ -9,7 +10,7 @@
     $options = (object)$defaultOptions;
   }
 @endphp
-<div class="block two-column-rect-block @if ($options->reverse){{ 'column-reverse-block' }}@endif @if($options->before_image){{ 'background-before' }}@endif">
+<div class="block two-column-rect-block @if ($options->reverse){{ 'column-reverse-block' }}@endif @if($options->before_image){{ 'background-before' }}@endif @if($options->before_gray){{ 'background-gray-before' }}@endif">
   <div class="column-block-item">
     @if (isset($data->featured_image))
       <div class="featured-image"

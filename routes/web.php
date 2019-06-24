@@ -15,8 +15,8 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/innovation', function () {
-    return view('innovation');
+Route::get('/services', function () {
+    return view('services');
 });
 
 Route::get('/projects', function () {
@@ -378,7 +378,7 @@ Route::get('/projects/{slug}', function($slug) {
     }
 });
 
-Route::get('/innovation/{slug}', function($slug) {
+Route::get('/services/{slug}', function($slug) {
     $services = [
         (object)[
             'slug' => 'blast-hone-drilling',
@@ -549,47 +549,7 @@ Route::get('/innovation/{slug}', function($slug) {
                 ],
             ]
         ],
-        (object)[
-            'slug' => 'site-clearing',
-            'left_content' => '
-                                <p>Wolff Mining’s site clearing and rehabilitation capabilities include, but are not limited to:</p>
-                                <ul>
-                                    <li>Clear and grub of greenfield sites</li>
-                                    <li>General mine maintenance</li>
-                                    <li>Site rehabilitation, including re-shaping and topsoil spreading</li>
-                                    <li>Seeding</li>
-                                </ul>
-                                <p>Wolff Mining use dozer push optimisation techniques to produce rehabilitation designs, which incorporate water catchment and contour banks built into the final surface as opposed to building on top of final land formations.</p>
-                                <p>This methodology results in a more stable landform, incorporating drainage works as constructed and therefore minimising erosion. Wolff Mining also works to ensure that a generous amount of vegetation is left along the cut and fill intersections, this can be raked into parking areas while bulk earthworks are undertaken and later placed on top of the final surface to create sanctuary for wildlife and plants.</p>
-                                ',
-            'right_content' => '
-                                <h6 class="text-priamry">Current and Past Mine Site Rehabilitation</h6>
-                                <ul>
-                                    <li>
-                                        <strong>New Hope Coal Acland Mine:</strong><br />
-                                        Commenced 2008 with additional repeat work within Dozer Push.
-                                    </li>
-                                    <li>
-                                        <strong>Ensham Resources Mine:</strong><br />
-                                        Wolff Mining commenced 2014 undertaking full mine rehabilitation earthworks over a 12-month period. Mine rehabilitation and re-shaping 2017.
-                                    </li>
-                                    <li>
-                                        <strong>Wesfarmers Curragh Mine:</strong><br />
-                                        On-going mine rehabilitation through 2017.
-                                    </li>
-                                </ul>
-                                ',
-            'galleries' => [
-                (object)[
-                    'before_type' => 'warning',
-                    'featured_image' => asset('/dist/media/services/clearing/clearing-01.jpg'),
-                    'title' => '<h4 class="text-primary">Mine Site Clearing and Rehabilitation</h4>',
-                    'content' => '
-                                    <p>Wolff Mining use dozer push optimisation techniques to produce rehabilitation designs, which incorporate water catchment and contour banks built into the final surface as opposed to building on top of final land formations.</p>
-                                    '
-                ],
-            ]
-        ],
+        
         (object)[
             'slug' => 'civil-earthworks',
             'left_content' => '

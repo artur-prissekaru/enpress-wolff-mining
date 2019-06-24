@@ -13,7 +13,7 @@
     <div class="row contain-row">
       <div class="col-lg-6">
         <div class="nationals">
-          <div class="row">
+          <div class="row justify-content-center">
             @if(isset($data->nationals))
               @foreach($data->nationals as $item)
                 <div class="col-3">

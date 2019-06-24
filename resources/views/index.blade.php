@@ -4,10 +4,10 @@
     'cards' => [
       (Object)[
         'image' => url('/dist/media/menus/menu1.png'),
-        'title' => 'Innovation',
-        'content' => 'The future of mining automation',
+        'title' => 'Services',
+        'content' => 'Automative and Innovative Solutions',
         'description' => 'DISCOVER HOW IT WORKS',
-        'link' => '/innovation'
+        'link' => '/services'
       ],
       (Object)[
         'image' => url('/dist/media/menus/menu2.png'),
@@ -35,52 +35,59 @@
   @include('blocks.two-column-carousel', [
     'data' => (object)[
       'section_id' => 'exploring',
-      'background_type' => 'secondary',
-      'sub_image' => asset('dist/media/galleries/gallery-sub-01.png'),
+      // 'sub_image' => asset('dist/media/galleries/gallery-sub-01.png'),
       'galleries' => [
         (object)[
           'featured_image' => asset('dist/media/galleries/gallery-01.png'),
-          'before_type' => 'gray',
+          'before_type' => 'warning',
           'title' => '<h4 class="text-white">We’re pioneering <span class="text-warning">automation</span> in mining.</h4>',
           'content' => '<p>Wolff Mining (Wolff) provides a range of automated and innovative solutions such as large scale satellite bulk dozer push, contract mining services, excavator pre-strip fleets, civil earthworks, blast hole drilling, site clearing and rehabilitation works. </p>
                         <p>We offer a wide variety of heavy equipment that includes 80-800 tonne Excavators, CAT D11T Bulldozers, drills and a range of ancillary equipment. </p>
                         <p>Wolff Mining is well-known in the industry for our ability to implement and optimise semi-autonomous tractor system (SATS) technology, in a world’s-first application into a mining production environment. We pride ourselves on innovation and technology and have been recognised for our efforts by winning multiple awards, including Contract Miner of the Year at the 2018 Australian Mining Prospect Awards.</p>
                         <p>Wolff also has long standing relationships and arrangements in place with manufacturers and suppliers such as Caterpillar, Hastings Deering and Komatsu, as well as long-term contracts with major mining companies including BMA Mitsubishi Alliance, Wesfarmers and Peabody Energy. </p>
                         ',
-          'action_link' => url('/innovation/automated-equipment'),
+          'action_link' => url('/services/automated-equipment'),
           'action_title' => 'learn more',
-          'action_type' => 'info',
+          'action_type' => 'warning',
           'action_target' => '_self'
         ]
       ]
     ],
     'options' => (object)[
-      'reverse' => true
+      'reverse' => true,
+      'background_gray' => true
+    ]
+  ])
+  @include('blocks.column-plus', [
+    'data' => (object)[
+      'left_content' => 'We have the world’s largest fleet of Autonomous Dozers',
+      'right_content' => 'We implement and optimise SATS technology in a world’s-first application into a mining production environment'
     ]
   ])
   @include('blocks.two-column-rect', [
     'data' => (object)[
-      'featured_image' => asset('dist/media/features/feature-1.png'),
+      'featured_image' => asset('dist/media/features/blast-01.jpg'),
       'title' => '<h4 class="text-primary">Blast Hole Drilling</h4>',
       'before_type' => 'warning',
-      'content' => '<p>Wolff Mining can provide semi-autonomous CAT MD6420B Blast Hole Drilling Rigs and facilitate drilling services and continuing extend the automated features on our expansive range of drills.</p>',
-      'action_link' => url('/innovation/blast-hone-drilling'),
+      'content' => '<p>Wolff Mining provides semi-autonomous CAT MD6420B Blast Hole Drilling Rigs and facilitates drilling services, with a continual focus on extending automated features.</p>',
+      'action_link' => url('/services/blast-hone-drilling'),
       'action_title' => 'Learn more',
       'action_type' => 'warning',
       'action_target' => '_self'
     ],
     'options' => (object)[
       'reverse' => false,
-      'before_image' => true
+      'before_image' => true,
+      'before_gray' => true
     ]
   ])
   @include('blocks.two-column-rect', [
     'data' => (object)[
-      'featured_image' => asset('dist/media/features/feature-2.png'),
+      'featured_image' => asset('dist/media/features/automated-01.jpg'),
       'title' => '<h4 class="text-primary">Satellite bulk dozer push</h4>',
       'before_type' => 'warning',
       'content' => '<p>Wolff Mining has continued to lead the industry in large scale satellite bulk dozer push and continues to further refine and develop technology and methodology. </p>',
-      'action_link' => url('/innovation/satellite-bulk-dozer-push'),
+      'action_link' => url('/services/satellite-bulk-dozer-push'),
       'action_title' => 'Learn more',
       'action_type' => 'warning',
       'action_target' => '_self'
@@ -103,7 +110,7 @@
         (object)[
           'featured_image' => asset('dist/media/projects/yarrabee/project-yarrabee-01.jpg'),
           'image_link' => url('http://www.wolffgroup.com.au/projects/projects/yarrabee-mine/'),
-          'sub_title' => 'Yancol Australia',
+          'sub_title' => 'Yan coal Australia',
           'title' => 'Yarrabee Mine',
           'target' => '_blank'
         ],
@@ -167,7 +174,7 @@
       'action_target' => '_self',
       'sub_title' => '<h6 class="text-primary">THE WOLFF GROUP STORY</h6>',
       'sub_content' => '<p>We’re proud of how far we’ve come since 2003 - find out how we’ve gotten to where we are today.</p>',
-      'sub_action_link' => url('/innovation'),
+      'sub_action_link' => url('/services'),
       'sub_action_title' => 'See our stroy',
       'sub_action_type' => 'warning',
       'sub_action_target' => '_self'
@@ -183,10 +190,10 @@
       'action_type' => 'warning',
       'action_target' => '_blank',
       'nationals' => [
-        (object)[
-          'featured_image' => asset('/dist/media/logos/logo1.png'),
-          'action_link' => 'https://www.national-group.co/'
-        ],
+        // (object)[
+        //   'featured_image' => asset('/dist/media/logos/logo1.png'),
+        //   'action_link' => 'https://www.national-group.co/'
+        // ],
         (object)[
           'featured_image' => asset('/dist/media/logos/logo2.png'),
           'action_link' => 'https://www.nationalplant.com.au/'
@@ -204,33 +211,33 @@
           'action_link' => 'https://www.nationalheavyhaulage.com.au/'
         ],
         (object)[
-          'featured_image' => asset('/dist/media/logos/logo6.png'),
-          'action_link' => 'http://www.resolute-equipment.com/'
-        ],
-        (object)[
           'featured_image' => asset('/dist/media/logos/logo7.png'),
           'action_link' => 'https://www.internationalgl.com/'
         ],
         (object)[
-          'featured_image' => asset('/dist/media/logos/logo8.png'),
-          'action_link' => 'https://nationalquarries.com.au/'
+          'featured_image' => asset('/dist/media/logos/logo6.png'),
+          'action_link' => 'http://www.resolute-equipment.com/'
         ],
-        (object)[
-          'featured_image' => asset('/dist/media/logos/logo5.png'),
-          'action_link' => 'https://www.national-group.co/company/national-lift-shift'
-        ],
-        (object)[
-          'featured_image' => asset('/dist/media/logos/logo9.png'),
-          'action_link' => 'https://www.national-group.co/company/international-equipment-holdings'
-        ],
-        (object)[
-          'featured_image' => asset('/dist/media/logos/logo10.png'),
-          'action_link' => 'https://www.national-group.co/company/national-drilling-services'
-        ],
-        (object)[
-          'featured_image' => asset('/dist/media/logos/logo11.png'),
-          'action_link' => 'https://www.national-group.co/company/nrs-aus'
-        ],
+        // (object)[
+        //   'featured_image' => asset('/dist/media/logos/logo8.png'),
+        //   'action_link' => 'https://nationalquarries.com.au/'
+        // ],
+        // (object)[
+        //   'featured_image' => asset('/dist/media/logos/logo5.png'),
+        //   'action_link' => 'https://www.national-group.co/company/national-lift-shift'
+        // ],
+        // (object)[
+        //   'featured_image' => asset('/dist/media/logos/logo9.png'),
+        //   'action_link' => 'https://www.national-group.co/company/international-equipment-holdings'
+        // ],
+        // (object)[
+        //   'featured_image' => asset('/dist/media/logos/logo10.png'),
+        //   'action_link' => 'https://www.national-group.co/company/national-drilling-services'
+        // ],
+        // (object)[
+        //   'featured_image' => asset('/dist/media/logos/logo11.png'),
+        //   'action_link' => 'https://www.national-group.co/company/nrs-aus'
+        // ],
       ]
     ],
     'options' => (object)[

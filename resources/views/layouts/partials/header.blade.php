@@ -17,15 +17,15 @@
         <div class="row">
           <div class="col-md-6">
             <div class="menu-item">
-              <a href="/innovation" class="nav-link">
+              <a href="/services" class="nav-link">
                 <div class="card-menu">
                   <div class="card-image" style="background-image: url('/dist/media/menus/menu1.png')">
                   </div>
                   <h3 class="card-title">
-                    Innovation
+                    Services
                   </h3>
                   <div class="subtitle">
-                    The future of mining automation
+                    Automative and Innovative Solutions
                   </div>
                 </div>
               </a>
