@@ -102,7 +102,7 @@
       'projects' => [
         (object)[
           'featured_image' => asset('dist/media/projects/saraji/project-saraji-01.jpg'),
-          'image_link' => url('http://www.wolffgroup.com.au/projects/projects/saraji-mine/'),
+          'image_link' => url('/projects/saraji-mine/'),
           'sub_title' => 'BMA',
           'title' => 'Saraji mine',
           'target' => '_blank'
@@ -116,49 +116,49 @@
         ],
         (object)[
           'featured_image' => asset('dist/media/projects/acland/project-acland-01.jpg'),
-          'image_link' => url('http://www.wolffgroup.com.au/projects/projects/acland-mine/'),
+          'image_link' => url('/projects/acland-mine/'),
           'sub_title' => 'New Hope',
           'title' => 'Acland Mine',
           'target' => '_blank'
         ],
         (object)[
           'featured_image' => asset('dist/media/projects/blackwater/project-bma-01.jpg'),
-          'image_link' => url('http://www.wolffgroup.com.au/projects/projects/blackwater-mine/'),
+          'image_link' => url('/projects/blackwater-mine/'),
           'sub_title' => 'BMA',
           'title' => 'Blackwater Mine',
           'target' => '_blank'
         ],
         (object)[
           'featured_image' => asset('dist/media/projects/bulga/project-bulga-01.jpg'),
-          'image_link' => url('http://www.wolffgroup.com.au/projects/projects/bulga-mine/'),
+          'image_link' => url('/projects/bulga-mine/'),
           'sub_title' => 'Glencore',
           'title' => 'Bulga Mine',
           'target' => '_blank'
         ],
         (object)[
           'featured_image' => asset('dist/media/projects/coppabella/project-coppabella-01.jpg'),
-          'image_link' => url('http://www.wolffgroup.com.au/projects/projects/coppabella-mine/'),
+          'image_link' => url('/projects/coppabella-mine/'),
           'sub_title' => 'Peabody Energy',
           'title' => 'Coppabella Mine',
           'target' => '_blank'
         ],
         (object)[
           'featured_image' => asset('dist/media/projects/curragh/project-curragh-01.jpg'),
-          'image_link' => url('http://www.wolffgroup.com.au/projects/projects/curragh-mine/'),
+          'image_link' => url('/projects/curragh-mine/'),
           'sub_title' => 'Coronado',
           'title' => 'Curragh Mine',
           'target' => '_blank'
         ],
         (object)[
           'featured_image' => asset('dist/media/projects/ensham/project-ensham01.jpg'),
-          'image_link' => url('http://www.wolffgroup.com.au/projects/projects/ensham-mine/'),
+          'image_link' => url('/projects/ensham-mine/'),
           'sub_title' => 'Ensham Resources',
           'title' => 'Ensham Mine',
           'target' => '_blank'
         ],
         (object)[
           'featured_image' => asset('dist/media/projects/moorvale/project-moorvale-01.jpg'),
-          'image_link' => url('http://www.wolffgroup.com.au/projects/projects/moorvale-mine/'),
+          'image_link' => url('/projects/moorvale-mine/'),
           'sub_title' => 'Peabody Energy',
           'title' => 'Moorvale Mine',
           'target' => '_blank'
