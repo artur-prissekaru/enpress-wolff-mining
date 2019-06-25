@@ -19,6 +19,7 @@
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
+        "@fancyapps/fancybox": "^3.5.2",
         "@webcomponents/webcomponentsjs": "^2.2.10",
         "animate.css": "^3.7.0",
         "bootstrap": "^4.3.1",

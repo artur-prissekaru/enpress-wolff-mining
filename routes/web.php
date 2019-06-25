@@ -20,7 +20,9 @@ Route::get('/services', function () {
 });
 
 Route::get('/projects', function () {
-    return view('projects');
+    return view('projects', [
+        'galleries' => null
+    ]);
 });
 
 Route::get('/our-people', function () {
@@ -41,21 +43,18 @@ Route::get('/projects/{slug}', function($slug) {
             'featured_image' => asset('/dist/media/projects/saraji/project-saraji-01.jpg'),
             'galleries' => [
                 (object)[
-                    'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/saraji/project-saraji-01.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-01.jpg'),
                     'title' => '<h4 class="text-primary">Saraji mine</h4>',
                     'content' => '<p>On site since July 2014 with a project team of 11 removing top soil and undertaking ancillary earthworks.</p><p>Contract term extended for 12 months from July 2015.</p>'
                 ],
                 (object)[
-                    'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/saraji/project-saraji-02.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-01.jpg'),
                     'title' => '<h4 class="text-primary">Saraji mine</h4>',
                     'content' => '<p>On site since July 2014 with a project team of 11 removing top soil and undertaking ancillary earthworks.</p><p>Contract term extended for 12 months from July 2015.</p>'
                 ],
                 (object)[
-                    'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/saraji/project-saraji-03.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-01.jpg'),
                     'title' => '<h4 class="text-primary">Saraji mine</h4>',
@@ -66,26 +65,23 @@ Route::get('/projects/{slug}', function($slug) {
         (object)[
             'slug' => 'yarrabee-mine',
             'title' => 'Yarrabee Mine',
-            'sub_title' => 'Yancol Australia',
+            'sub_title' => 'Yan coal Australia',
             'content' => 'Wolff originally commenced on site at Yarrabee in 2010 to undertake Dozer push and rehabilitation works. ',
             'featured_image' => asset('/dist/media/projects/yarrabee/project-yarrabee-01.jpg'),
             'galleries' => [
                 (object)[
-                    'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/yarrabee/project-yarrabee-01.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-02.jpg'),
                     'title' => '<h4 class="text-primary">Yarrabee Mine</h4>',
                     'content' => '<p>Wolff originally commenced on site at Yarrabee in 2010 to undertake Dozer push and rehabilitation works.</p><p>July 2014 Wolff was back on site operating 4 D11 Dozers completing bulk Dozer push, drill prep, and day works as requested.</p>'
                 ],
                 (object)[
-                    'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/yarrabee/project-yarrabee-02.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-02.jpg'),
                     'title' => '<h4 class="text-primary">Yarrabee Mine</h4>',
                     'content' => '<p>Wolff originally commenced on site at Yarrabee in 2010 to undertake Dozer push and rehabilitation works.</p><p>July 2014 Wolff was back on site operating 4 D11 Dozers completing bulk Dozer push, drill prep, and day works as requested.</p>'
                 ],
                 (object)[
-                    'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/yarrabee/project-yarrabee-03.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-02.jpg'),
                     'title' => '<h4 class="text-primary">Yarrabee Mine</h4>',
@@ -101,14 +97,12 @@ Route::get('/projects/{slug}', function($slug) {
             'featured_image' => asset('/dist/media/projects/acland/project-acland-01.jpg'),
             'galleries' => [
                 (object)[
-                    'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/acland/project-acland-01.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-03.jpg'),
                     'title' => '<h4 class="text-primary">Acland Mine</h4>',
                     'content' => '<p>Late 2009 Wolff commenced a three year term performing general Dozer works at New Hope’s Acland mine.</p>'
                 ],
                 (object)[
-                    'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/acland/project-acland-02.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-03.jpg'),
                     'title' => '<h4 class="text-primary">Acland Mine</h4>',
@@ -124,7 +118,6 @@ Route::get('/projects/{slug}', function($slug) {
             'featured_image' => asset('/dist/media/projects/blackwater/project-bma-01.jpg'),
             'galleries' => [
                 (object)[
-                    'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/blackwater/project-bma-01.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-01.jpg'),
                     'title' => '<h4 class="text-primary">BlackWater Mine</h4>',
@@ -134,7 +127,6 @@ Route::get('/projects/{slug}', function($slug) {
                                 "
                 ],
                 (object)[
-                    'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/blackwater/project-bma-02.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-01.jpg'),
                     'title' => '<h4 class="text-primary">BlackWater Mine</h4>',
@@ -154,7 +146,6 @@ Route::get('/projects/{slug}', function($slug) {
                                 "
                 ],
                 (object)[
-                    'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/blackwater/project-bma-04.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-01.jpg'),
                     'title' => '<h4 class="text-primary">BlackWater Mine</h4>',
@@ -173,21 +164,18 @@ Route::get('/projects/{slug}', function($slug) {
             'featured_image' => asset('/dist/media/projects/bulga/project-bulga-01.jpg'),
             'galleries' => [
                 (object)[
-                    'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/bulga/project-bulga-01.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-05.png'),
                     'title' => '<h4 class="text-primary">Bulga Mine</h4>',
                     'content' => '<p>August 2015 Wolff completed a 12 month blast hole drilling services contract operating 4 Terex drills at Glencore’s Bulga mine.</p>'
                 ],
                 (object)[
-                    'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/bulga/project-bulga-02.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-05.png'),
                     'title' => '<h4 class="text-primary">Bulga Mine</h4>',
                     'content' => '<p>August 2015 Wolff completed a 12 month blast hole drilling services contract operating 4 Terex drills at Glencore’s Bulga mine.</p>'
                 ],
                 (object)[
-                    'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/bulga/project-bulga-03.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-05.png'),
                     'title' => '<h4 class="text-primary">Bulga Mine</h4>',
@@ -203,7 +191,6 @@ Route::get('/projects/{slug}', function($slug) {
             'featured_image' => asset('/dist/media/projects/coppabella/project-coppabella-01.jpg'),
             'galleries' => [
                 (object)[
-                    'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/coppabella/project-coppabella-01.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-06.png'),
                     'title' => '<h4 class="text-primary">Coppabella Mine</h4>',
@@ -212,7 +199,6 @@ Route::get('/projects/{slug}', function($slug) {
                                 <p>Wolff recently acquired a 3 year Blast Hole Drilling contract starting February 2016 with Peabody. For the project we chose a semi-autonomous CAT MD6420B Drill Rig 13m mast with a hole diameter of 229mm to 311mm capable of drilling up to 75m in depth.</p>'
                 ],
                 (object)[
-                    'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/coppabella/project-coppabella-02.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-06.png'),
                     'title' => '<h4 class="text-primary">Coppabella Mine</h4>',
@@ -221,7 +207,6 @@ Route::get('/projects/{slug}', function($slug) {
                                 <p>Wolff recently acquired a 3 year Blast Hole Drilling contract starting February 2016 with Peabody. For the project we chose a semi-autonomous CAT MD6420B Drill Rig 13m mast with a hole diameter of 229mm to 311mm capable of drilling up to 75m in depth.</p>'
                 ],
                 (object)[
-                    'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/coppabella/project-coppabella-03.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-06.png'),
                     'title' => '<h4 class="text-primary">Coppabella Mine</h4>',
@@ -239,7 +224,6 @@ Route::get('/projects/{slug}', function($slug) {
             'featured_image' => asset('/dist/media/projects/curragh/project-curragh-01.jpg'),
             'galleries' => [
                 (object)[
-                    'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/curragh/project-curragh-01.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-07.jpg'),
                     'title' => '<h4 class="text-primary">Curragh Mine</h4>',
@@ -248,7 +232,6 @@ Route::get('/projects/{slug}', function($slug) {
                                 '
                 ],
                 (object)[
-                    'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/curragh/project-curragh-02.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-07.jpg'),
                     'title' => '<h4 class="text-primary">Curragh Mine</h4>',
@@ -257,7 +240,6 @@ Route::get('/projects/{slug}', function($slug) {
                     '
                 ],
                 (object)[
-                    'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/curragh/project-curragh-03.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-07.jpg'),
                     'title' => '<h4 class="text-primary">Curragh Mine</h4>',
@@ -266,7 +248,6 @@ Route::get('/projects/{slug}', function($slug) {
                     '
                 ],
                 (object)[
-                    'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/curragh/project-curragh-04.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-07.jpg'),
                     'title' => '<h4 class="text-primary">Curragh Mine</h4>',
@@ -275,7 +256,6 @@ Route::get('/projects/{slug}', function($slug) {
                     '
                 ],
                 (object)[
-                    'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/curragh/project-curragh-05.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-07.jpg'),
                     'title' => '<h4 class="text-primary">Curragh Mine</h4>',
@@ -284,7 +264,6 @@ Route::get('/projects/{slug}', function($slug) {
                     '
                 ],
                 (object)[
-                    'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/curragh/project-curragh-06.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-07.jpg'),
                     'title' => '<h4 class="text-primary">Curragh Mine</h4>',
@@ -302,49 +281,42 @@ Route::get('/projects/{slug}', function($slug) {
             'featured_image' => asset('/dist/media/projects/ensham/project-ensham01.jpg'),
             'galleries' => [
                 (object)[
-                    'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/ensham/project-ensham01.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-06.png'),
                     'title' => '<h4 class="text-primary">Ensham Mine</h4>',
                     'content' => '<p>Wolff deployed 12 personnel to site in August 2014 to undertake Rehabilitation earthworks over a 12 month period.</p>'
                 ],
                 (object)[
-                    'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/ensham/project-ensham02.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-06.png'),
                     'title' => '<h4 class="text-primary">Ensham Mine</h4>',
                     'content' => '<p>Wolff deployed 12 personnel to site in August 2014 to undertake Rehabilitation earthworks over a 12 month period.</p>'
                 ],
                 (object)[
-                    'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/ensham/project-ensham03.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-06.png'),
                     'title' => '<h4 class="text-primary">Ensham Mine</h4>',
                     'content' => '<p>Wolff deployed 12 personnel to site in August 2014 to undertake Rehabilitation earthworks over a 12 month period.</p>'
                 ],
                 (object)[
-                    'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/ensham/project-ensham04.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-06.png'),
                     'title' => '<h4 class="text-primary">Ensham Mine</h4>',
                     'content' => '<p>Wolff deployed 12 personnel to site in August 2014 to undertake Rehabilitation earthworks over a 12 month period.</p>'
                 ],
                 (object)[
-                    'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/ensham/project-ensham05.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-06.png'),
                     'title' => '<h4 class="text-primary">Ensham Mine</h4>',
                     'content' => '<p>Wolff deployed 12 personnel to site in August 2014 to undertake Rehabilitation earthworks over a 12 month period.</p>'
                 ],
                 (object)[
-                    'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/ensham/project-ensham06.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-06.png'),
                     'title' => '<h4 class="text-primary">Ensham Mine</h4>',
                     'content' => '<p>Wolff deployed 12 personnel to site in August 2014 to undertake Rehabilitation earthworks over a 12 month period.</p>'
                 ],
                 (object)[
-                    'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/ensham/project-ensham07.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-06.png'),
                     'title' => '<h4 class="text-primary">Ensham Mine</h4>',
@@ -360,7 +332,6 @@ Route::get('/projects/{slug}', function($slug) {
             'featured_image' => asset('/dist/media/projects/moorvale/project-moorvale-01.jpg'),
             'galleries' => [
                 (object)[
-                    'before_type' => 'warning',
                     'featured_image' => asset('/dist/media/projects/moorvale/project-moorvale-01.jpg'),
                     'featured_logo' => asset('/dist/media/logos/project-logos/logo-06.png'),
                     'title' => '<h4 class="text-primary">Moorvale Mine</h4>',
