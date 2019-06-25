@@ -233,7 +233,7 @@
 
 .two-column-carousel-block {
   padding-top: 83px;
-  padding-bottom: 35px;
+  padding-bottom: 10px;
   position: relative;
   @include media-breakpoint-down('md') {
     padding-top: 50px;
@@ -557,6 +557,32 @@
       }
     }
   }
+  .column-content {
+    img {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      text-transform: uppercase;
+      margin-bottom: 25px;
+    }
+    ul {
+      &.before-warning {
+        list-style: none;
+        padding-left: 0;
+        li {
+          padding-left: 28.5px;
+          border-left: 2px solid $warning;
+          color: rgba($primary, 0.7);
+          margin-bottom: 24px;
+        }
+      }
+    }
+  }
+}
+
+.two-column-carousel-block + .two-column-carousel-block {
+  padding-top: 0;
 }
 
 .two-column-content-block {

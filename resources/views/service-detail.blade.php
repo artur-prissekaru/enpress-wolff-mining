@@ -7,19 +7,28 @@
       'menu_subtitle' => 'Automative and Innovative Solutions'
     ]
   ])
-  @include('blocks.two-column-carousel', [
-    'data' => (object)[
-      'background_type' => 'white',
-      'galleries' => $galleries
-    ]
-  ])
-  @include('blocks.two-column-content', [
-    'data' => (object)[
-      'left_content' => $left_content,
-      'right_content' => $right_content
-    ],
-    'options' => (object)[
-      'before_image' => true
-    ]
-  ])
+  @foreach($galleries as $key => $gallery)
+    @if ($key % 2 == 1)
+      @include('blocks.two-column-carousel', [
+        'data' => (object)[
+          'background_type' => 'white',
+          'galleries' => [
+            $gallery
+          ]
+        ],
+        'options' => (object)[
+          'reverse' => true
+        ]
+      ])
+    @else
+      @include('blocks.two-column-carousel', [
+        'data' => (object)[
+          'background_type' => 'white',
+          'galleries' => [
+            $gallery
+          ]
+        ]
+      ])
+    @endif
+  @endforeach
 @endsection
