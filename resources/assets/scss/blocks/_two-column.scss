@@ -239,42 +239,7 @@
     padding-top: 50px;
     padding-bottom: 44px;
   }
-  &.fancybox-content {
-    padding: 0;
-    @include media-breakpoint-down('sm') {
-      width: 90%;
-    }
-    .column-carousel {
-      flex-direction: column;
-      .column-block-item {
-        width: 100%;
-        @include media-breakpoint-down('xs') {
-          .featured-image {
-            padding-bottom: 80% !important;
-          }
-        }
-        @include media-breakpoint-down('lg') {
-          .carousel-content {
-            margin: 0 20px;
-          }
-          .carousel-collection {
-            max-width: map-get($container-max-widths, 'lg') !important;
-          }
-        }
-        @include media-breakpoint-down('md') {
-          .carousel-collection {
-            max-width: map-get($container-max-widths, 'md') + 40px !important;
-          }
-        }
-        @include media-breakpoint-down('sm') {
-          .carousel-collection {
-            margin-right: 0 !important;
-            max-width: 100% !important;
-          }
-        }
-      }
-    }
-  }
+  
   .arrow-down {
     width: 100%;
     position: absolute;
@@ -381,8 +346,9 @@
       }
       &.carousel-image {
         .carousel-collection {
+          margin-bottom: 40px;
           @include media-breakpoint-up('xl') {
-            max-width: 840px !important;
+            max-width: 840px;
             width: 100%;
             margin-right: auto;
           }
@@ -412,6 +378,7 @@
           max-width: map-get($container-max-widths, 'lg');
           margin: 0 auto;
           padding-left: 0;
+          margin-bottom: 40px;
         }
   
         @include media-breakpoint-down('md') {
@@ -486,8 +453,9 @@
         }
         &.carousel-image {
           .carousel-collection {
+            margin-bottom: 40px;
             @include media-breakpoint-up('xl') {
-              max-width: 840px !important;
+              max-width: 840px;
               width: 100%;
               margin-left: auto;
               margin-right: 0;
@@ -521,6 +489,7 @@
             max-width: map-get($container-max-widths, 'lg');
             margin: 0 auto;
             padding-right: 0;
+            margin-bottom: 40px;
           }
     
           @include media-breakpoint-down('md') {
@@ -575,6 +544,52 @@
           border-left: 2px solid $warning;
           color: rgba($primary, 0.7);
           margin-bottom: 24px;
+        }
+      }
+    }
+  }
+
+  &.fancybox-content {
+    padding: 0;
+    margin-top: 60px;
+    @include media-breakpoint-down('sm') {
+      width: 90%;
+    }
+    .column-carousel {
+      flex-direction: column;
+      .column-block-item {
+        width: 100%;
+        @include media-breakpoint-down('xs') {
+          .featured-image {
+            padding-bottom: 80% !important;
+          }
+        }
+        @include media-breakpoint-up('xl') {
+          .carousel-collection {
+            max-width: map-get($container-max-widths, 'lg') !important;
+          }
+        }
+        @include media-breakpoint-down('lg') {
+          .carousel-content {
+            margin: 0 20px;
+          }
+          .carousel-collection {
+            max-width: map-get($container-max-widths, 'lg') !important;
+          }
+        }
+        @include media-breakpoint-down('md') {
+          .carousel-collection {
+            max-width: map-get($container-max-widths, 'md') + 40px !important;
+          }
+        }
+        @include media-breakpoint-down('sm') {
+          .carousel-collection {
+            margin-right: 0 !important;
+            max-width: 100% !important;
+          }
+        }
+        .carousel-content {
+          max-width: 720px !important;
         }
       }
     }
