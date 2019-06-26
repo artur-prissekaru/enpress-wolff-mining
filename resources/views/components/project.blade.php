@@ -4,8 +4,8 @@
   if (isset($data->content) && isset($data->image_link)) :
     $link = $data->image_link;
     $string = $data->content;
-    $content = substr($data->content, 0, 165);
-    $string = $content.' <a href="'.$link.'" class="text-info font-weight-bold"> Read More...</a>';
+    $content = substr($data->content, 0, 175);
+    $string = $content.' <a href="'.$link.'" class="text-warning font-weight-bold"> Read More...</a>';
   else :
     if (isset($data->content)) :
       $string = $data->content;

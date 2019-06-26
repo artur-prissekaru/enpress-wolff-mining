@@ -332,6 +332,7 @@
   }
   .column-carousel {
     display: flex;
+    align-items: center;
     margin-bottom: 60px;
     @include media-breakpoint-down('lg') {
       flex-direction: column;
@@ -346,7 +347,6 @@
       }
       &.carousel-image {
         .carousel-collection {
-          margin-bottom: 40px;
           @include media-breakpoint-up('xl') {
             max-width: 840px;
             width: 100%;
@@ -354,6 +354,7 @@
           }
           @include media-breakpoint-down('lg') {
             margin-right: auto;
+            margin-bottom: 40px;
             max-width: map-get($container-max-widths, 'lg') - 50px;
           }
           @include media-breakpoint-down('md') {
@@ -378,7 +379,7 @@
           max-width: map-get($container-max-widths, 'lg');
           margin: 0 auto;
           padding-left: 0;
-          margin-bottom: 40px;
+          margin-bottom: 60px;
         }
   
         @include media-breakpoint-down('md') {
@@ -453,7 +454,6 @@
         }
         &.carousel-image {
           .carousel-collection {
-            margin-bottom: 40px;
             @include media-breakpoint-up('xl') {
               max-width: 840px;
               width: 100%;
@@ -463,6 +463,7 @@
             @include media-breakpoint-down('lg') {
               margin-left: auto;
               margin-right: 0;
+              margin-bottom: 60px;
               max-width: map-get($container-max-widths, 'lg') - 50px;
             }
             @include media-breakpoint-down('md') {

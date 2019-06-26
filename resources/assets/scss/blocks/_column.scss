@@ -6,7 +6,7 @@
     margin-bottom: 70px;
   }
   @include media-breakpoint-down('md') {
-    padding-top: 40px;
+    padding-top: 60px;
     padding-bottom: 40px;
   }
   .card-body {
@@ -30,7 +30,7 @@
   padding-bottom: 118px;
   position: relative;
   @include media-breakpoint-down('md') {
-    padding-top: 40px;
+    padding-top: 60px;
     padding-bottom: 40px;
   }
   &.background-before {

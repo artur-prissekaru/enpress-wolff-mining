@@ -6,7 +6,7 @@
     <div class="row justify-content-center">
       @if (isset($data->services))
         @foreach($data->services as $item)
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-4 col-md-6">
             @include('components.project', [
               'data' => (object)[
                 'featured_image' => $item->featured_image,

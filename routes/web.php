@@ -12,25 +12,34 @@
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('index', [
+        'title' => 'Wolff Mining'
+    ]);
 });
 
 Route::get('/services', function () {
-    return view('services');
+    return view('services', [
+        'title' => 'Wolff Services'
+    ]);
 });
 
 Route::get('/projects', function () {
     return view('projects', [
+        'title' => 'Wolff Projects',
         'galleries' => null
     ]);
 });
 
 Route::get('/our-people', function () {
-    return view('our-people');
+    return view('our-people', [
+        'title' => 'Wolff Our People'
+    ]);
 });
 
 Route::get('/contact', function() {
-    return view('contact');
+    return view('contact', [
+        'title' => 'Wolff Contact'
+    ]);
 });
 
 Route::get('/projects/{slug}', function($slug) {
@@ -65,7 +74,7 @@ Route::get('/projects/{slug}', function($slug) {
         (object)[
             'slug' => 'yarrabee-mine',
             'title' => 'Yarrabee Mine',
-            'sub_title' => 'Yan coal Australia',
+            'sub_title' => 'Yancoal Australia',
             'content' => 'Wolff originally commenced on site at Yarrabee in 2010 to undertake Dozer push and rehabilitation works. ',
             'featured_image' => asset('/dist/media/projects/yarrabee/project-yarrabee-01.jpg'),
             'galleries' => [
@@ -343,7 +352,8 @@ Route::get('/projects/{slug}', function($slug) {
     foreach($projects as $project) {
         if($slug === $project->slug ) {
             return view('project-detail', [
-                'galleries' => $project->galleries
+                'galleries' => $project->galleries,
+                'title' => 'Wolff Project Detail'
             ]);
         }
     }
@@ -396,8 +406,6 @@ Route::get('/services/{slug}', function($slug) {
                     'title' => '',
                     'content' => '
                                 <img src="/dist/media/services/automated/automated-04.png" />
-                                <p>Wolff Mining can help up-scale mining operations, increase production efficiencies whilst minimising costs and the risk to employee or contractor safety.</p>
-                                <p>As the technology is further developed, the system is anticipated to deliver productivity outcomes that rival or even overtake manned dozer operations.</p>
                                 <img src="/dist/media/services/automated/automated-05.png" />
                                 '
                 ],
@@ -566,7 +574,8 @@ Route::get('/services/{slug}', function($slug) {
     foreach($services as $service) {
         if($slug === $service->slug ) {
             return view('service-detail', [
-                'galleries' => $service->galleries
+                'galleries' => $service->galleries,
+                'title' => 'Wolff Service Detail'
             ]);
         } 
     }

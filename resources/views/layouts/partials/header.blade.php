@@ -2,7 +2,7 @@
   <app-navigation class="navigation">
     <div class="navigation-main">
       <a class="navbar-brand" href="/">
-        <img src={{ asset('/dist/media/brands/logo.png') }} alt="logo" />
+        <img src={{ asset('/dist/media/brands/group-logo.png') }} alt="logo" />
       </a>
       <div class="navbar-toggler">
         <button class="navigation-toggle">

@@ -4,7 +4,9 @@
     'data' => (object)[
       'menu_image' => asset('dist/media/menus/menu1.png'),
       'menu_title' => 'Our Services',
-      'menu_subtitle' => 'Automative and Innovative Solutions'
+      'menu_subtitle' => 'Automative and Innovative Solutions',
+      'section_id' => 'services',
+      'down_title' => 'see more services'
     ]
   ])
   {{-- @include('blocks.two-column-carousel', [
@@ -92,13 +94,6 @@
           'target' => '_self'
         ],
         (object)[
-          'featured_image' => asset('dist/media/services/clearing/clearing-01.jpg'),
-          'image_link' => url('/services/rehabilitation-works'),
-          'title' => 'Rehabilitation works',
-          'content' => '<p>Wolff Mining’s site clearing and rehabilitation capabilities include, but are not limited to:</p>',
-          'target' => '_self'
-        ],
-        (object)[
           'featured_image' => asset('dist/media/services/automated/automated-01.jpg'),
           'image_link' => url('/services/automated-equipment'),
           'title' => 'Automated equipment',
@@ -110,6 +105,13 @@
           'image_link' => url('/services/satellite-bulk-dozer-push'),
           'title' => 'Satellite bulk dozer push',
           'content' => '<p>Wolff Mining is recognised as the leading satellite bulk dozer push operator,  with operations currently being expanded throughout Australia and internationally. </p>',
+          'target' => '_self'
+        ],
+        (object)[
+          'featured_image' => asset('dist/media/services/clearing/clearing-01.jpg'),
+          'image_link' => url('/services/rehabilitation-works'),
+          'title' => 'Rehabilitation works',
+          'content' => '<p>Wolff Mining’s site clearing and rehabilitation capabilities include, but are not limited to:</p>',
           'target' => '_self'
         ],
         (object)[

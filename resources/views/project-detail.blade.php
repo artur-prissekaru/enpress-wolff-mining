@@ -4,7 +4,9 @@
     'data' => (object)[
       'menu_image' => asset('/dist/media/menus/menu2.png'),
       'menu_title' => 'Projects',
-      'menu_subtitle' => 'ALWAYS EXCEEDING EXPECTATIONS'
+      'menu_subtitle' => 'ALWAYS EXCEEDING EXPECTATIONS',
+      'section_id' => 'projects',
+      'down_title' => 'see more projects'
     ]
   ])
   @include('blocks.two-column-carousel', [
@@ -33,7 +35,7 @@
           'featured_image' => asset('/dist/media/projects/yarrabee/project-yarrabee-01.jpg'),
           'featured_logo' => asset('/dist/media/logos/project-logos/logo-02.jpg'),
           'title' => 'Yarrabee Mine',
-          'sub_title' => 'Yan coal Australia',
+          'sub_title' => 'Yancoal Australia',
           'content' => '<p>Wolff originally commenced on site at Yarrabee in 2010 to undertake Dozer push and rehabilitation works.</p>',
           'action_link' => url('/projects/yarrabee-mine'),
           'target' => '_self',

@@ -4,8 +4,7 @@
       <div class="footer-main">
         <div class="footer-logo">
           <a href="/">
-            <img class="d-none d-md-block" src={{ asset('/dist/media/brands/logo.png') }} />
-            <img class="d-block d-md-none" src={{ asset('/dist/media/brands/footer-logo.png') }} />
+            <img src={{ asset('/dist/media/brands/group-logo.png') }} />
           </a>
         </div>
         <div class="contact-info">
@@ -26,9 +25,6 @@
       </div>
       <div class="footer-navigation">
         <div class="staff-portal">
-          <div class="staff">
-            Staff Portal
-          </div>
           © Wolff Mining Pty Ltd
         </div>
         <div class="nav footer-menu">

@@ -110,7 +110,7 @@
         (object)[
           'featured_image' => asset('dist/media/projects/yarrabee/project-yarrabee-01.jpg'),
           'image_link' => url('/projects/yarrabee-mine'),
-          'sub_title' => 'Yan coal Australia',
+          'sub_title' => 'Yancoal Australia',
           'title' => 'Yarrabee Mine',
           'target' => '_self'
         ],
@@ -198,9 +198,13 @@
           'featured_image' => asset('/dist/media/logos/logo2.png'),
           'action_link' => 'https://www.nationalplant.com.au/'
         ],
+        // (object)[
+        //   'featured_image' => asset('/dist/media/logos/logo3.png'),
+        //   'action_link' => 'https://www.nationalmining.com.au/'
+        // ],
         (object)[
-          'featured_image' => asset('/dist/media/logos/logo3.png'),
-          'action_link' => 'https://www.nationalmining.com.au/'
+          'featured_image' => asset('/dist/media/logos/logo10.png'),
+          'action_link' => 'https://www.national-group.co/company/national-drilling-services'
         ],
         (object)[
           'featured_image' => asset('/dist/media/logos/logo4.png'),

@@ -6,7 +6,7 @@
     <link rel="shortcut icon" type="image/png" href="{{ asset('/dist/media/brands/wolff-favicon.png') }}"/>
 
     <link rel="stylesheet" type="text/css" href="{{ asset('/dist/css/app.css') }}">
-    <title>{{ (isset($title) ? $title . ' - ' : '') . "Wolff" }}</title>
+    <title>{{ (isset($title) ? $title : 'Wolff') }}</title>
 
     {{ wp_head() }}
 

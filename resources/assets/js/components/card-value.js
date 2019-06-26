@@ -5,23 +5,21 @@ class CardValue {
   constructor(selector) {
     this.selector = selector;
     this.animations = [];
+    this.action_link = document.querySelector('a[href^="#"]');
   }
 
-  handleHoverIn(event) {
-    const element = event.target;
-    if (this.animations && this.animations.length > 0) {
-      for(let i=0, ni=this.animations.length; i<ni; i++) {
-        const animation = this.animations[i];
-        if (animation.element === element) {
-          animation.lottie.goToAndPlay(0);
-          break;
-        }
-      }
-    }
-  }
-
-  handleHoverOut() {
-  }
+  // handleHoverIn(event) {
+  //   const element = event.target;
+  //   if (this.animations && this.animations.length > 0) {
+  //     for(let i=0, ni=this.animations.length; i<ni; i++) {
+  //       const animation = this.animations[i];
+  //       if (animation.element === element) {
+  //         animation.lottie.goToAndPlay(0);
+  //         break;
+  //       }
+  //     }
+  //   }
+  // }
 
   init() {
     this.animations = [];
@@ -44,7 +42,7 @@ class CardValue {
         animElement: $animElement[0],
         element
       });
-      $(element).hover(this.handleHoverIn.bind(this), this.handleHoverOut.bind(this));
+      // $(element).hover(this.handleHoverIn.bind(this), this.handleHoverOut.bind(this));
     });
   }
 }
