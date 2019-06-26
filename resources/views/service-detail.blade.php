@@ -8,41 +8,19 @@
     ]
   ])
   @foreach($galleries as $key => $gallery)
-    @if($loop->last)
-      @include('blocks.two-column-carousel', [
-        'data' => (object)[
-          'background_type' => 'white',
-          'galleries' => [
-            $gallery
-          ],
-          'down_link' => 'services',
-          'down_link_title' => 'see more services'
-        ]
-      ]) 
-    @else
-      @if ($key % 2 == 1)
-        @include('blocks.two-column-carousel', [
-          'data' => (object)[
-            'background_type' => 'white',
-            'galleries' => [
-              $gallery
-            ]
-          ],
-          'options' => (object)[
-            'reverse' => true
-          ]
-        ])
-      @else
-        @include('blocks.two-column-carousel', [
-          'data' => (object)[
-            'background_type' => 'white',
-            'galleries' => [
-              $gallery
-            ]
-          ]
-        ])
-      @endif
-    @endif
+    @include('blocks.two-column-carousel', [
+      'data' => (object)[
+        'background_type' => 'white',
+        'galleries' => [
+          $gallery
+        ],
+        'down_link' => ($loop->last) ? 'services' : null,
+        'down_link_title' => ($loop->last) ? 'see more services' : ''
+      ],
+      'options' => (object)[
+        'reverse' => ($key % 2 == 1)
+      ]
+    ])
   @endforeach
   @include('blocks.column-services', [
     'data' => (object)[
