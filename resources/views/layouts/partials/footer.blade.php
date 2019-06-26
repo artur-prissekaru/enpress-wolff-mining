@@ -4,7 +4,7 @@
       <div class="footer-main">
         <div class="footer-logo">
           <a href="/">
-            <img src={{ asset('/dist/media/brands/group-logo.png') }} />
+            <img src={{ asset('/dist/media/brands/wolff-mining-logo.png') }} />
           </a>
         </div>
         <div class="contact-info">
