@@ -6,7 +6,7 @@
         'image' => url('/dist/media/menus/menu1.png'),
         'title' => 'Services',
         'content' => 'Automative and Innovative Solutions',
-        'description' => 'DISCOVER HOW IT WORKS',
+        'description' => 'OUR SERVICES',
         'link' => '/services'
       ],
       (Object)[
