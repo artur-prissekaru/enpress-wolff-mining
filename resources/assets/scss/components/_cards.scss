@@ -41,6 +41,7 @@
 
 .card-project {
   margin-bottom: 20px;
+  cursor: pointer;
   transition: all .3s;
   .action-link {
     position: absolute;
@@ -164,7 +165,7 @@
   margin-bottom: 40px;
   .card-body {
     padding: 28px 45px;
-    padding-bottom: 60px !important;
+    padding-bottom: 60px;
     position: relative;
     .action-link {
       background-color: $warning;

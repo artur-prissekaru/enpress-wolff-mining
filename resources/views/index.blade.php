@@ -195,7 +195,7 @@
         //   'action_link' => 'https://www.national-group.co/'
         // ],
         (object)[
-          'featured_image' => asset('/dist/media/logos/logo2.png'),
+          'featured_image' => asset('/dist/media/logos/logo1.png'),
           'action_link' => 'https://www.nationalplant.com.au/'
         ],
         // (object)[
@@ -203,8 +203,8 @@
         //   'action_link' => 'https://www.nationalmining.com.au/'
         // ],
         (object)[
-          'featured_image' => asset('/dist/media/logos/logo10.png'),
-          'action_link' => 'https://www.national-group.co/company/national-drilling-services'
+          'featured_image' => asset('/dist/media/logos/logo2.png'),
+          'action_link' => 'https://www.nationalmining.com.au/'
         ],
         (object)[
           'featured_image' => asset('/dist/media/logos/logo4.png'),

@@ -16,7 +16,7 @@
           <div class="row justify-content-center">
             @if(isset($data->nationals))
               @foreach($data->nationals as $item)
-                <div class="col-3">
+                <div class="col-4">
                   <a href="{{ $item->action_link }}" target="_blank">
                     <div class="national-group" style="background-image: url('{{ $item->featured_image }}')"></div>
                   </a>

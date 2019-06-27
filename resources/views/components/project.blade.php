@@ -1,22 +1,22 @@
 <?php
   $string = '';
   $link = '';
-  if (isset($data->content) && isset($data->image_link)) :
+  if (isset($data->image_link)) :
     $link = $data->image_link;
-    $string = $data->content;
-    $content = substr($data->content, 0, 175);
-    $string = $content.' <a href="'.$link.'" class="text-warning font-weight-bold"> Read More...</a>';
-  else :
-    if (isset($data->content)) :
-      $string = $data->content;
-      $content = substr($data->content, 0, 165);
-      if(substr_compare($data->content, $content, 0)) :
-        $string = $content.'...';
-      endif;
-    else :
-      $string = '';
-    endif;
   endif;
+  if (isset($data->action_link)) :
+    $link = $data->action_link;
+  endif;
+  if(isset($data->content)) :
+    $content = substr($data->content, 0, 170);
+    if (isset($data->image_link) || isset($data->action_link)) {
+      if (strlen($data->content) > 170) {
+        $string = $content. '...'.'<a href="'.$link.'" class="text-warning font-weight-bold"> Read More</a>';
+      } else {
+        $string = $data->content.'<a href="'.$link.'" class="text-warning font-weight-bold"> Read More</a>';
+      }
+    }
+  endif
 ?>
 <div class="card-project w-100">
   <div class="card-image" style="background: url('{{ $data->featured_image }}')">

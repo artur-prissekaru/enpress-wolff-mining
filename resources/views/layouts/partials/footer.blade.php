@@ -25,6 +25,23 @@
       </div>
       <div class="footer-navigation">
         <div class="staff-portal">
+          <div class="social-icons d-flex mb-4">
+            <a href="https://www.facebook.com/wolffmining/" target="_blank">
+              <i class="icon icon-facebook icon-xs mr-3"></i>
+            </a>
+            <a href="https://www.linkedin.com/company/wolffmining/" target="_blank">
+              <i class="icon icon-linkedin icon-xs mr-3"></i>
+            </a>
+            <a href="https://www.youtube.com/channel/UC3jKsHL0smjRbe4ifYnuI2Q" target="_blank">
+              <i class="icon icon-youtube icon-xs mr-3"></i>
+            </a>
+            <a href="https://twitter.com/NationalGroupAU" target="_blank">
+              <i class="icon icon-twitter icon-xs mr-3"></i>
+            </a>
+            <a href="https://www.instagram.com/wolffmining/" target="_blank">
+              <i class="icon icon-instagram icon-xs mr-3"></i>
+            </a>
+          </div>
           © Wolff Mining Pty Ltd
         </div>
         <div class="nav footer-menu">
