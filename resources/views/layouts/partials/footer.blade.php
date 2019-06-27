@@ -4,7 +4,7 @@
       <div class="footer-main">
         <div class="footer-logo">
           <a href="/">
-            <img src={{ asset('/dist/media/brands/group-logo.png') }} />
+            <img src={{ asset('/dist/media/brands/wolff-mining-logo.png') }} />
           </a>
         </div>
         <div class="contact-info">
@@ -13,8 +13,8 @@
           </div>
           <div class="contact-address">
             Wolff Mining<br />
-            13 Jarrah Street <br />
-            Blackwater QLD 4717
+            Level 3, 68 Marine Parade<br />
+            Southport BC, QLD 4215
           </div>
         </div>
         <div class="footer-image">
