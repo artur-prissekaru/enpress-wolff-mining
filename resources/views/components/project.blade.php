@@ -50,8 +50,8 @@
         @endif
       </div>
       @if(isset($data->action_link) && $data->action_link !=='')
-        <button href="{{ $data->action_link }}" class="action-link" target="{{ $data->target }}">
-        </button>
+        <a href="{{ $data->action_link }}" class="action-link" target="{{ $data->target }}">
+        </a>
       @endif
     </div>
   </div>
