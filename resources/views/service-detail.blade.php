@@ -57,7 +57,7 @@
           'featured_image' => asset('dist/media/services/fleets/fleets-01.jpg'),
           'image_link' => url('/services/pre-strip-fleets'),
           'title' => 'Pre strip fleets',
-          'content' => '<p>Wolff Mining’s experience in the Black Coal industry enables the company to provide innovative and cost-effective contract mining solutions.</p>',
+          'content' => '<p>Wolff Mining’s experience in the Black Coal industry enables the company to provide innovative and cost-effective solutions.</p>',
           'target' => '_self'
         ],
         (object)[
