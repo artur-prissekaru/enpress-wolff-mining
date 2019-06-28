@@ -47,7 +47,7 @@
           'target' => '_self'
         ],
         (object)[
-          'featured_image' => asset('dist/media/services/clearing/clearing-01.jpg'),
+          'featured_image' => asset('dist/media/services/clearing/r0_185_3620_2413_w1200_h678_fmax.jpg'),
           'image_link' => url('/services/rehabilitation-works'),
           'title' => 'Rehabilitation works',
           'content' => '<p>Wolff Mining’s experience in the Black Coal industry enables the company to provide innovative and cost-effective contract mining solutions.</p>',
@@ -61,7 +61,7 @@
           'target' => '_self'
         ],
         (object)[
-          'featured_image' => asset('dist/media/services/civil/civil-01.jpg'),
+          'featured_image' => asset('dist/media/services/civil/Cat_24M_0I2A6022%20copy.jpg'),
           'image_link' => url('/services/civil-earthworks'),
           'title' => 'Civil earthworks',
           'content' => '<p>Wolff Mining has extensive experience in mine site civil earthworks and provides a range of services including, but not limited to:</p>',
