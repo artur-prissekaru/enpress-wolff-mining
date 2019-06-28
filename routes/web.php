@@ -514,12 +514,7 @@ Route::get('/services/{slug}', function($slug) {
                                     <li>Top soil removal and placement</li>
                                     <li>Dragline pad construction</li>
                                 </ul>
-                                '
-                ],
-                (object)[
-                    'featured_image' => asset('/dist/media/services/civil/civil-01.jpg'),
-                    'title' => '<h6 class="text-primary">Current and Past Civil Construction Contracts</h6>',
-                    'content' => '
+                                <h6 class="text-primary">Current and Past Civil Construction Contracts</h6>
                                 <ul class="before-warning">
                                     <li>
                                         <strong>BMA Blackwater Mine:</strong><br />
@@ -535,7 +530,7 @@ Route::get('/services/{slug}', function($slug) {
                                     </li>
                                 </ul>
                                 '
-                ]
+                ],
             ]
         ],
         (object)[
@@ -555,26 +550,23 @@ Route::get('/services/{slug}', function($slug) {
                                 </ul>
                                 <p>Wolff Mining use dozer push optimisation techniques to produce rehabilitation designs, which incorporate water catchment and contour banks built into the final surface as opposed to building on top of final land formations.</p>
                                 <p>This methodology results in a more stable landform, incorporating drainage works as constructed and therefore minimising erosion. Wolff Mining also works to ensure that a generous amount of vegetation is left along the cut and fill intersections, this can be raked into parking areas while bulk earthworks are undertaken and later placed on top of the final surface to create sanctuary for wildlife and plants.</p>
+                                <h6 class="text-priamry">Current and Past Mine Site Rehabilitation</h6>
+                                <ul class="before-warning">
+                                    <li>
+                                        <strong>New Hope Coal Acland Mine:</strong><br />
+                                        Commenced 2008 with additional repeat work within Dozer Push.
+                                    </li>
+                                    <li>
+                                        <strong>Ensham Resources Mine:</strong><br />
+                                        Wolff Mining commenced 2014 undertaking full mine rehabilitation earthworks over a 12-month period. Mine rehabilitation and re-shaping 2017.
+                                    </li>
+                                    <li>
+                                        <strong>Wesfarmers Curragh Mine:</strong><br />
+                                        On-going mine rehabilitation through 2017.
+                                    </li>
+                                </ul>
                                 '
                 ],
-                (object)[
-                    'featured_image' => asset('/dist/media/services/clearing/clearing-01.jpg'),
-                    'title' => '<h6 class="text-priamry">Current and Past Mine Site Rehabilitation</h6>',
-                    'content' => '<ul class="before-warning">
-                                        <li>
-                                            <strong>New Hope Coal Acland Mine:</strong><br />
-                                            Commenced 2008 with additional repeat work within Dozer Push.
-                                        </li>
-                                        <li>
-                                            <strong>Ensham Resources Mine:</strong><br />
-                                            Wolff Mining commenced 2014 undertaking full mine rehabilitation earthworks over a 12-month period. Mine rehabilitation and re-shaping 2017.
-                                        </li>
-                                        <li>
-                                            <strong>Wesfarmers Curragh Mine:</strong><br />
-                                            On-going mine rehabilitation through 2017.
-                                        </li>
-                                    </ul>'
-                ]
             ]
         ],
     ];
