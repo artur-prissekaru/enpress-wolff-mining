@@ -29,7 +29,7 @@
           'featured_image' => asset('dist/media/services/blast/blast-01.jpg'),
           'image_link' => url('/services/blast-hole-drilling'),
           'title' => 'Blast hole drilling',
-          'content' => '<p>Wolff Mining can provide semi-autonomous CAT MD6420B Blast Hole Drilling Rigs and facilitate blast hole drilling services.</p>',
+          'content' => '<p>Wolff Mining can provide semi-autonomous CAT MD6420B Blast Hole Drilling Rigs and facilitate high quality blast hole drilling services.</p>',
           'target' => '_self'
         ],
         (object)[
