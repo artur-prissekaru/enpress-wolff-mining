@@ -43,7 +43,7 @@
           'featured_logo' => asset('/dist/media/logos/project-logos/logo-01.jpg'),
           'title' => 'Saraji mine',
           'sub_title' => 'BMA',
-          'content' => '<p>On site since July 2014 with a project team of 11 removing top soil and undertaking ancillary earthworks. Contract term extended for 12 months from July 2015.</p>',
+          'content' => '<p>On site since July 2014 with a project team of 11 removing top soil and undertaking ancillary earthworks.</p>',
           'action_link' => url('/projects/saraji-mine'),
           'target' => '_self',
           'selected' => $galleries
@@ -73,7 +73,7 @@
           'featured_logo' => asset('/dist/media/logos/project-logos/logo-01.jpg'),
           'title' => 'Blackwater Mine',
           'sub_title' => 'BMA',
-          'content' => '<p>On site since 2008 undertaking dozer push and back access road construction and maintenance. Approximately 10 million BCM per year was moved with a workforce ramping up and down from 41 to 90. The current Back Access road project team comprises 19 including off site administrative support.</p>',
+          'content' => '<p>On site since 2008 undertaking dozer push and back access road construction and maintenance.</p>',
           'action_link' => url('/projects/blackwater-mine'),
           'target' => '_self',
           'selected' => $galleries || null
@@ -83,7 +83,7 @@
           'featured_logo' => asset('/dist/media/logos/project-logos/logo-05.png'),
           'title' => 'Bulga Mine',
           'sub_title' => 'Glencore',
-          'content' => '<p>August 2015 Wolff completed a 12 month blast hole drilling services contract operating 4 Terex drills at Glencore’s Bulga mine.</p>',
+          'content' => '<p>August 2015 Wolff completed a 12 month blast hole drilling contract operating at Glencore’s Bulga mine.</p>',
           'action_link' => url('/projects/bulga-mine'),
           'target' => '_self',
           'selected' => $galleries
@@ -93,7 +93,7 @@
           'featured_logo' => asset('/dist/media/logos/project-logos/logo-06.png'),
           'title' => 'Coppabella Mine',
           'sub_title' => 'Peabody Energy',
-          'content' => '<p>Originally on site 2012-13 with a workforce of 56 delivering Pre strip services and the construction of haul roads utilising a Hitachi 3600-6 excavator, D11 Dozers, dump trucks and graders. Over 8 million BCM was moved in less than 12 months.</p>',
+          'content' => '<p>Originally on site 2012-13 with a workforce of 56 delivering pre strip services and the construction of haul roads.</p>',
           'action_link' => url('/projects/coppabella-mine'),
           'target' => '_self',
           'selected' => $galleries
@@ -103,7 +103,7 @@
           'featured_logo' => asset('/dist/media/logos/project-logos/logo-07.jpg'),
           'title' => 'Curragh Mine',
           'sub_title' => 'Coronado',
-          'content' => '<p>2008 Wolff commenced Dozer push and coal uncovery works operating D11 Dozers. Throughout the life of the Project the workforce has ranged from 68 to 83 to 45 to meet requirements.</p>',
+          'content' => '<p>2008 Wolff commenced Dozer push and coal uncovery works operating D11 Dozers, with a workforce ranging from 45 to 83.</p>',
           'action_link' => url('/projects/curragh-mine'),
           'target' => '_self',
           'selected' => $galleries
