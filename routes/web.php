@@ -399,22 +399,21 @@ Route::get('/services/{slug}', function($slug) {
                     'content' => '<p>Wolff Mining has an established partnership with Caterpillar and Hastings Deering to implement and optimise SATS technology, in a world’s-first application into a mining production environment.</p>
                                 <p>Our implementation of SATS into a mining production environment is a ‘ground breaking’ technological advancement and the world’s first application. Wolff Mining has established an ongoing partnership with Caterpillar and Hastings Deering to implement and optimise SATS technology.</p>
                                 <p>We are leaders in the field of mining automation. We have the necessary experience, expertise and a proven track record. We have the products, technology and capability to consistently meet and exceed expectations.</p>
+                                <p>Wolff Mining can help up-scale mining operations, increase production efficiencies whilst minimising costs and the risk to employee or contractor safety.</p>
+                                <p>As the technology is further developed, the system is anticipated to deliver productivity outcomes that rival or even overtake manned dozer operations.</p>
                                 '
                 ],
                 (object)[
-                    'featured_image' => asset('/dist/media/services/automated/automated-02.jpg'),
+                    'featured_image' => asset('/dist/media/services/automated/automated-06.png'),
                     'title' => '',
                     'content' => '
                                 <img src="/dist/media/services/automated/automated-04.png" />
-                                <img src="/dist/media/services/automated/automated-05.png" />
                                 '
                 ],
                 (object)[
-                    'featured_image' => asset('/dist/media/services/automated/automated-03.jpg'),
+                    'featured_image' => asset('/dist/media/services/automated/automated-05.png'),
                     'title' => '',
-                    'content' => '<img src="/dist/media/services/automated/automated-06.png" />
-                                <p>Wolff Mining can help up-scale mining operations, increase production efficiencies whilst minimising costs and the risk to employee or contractor safety.</p>
-                                <p>As the technology is further developed, the system is anticipated to deliver productivity outcomes that rival or even overtake manned dozer operations.</p>
+                    'content' => '
                                 <img src="/dist/media/services/automated/automated-07.png" />
                                 '
                 ],
