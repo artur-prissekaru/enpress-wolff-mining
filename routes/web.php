@@ -48,7 +48,7 @@ Route::get('/projects/{slug}', function($slug) {
             'slug' => 'saraji-mine',
             'title' => 'Saraji Mine',
             'sub_title' => 'BMA',
-            'content' => 'On site since July 2014 with a project team of 11 removing top soil and undertaking ancillary earthworks. Contract term extended for 12 months from July 2015.',
+            'content' => 'On site since July 2014 with a project team of 11 removing top soil and undertaking ancillary earthworks.',
             'featured_image' => asset('/dist/media/projects/saraji/project-saraji-01.jpg'),
             'galleries' => [
                 (object)[
@@ -75,7 +75,7 @@ Route::get('/projects/{slug}', function($slug) {
             'slug' => 'yarrabee-mine',
             'title' => 'Yarrabee Mine',
             'sub_title' => 'Yancoal Australia',
-            'content' => 'Wolff originally commenced on site at Yarrabee in 2010 to undertake Dozer push and rehabilitation works. ',
+            'content' => 'Wolff originally commenced on site at Yarrabee in 2010 to undertake Dozer push and rehabilitation works.',
             'featured_image' => asset('/dist/media/projects/yarrabee/project-yarrabee-01.jpg'),
             'galleries' => [
                 (object)[
@@ -123,7 +123,7 @@ Route::get('/projects/{slug}', function($slug) {
             'slug' => 'blackwater-mine',
             'title' => 'BlackWater Mine',
             'sub_title' => 'BMA',
-            'content' => 'On site since 2008 undertaking dozer push and back access road construction and maintenance. Approximately 10 million BCM per year was moved with a workforce ramping up and down from 41 to 90.',
+            'content' => 'Wolff mining was on site from 2008 undertaking dozer push and back access road construction and maintenance.',
             'featured_image' => asset('/dist/media/projects/blackwater/project-bma-01.jpg'),
             'galleries' => [
                 (object)[
@@ -196,7 +196,7 @@ Route::get('/projects/{slug}', function($slug) {
             'slug' => 'coppabella-mine',
             'title' => 'Coppabella Mine',
             'sub_title' => 'Peabody energey',
-            'content' => 'Originally on site 2012-13 with a workforce of 56 delivering Pre strip services and the construction of haul roads utilising a Hitachi 3600-6 excavator, D11 Dozers, dump trucks and graders. Over 8 million BCM was moved in less than 12 months.',
+            'content' => 'Originally on site 2012-13 with a workforce of 56 delivering pre strip services and the construction of haul roads.',
             'featured_image' => asset('/dist/media/projects/coppabella/project-coppabella-01.jpg'),
             'galleries' => [
                 (object)[
@@ -229,7 +229,7 @@ Route::get('/projects/{slug}', function($slug) {
             'slug' => 'curragh-mine',
             'title' => 'Curragh Mine',
             'sub_title' => 'coronado',
-            'content' => '<p>2008 Wolff commenced Dozer push and coal uncovery works operating D11 Dozers. Throughout the life of the Project the workforce has ranged from 68 to 83 to 45 to meet requirements.</p>',
+            'content' => '2008 Wolff commenced Dozer push and coal uncovery works operating D11 Dozers with a workforce ranging from 45 to 83.',
             'featured_image' => asset('/dist/media/projects/curragh/project-curragh-01.jpg'),
             'galleries' => [
                 (object)[
