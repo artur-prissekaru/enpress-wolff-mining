@@ -362,7 +362,7 @@ Route::get('/projects/{slug}', function($slug) {
 Route::get('/services/{slug}', function($slug) {
     $services = [
         (object)[
-            'slug' => 'blast-hone-drilling',
+            'slug' => 'blast-hole-drilling',
             'galleries' => [
                 (object)[
                     'before_type' => 'warning',
@@ -502,7 +502,7 @@ Route::get('/services/{slug}', function($slug) {
             'galleries' => [
                 (object)[
                     'before_type' => 'warning',
-                    'featured_image' => asset('/dist/media/services/civil/civil-01.jpg'),
+                    'featured_image' => asset('dist/media/services/civil/Cat_24M_0I2A6022 copy.jpg'),
                     'title' => '<h4 class="text-primary">Civil earthworks</h4>',
                     'content' => '
                                 <p>Wolff Mining has extensive experience in mine site civil earthworks and provides a range of services including, but not limited to:</p>
@@ -515,7 +515,12 @@ Route::get('/services/{slug}', function($slug) {
                                     <li>Top soil removal and placement</li>
                                     <li>Dragline pad construction</li>
                                 </ul>
-                                <h6 class="text-primary">Current and Past Civil Construction Contracts</h6>
+                                '
+                ],
+                (object)[
+                    'featured_image' => asset('/dist/media/services/civil/civil-01.jpg'),
+                    'title' => '<h6 class="text-primary">Current and Past Civil Construction Contracts</h6>',
+                    'content' => '
                                 <ul class="before-warning">
                                     <li>
                                         <strong>BMA Blackwater Mine:</strong><br />
@@ -531,7 +536,7 @@ Route::get('/services/{slug}', function($slug) {
                                     </li>
                                 </ul>
                                 '
-                ],
+                ]
             ]
         ],
         (object)[
@@ -539,7 +544,7 @@ Route::get('/services/{slug}', function($slug) {
             'galleries' => [
                 (object)[
                     'before_type' => 'warning',
-                    'featured_image' => asset('/dist/media/services/clearing/clearing-01.jpg'),
+                    'featured_image' => asset('dist/media/services/clearing/r0_185_3620_2413_w1200_h678_fmax.jpg'),
                     'title' => '<h4 class="text-primary">Mine Site Clearing and Rehabilitation</h4>',
                     'content' => '
                                 <p>Wolff Mining’s site clearing and rehabilitation capabilities include, but are not limited to:</p>
@@ -551,23 +556,26 @@ Route::get('/services/{slug}', function($slug) {
                                 </ul>
                                 <p>Wolff Mining use dozer push optimisation techniques to produce rehabilitation designs, which incorporate water catchment and contour banks built into the final surface as opposed to building on top of final land formations.</p>
                                 <p>This methodology results in a more stable landform, incorporating drainage works as constructed and therefore minimising erosion. Wolff Mining also works to ensure that a generous amount of vegetation is left along the cut and fill intersections, this can be raked into parking areas while bulk earthworks are undertaken and later placed on top of the final surface to create sanctuary for wildlife and plants.</p>
-                                <h6 class="text-priamry">Current and Past Mine Site Rehabilitation</h6>
-                                <ul class="before-warning">
-                                    <li>
-                                        <strong>New Hope Coal Acland Mine:</strong><br />
-                                        Commenced 2008 with additional repeat work within Dozer Push.
-                                    </li>
-                                    <li>
-                                        <strong>Ensham Resources Mine:</strong><br />
-                                        Wolff Mining commenced 2014 undertaking full mine rehabilitation earthworks over a 12-month period. Mine rehabilitation and re-shaping 2017.
-                                    </li>
-                                    <li>
-                                        <strong>Wesfarmers Curragh Mine:</strong><br />
-                                        On-going mine rehabilitation through 2017.
-                                    </li>
-                                </ul>
                                 '
                 ],
+                (object)[
+                    'featured_image' => asset('/dist/media/services/clearing/clearing-01.jpg'),
+                    'title' => '<h6 class="text-priamry">Current and Past Mine Site Rehabilitation</h6>',
+                    'content' => '<ul class="before-warning">
+                                        <li>
+                                            <strong>New Hope Coal Acland Mine:</strong><br />
+                                            Commenced 2008 with additional repeat work within Dozer Push.
+                                        </li>
+                                        <li>
+                                            <strong>Ensham Resources Mine:</strong><br />
+                                            Wolff Mining commenced 2014 undertaking full mine rehabilitation earthworks over a 12-month period. Mine rehabilitation and re-shaping 2017.
+                                        </li>
+                                        <li>
+                                            <strong>Wesfarmers Curragh Mine:</strong><br />
+                                            On-going mine rehabilitation through 2017.
+                                        </li>
+                                    </ul>'
+                ]
             ]
         ],
     ];

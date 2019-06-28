@@ -88,7 +88,7 @@
       'services' => [
         (object)[
           'featured_image' => asset('dist/media/services/blast/blast-01.jpg'),
-          'image_link' => url('/services/blast-hone-drilling'),
+          'image_link' => url('/services/blast-hole-drilling'),
           'title' => 'Blast hole drilling',
           'content' => '<p>Wolff Mining can provide semi-autonomous CAT MD6420B Blast Hole Drilling Rigs and facilitate drilling services. </p>',
           'target' => '_self'
@@ -108,7 +108,7 @@
           'target' => '_self'
         ],
         (object)[
-          'featured_image' => asset('dist/media/services/clearing/clearing-01.jpg'),
+          'featured_image' => asset('dist/media/services/clearing/r0_185_3620_2413_w1200_h678_fmax.jpg'),
           'image_link' => url('/services/rehabilitation-works'),
           'title' => 'Rehabilitation works',
           'content' => '<p>Wolff Mining has extensive site clearing and rehabilitation services, designed to create a sanctuary for wildlife and plants.</p>',
@@ -122,7 +122,7 @@
           'target' => '_self'
         ],
         (object)[
-          'featured_image' => asset('dist/media/services/civil/civil-01.jpg'),
+          'featured_image' => asset('dist/media/services/civil/Cat_24M_0I2A6022 copy.jpg'),
           'image_link' => url('/services/civil-earthworks'),
           'title' => 'Civil earthworks',
           'content' => '<p>Wolff Mining has extensive experience in mine site civil earthworks and provides a range of services in the sector.</p>',

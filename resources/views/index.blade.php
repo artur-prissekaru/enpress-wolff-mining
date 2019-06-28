@@ -70,7 +70,7 @@
       'title' => '<h4 class="text-primary">Blast Hole Drilling</h4>',
       'before_type' => 'warning',
       'content' => '<p>Wolff Mining provides semi-autonomous CAT MD6420B Blast Hole Drilling Rigs and facilitates drilling services, with a continual focus on extending automated features.</p>',
-      'action_link' => url('/services/blast-hone-drilling'),
+      'action_link' => url('/services/blast-hole-drilling'),
       'action_title' => 'Learn more',
       'action_type' => 'warning',
       'action_target' => '_self'
