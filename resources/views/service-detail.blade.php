@@ -29,7 +29,7 @@
           'featured_image' => asset('dist/media/services/blast/blast-01.jpg'),
           'image_link' => url('/services/blast-hone-drilling'),
           'title' => 'Blast hole drilling',
-          'content' => '<p>Wolff Mining can provide semi-autonomous CAT MD6420B Blast Hole Drilling Rigs and facilitate drilling services. </p>',
+          'content' => '<p>Wolff Mining can provide semi-autonomous CAT MD6420B Blast Hole Drilling Rigs and facilitate drilling services.</p>',
           'target' => '_self'
         ],
         (object)[
@@ -43,28 +43,28 @@
           'featured_image' => asset('dist/media/services/bulk/bulk-01.jpg'),
           'image_link' => url('/services/satellite-bulk-dozer-push'),
           'title' => 'Satellite bulk dozer push',
-          'content' => '<p>Wolff Mining has extensive site clearing and rehabilitation services, designed to create a sanctuary for wildlife and plants.</p>',
+          'content' => '<p>Wolff Mining is recognised as the leading satellite bulk dozer push operator,  with operations throughout Australia and internationally.</p>',
           'target' => '_self'
         ],
         (object)[
           'featured_image' => asset('dist/media/services/clearing/r0_185_3620_2413_w1200_h678_fmax.jpg'),
           'image_link' => url('/services/rehabilitation-works'),
           'title' => 'Rehabilitation works',
-          'content' => '<p>Wolff Mining’s experience in the Black Coal industry enables the company to provide innovative and cost-effective contract mining solutions.</p>',
+          'content' => '<p>Wolff Mining has extensive site clearing and rehabilitation services, designed to create a sanctuary for wildlife and plants.</p>',
           'target' => '_self'
         ],
         (object)[
           'featured_image' => asset('dist/media/services/fleets/fleets-01.jpg'),
           'image_link' => url('/services/pre-strip-fleets'),
           'title' => 'Pre strip fleets',
-          'content' => '<p>Wolff Mining has extensive experience in mine site civil earthworks and provides a range of services in the sector.</p>',
+          'content' => '<p>Wolff Mining’s experience in the Black Coal industry enables the company to provide innovative and cost-effective contract mining solutions.</p>',
           'target' => '_self'
         ],
         (object)[
           'featured_image' => asset('dist/media/services/civil/Cat_24M_0I2A6022%20copy.jpg'),
           'image_link' => url('/services/civil-earthworks'),
           'title' => 'Civil earthworks',
-          'content' => '<p>Wolff Mining has extensive experience in mine site civil earthworks and provides a range of services including, but not limited to:</p>',
+          'content' => '<p>Wolff Mining has extensive experience in mine site civil earthworks and provides a range of services in the sector.</p>',
           'target' => '_self'
         ],
         
