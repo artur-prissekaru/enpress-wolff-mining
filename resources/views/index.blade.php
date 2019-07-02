@@ -172,12 +172,12 @@
       'action_title' => 'See all Projects',
       'action_type' => 'warning',
       'action_target' => '_self',
-      'sub_title' => '<h6 class="text-primary">THE WOLFF GROUP STORY</h6>',
-      'sub_content' => '<p>We’re proud of how far we’ve come since 2003 - find out how we’ve gotten to where we are today.</p>',
-      'sub_action_link' => url('/services'),
-      'sub_action_title' => 'See our stroy',
-      'sub_action_type' => 'warning',
-      'sub_action_target' => '_self'
+    //   'sub_title' => '<h6 class="text-primary">THE WOLFF GROUP STORY</h6>',
+    //   'sub_content' => '<p>We’re proud of how far we’ve come since 2003 - find out how we’ve gotten to where we are today.</p>',
+    //   'sub_action_link' => url('/services'),
+    //   'sub_action_title' => 'See our stroy',
+    //   'sub_action_type' => 'warning',
+    //   'sub_action_target' => '_self',
     ]
   ])
   @include('blocks.two-column-container', [
