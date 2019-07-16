@@ -41,7 +41,7 @@
           'featured_image' => asset('dist/media/galleries/gallery-01.png'),
           'before_type' => 'warning',
           'title' => '<h4 class="text-white">We’re pioneering <span class="text-warning">automation</span> in mining.</h4>',
-          'content' => '<p>Wolff Mining (Wolff) provides a range of automated and innovative solutions such as large scale satellite bulk dozer push, contract mining services, excavator pre-strip fleets, civil earthworks, blast hole drilling, site clearing and rehabilitation works. </p>
+          'content' => '<p>Wolff Mining (Wolff) provides a range of automated and innovative solutions such as large scale satellite bulk dozer push, semi-autonomous blast hole drilling, contract mining services, excavator pre strip fleets, civil earthworks, site clearing and rehabilitation works.</p>
                         <p>We offer a wide variety of heavy equipment that includes 80-800 tonne Excavators, CAT D11T Bulldozers, drills and a range of ancillary equipment. </p>
                         <p>Wolff Mining is well-known in the industry for our ability to implement and optimise semi-autonomous tractor system (SATS) technology, in a world’s-first application into a mining production environment. We pride ourselves on innovation and technology and have been recognised for our efforts by winning multiple awards, including Contract Miner of the Year at the 2018 Australian Mining Prospect Awards.</p>
                         <p>Wolff also has long standing relationships and arrangements in place with manufacturers and suppliers such as Caterpillar, Hastings Deering and Komatsu, as well as long-term contracts with major mining companies including BMA Mitsubishi Alliance, Wesfarmers and Peabody Energy. </p>
